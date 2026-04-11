@@ -4,7 +4,7 @@
 
 ### Universidad Peruana de Ciencias Aplicadas
 ### Inegeneria de Software
-### 2026-20
+### 2026-1
 
 ### NRC: 12263
 ### Docente: Rafael Oswaldo Castro Veramendi
