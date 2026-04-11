@@ -1,6 +1,6 @@
 <div align ="center">
 
-![Logo Banner](assets/UPC-logo.png)
+![Logo Banner](assets/Banner-UPC.png)
 
 ### Universidad Peruana de Ciencias Aplicadas
 ### Inegeneria de Software
