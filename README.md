@@ -268,6 +268,23 @@ El color primario de **SmartGas (#066CBB)** representa la identidad visual de la
 En cuanto al lenguaje, **SmartGas** adopta un tono profesional, técnico y directo, acompañado de un enfoque preventivo y resolutivo; los mensajes, alertas y reportes históricos dentro de la plataforma buscan empoderar al usuario para tomar decisiones críticas basadas en datos, reforzando la confiabilidad del ecosistema SaaS y la seguridad operativa tanto en hogares como en restaurantes.
 
 ### 4.1.2. Web Style Guidelines.
+
+
+Para **SmartGas**, desarrollaremos una aplicación web distribuida bajo un enfoque *mobile-first* y adaptable a cualquier dispositivo tecnológico, garantizando que el dashboard de monitoreo y las alertas en tiempo real mantengan su integridad visual y funcional sin distorsiones. Para lograrlo, se considerarán las particularidades de hardware de diversos dispositivos, desde smartphones hasta terminales de escritorio en cocinas industriales, asegurando que la telemetría de gas y temperatura esté siempre estructurada de manera jerárquica. Esto ofrece una experiencia consistente, accesible y optimizada, permitiendo que tanto familias como administradores de restaurantes tomen decisiones críticas desde cualquier navegador con una latencia visual mínima.
+
+<div align="center">
+<img width="500" alt="SmartGas Responsive Branding" src="assets/branding-responsive.png"/>
+</div>
+
+**Patrón Z**
+
+El diseño de la aplicación web y la landing page de **SmartGas** seguirá el **Patrón Z**, un esquema de lectura optimizado para interfaces con poca densidad de texto inicial que guía la vista del usuario de forma intuitiva. El recorrido inicia en la esquina superior izquierda con el logotipo para reforzar la identidad de marca, se desplaza horizontalmente hacia las opciones de estado de conexión, desciende en diagonal hacia los indicadores visuales de los sensores (la "llama digital") y finaliza en la base con los botones de acción inmediata o historial de incidencias. 
+
+Este enfoque asegura que el usuario identifique primero el estado de seguridad global y luego sea conducido naturalmente hacia los controles de automatización, facilitando una navegación eficiente en situaciones de emergencia y mejorando la tasa de respuesta ante alertas preventivas.
+
+<div align="center">
+<img width="500" alt="SmartGas Pattern Z" src="assets/patron-z.jpg" />
+</div>
     
 ## 4.2. Information Architecture.
     
