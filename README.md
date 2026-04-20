@@ -261,6 +261,12 @@ En la **Landing Page** y en la aplicación de **SmartGas** se utiliza un espacia
 <img width="502" height="150" alt="Branding Spacing" src="assets/branding-spacing.png" />
 </div>
 
+**Tono de Comunicación y Lenguaje Aplicado**
+
+El color primario de **SmartGas (#066CBB)** representa la identidad visual de la seguridad digital y la arquitectura en la nube, transmitiendo confianza, estabilidad y profesionalismo; al interactuar con la plataforma, el usuario percibirá este tono como un respaldo sólido y confiable, reflejando el soporte técnico de un sistema que opera continuamente. El color secundario **(#E6501F)** despierta una sensación de alerta y respuesta inmediata, inspirando energía, prevención y un compromiso absoluto con la seguridad, lo que refuerza la visión de la marca como una solución que utiliza la tecnología para anticiparse a riesgos críticos. El tono intermedio de transición **(#C38967)** refleja el flujo de datos y la precisión de la telemetría, aportando equilibrio visual y una estética moderna que conecta la calidez del entorno culinario con la frialdad del procesamiento de datos. 
+
+En cuanto al lenguaje, **SmartGas** adopta un tono profesional, técnico y directo, acompañado de un enfoque preventivo y resolutivo; los mensajes, alertas y reportes históricos dentro de la plataforma buscan empoderar al usuario para tomar decisiones críticas basadas en datos, reforzando la confiabilidad del ecosistema SaaS y la seguridad operativa tanto en hogares como en restaurantes.
+
 ### 4.1.2. Web Style Guidelines.
     
 ## 4.2. Information Architecture.
