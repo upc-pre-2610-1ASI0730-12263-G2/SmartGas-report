@@ -315,6 +315,31 @@ La organización del contenido en **SmartGas** se basa en la aplicación de dist
 * **Por audiencia:** Separando la experiencia técnica de un administrador de restaurante (múltiples dispositivos y actuadores) de la experiencia simplificada y directa de un usuario doméstico.
     
 ### 4.2.2. Labeling Systems.
+
+El sistema de etiquetado de **SmartGas** se diseña con un enfoque en **claridad y simplicidad**, fundamental para una plataforma de seguridad donde la rapidez de comprensión es vital. Las etiquetas se adaptan a la Landing Page, la Web App y la App Móvil , asegurando una navegación intuitiva y una asociación directa con los protocolos de emergencia.
+
+- **Landing Page:** - **Start:** Acceso a la propuesta de valor y visión general.  
+  - **Service:** Detalle del funcionamiento de los sensores y la arquitectura en la nube.  
+  - **Benefits:** Ventajas competitivas en seguridad y prevención.  
+  - **Characteristics:** Especificaciones técnicas de los dispositivos de detección.  
+  - **Pricing Plan:** Opciones de suscripción SaaS por equipo.  
+  - **Sign up:** Acceso al registro mediante Google Auth.  
+
+- **Web App (Administradores de Restaurantes / Jefes de Cocina):** - **Dashboard:** Resumen del estado global de seguridad y sensores activos.  
+  - **Zonas de Monitoreo:** Visualización de telemetría de gas y temperatura por áreas específicas.  
+  - **Actuadores:** Control remoto de válvulas de gas y sistemas de ventilación.  
+  - **Historial de Incidentes:** Registro cronológico de alertas resueltas y reportes de seguridad.  
+  - **Configuración de Alertas:** Gestión de umbrales críticos y números de contacto para notificaciones Twilio.  
+
+- **App Móvil (Familias / Usuarios Domésticos):** - **Estado del Hogar:** Indicador visual inmediato del nivel de riesgo.  
+  - **Notificaciones:** Registro de alertas push y mensajes enviados.  
+  - **Comandos de Emergencia:** Botones directos para "Cerrar Válvula" o "Apagar Alarma".  
+  - **Perfil:** Configuración de cuenta y gestión de permisos de usuario.  
+
+**Principios aplicados:** - **Uso de palabras de acción:** Etiquetas como "Cerrar" o "Activar" para comandos críticos que requieren ejecución inmediata.  
+- **Consistencia semántica:** El término "Incidente" se vincula estrictamente a detecciones de fuga o fuego, mientras que "Telemetría" se refiere a la lectura constante de datos.  
+
+- **Diferenciación por contexto:** En la Landing Page, las etiquetas son de exploración (Learn More); en la App son de reacción operativa (Comandos Rápidos).
     
 ### 4.2.3. SEO Tags and Meta Tags
     
