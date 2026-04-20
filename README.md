@@ -364,6 +364,30 @@ Para mejorar la visibilidad en buscadores y garantizar un correcto posicionamien
     * **Author:** Equipo SmartGas
     
 ### 4.2.4. Searching Systems.
+
+El sistema de búsqueda en **SmartGas** ha sido diseñado para que los usuarios localicen de forma inmediata dispositivos, registros de telemetría e incidentes críticos, garantizando una respuesta eficiente ante situaciones de riesgo. La búsqueda se implementa con capacidades de filtrado dinámico adaptadas tanto para la gestión administrativa como para el monitoreo doméstico.
+
+**Landing Page**
+* **Barra de búsqueda en la sección de Soporte/FAQ:** Permite a los visitantes resolver dudas sobre la instalación de sensores, compatibilidad de válvulas y configuración de la cuenta.
+* **Sugerencias inteligentes:** A medida que se escribe, el sistema muestra coincidencias con artículos o secciones de la página.
+
+* **Resultados directos:** Enlaces rápidos a guías técnicas o secciones específicas de la página para agilizar la conversión del cliente.
+
+**Web Application (Administradores / Restaurantes)**
+* **Barra de búsqueda global:** Ubicada en el header del dashboard para encontrar rápidamente sensores específicos por nombre (ej. "Sensor Cocina Norte"), ID de dispositivo o ubicación.
+* **Filtros avanzados de telemetría:**
+    * **Por Estado del Dispositivo:** (En línea, Fuera de línea, En Alarma, Batería Baja).
+    * **Por Tipo de Sensor:** (Gas LP, Monóxido de Carbono, Temperatura).
+    * **Por Zona:** (Almacén, Cocina principal, Salón de comensales).
+    * **Por Gravedad de Incidente:** (Alerta preventiva, Emergencia crítica).
+
+**Mobile Application (Usuarios Finales / Familias)**
+* **Filtros rápidos de dispositivos:**
+    * **Por Estado:** (Activos/Inactivos).
+    * **Por Acción:** (Válvulas cerradas vs. Válvulas abiertas).
+* **Resultados en tarjetas:** Listados con iconos representativos del sensor, la hora exacta de la lectura y el estado de la notificación enviada.
+
+**En conclusión**, los sistemas de búsqueda de **SmartGas** priorizan la **visibilidad de datos críticos**, combinando filtros de estado y tiempo para asegurar que el usuario mantenga el control total sobre la seguridad de su entorno sin fricciones.
     
 ### 4.2.5. Navigation Systems.
     
