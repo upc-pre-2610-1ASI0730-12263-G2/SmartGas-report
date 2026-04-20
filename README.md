@@ -289,6 +289,30 @@ Este enfoque asegura que el usuario identifique primero el estado de seguridad g
 ## 4.2. Information Architecture.
     
 ### 4.2.1. Organization Systems.
+
+
+La organización del contenido en **SmartGas** se basa en la aplicación de distintos sistemas de organización según el perfil del usuario (familias y administradores de restaurantes). El objetivo es que la información sea crítica, accionable y responda a la prevención de desastres en tiempo real.
+
+* **Landing Page (Usuarios visitantes / potenciales clientes):**
+    * **Organización jerárquica (visual hierarchy):** Estructura en bloques descendentes: Propuesta de valor (prevención inteligente) → Sensores de gas/fuego → Funcionamiento de la nube → Planes SaaS → Contacto.
+    * **Categorización por tópicos:** Se agrupan los contenidos según el entorno de protección (Hogar seguro vs. Restaurante protegido).
+
+* **Web App (Administradores de Restaurantes / Jefes de Cocina):**
+    * **Organización jerárquica:** Dashboard principal que prioriza **Alertas Activas** y niveles de telemetría en tiempo real (Gas y Temperatura) por sobre los datos estáticos.
+    * **Organización por ubicación (Geográfica/Espacial):** Segmentación de dispositivos por zonas críticas (Cocina, Almacén, Área de Comensales) para identificar el origen exacto de una fuga.
+    * **Categorización cronológica:** Historial de incidencias y registros de sensores (Logs) ordenados por fecha y hora para auditorías de seguridad y cumplimiento de normativas.
+    * **Categorización por audiencia:** Diferenciación entre vistas para personal operativo (monitoreo de sensores) y dueños de negocio (gestión de suscripción y reportes de eficiencia).
+
+* **App Móvil (Familias / Usuarios Domésticos):**
+    * **Organización secuencial (Flujo de Incidente):** Basado en los pasos del sistema: Notificación de fuga/fuego → Visualización de nivel de sensor → Ejecución de comandos (Cerrar válvula/Encender ventilas) → Confirmación de fin de incidente.
+    * **Organización jerárquica:** Menú de acceso rápido con estados críticos en primer nivel (Estado del Hogar, Comandos de Emergencia, Gestión de Usuarios).
+    * **Categorización cronológica:** Listado de eventos de seguridad y notificaciones de Twilio ordenados por estado (Alerta resuelta, Falsa alarma, Incidente en curso).
+
+**Principios aplicados:**
+* **Jerárquico para prevención:** Priorizando los datos de sensores que superan los umbrales de peligro en los paneles de control centrales.
+* **Secuencial para protocolos de emergencia:** Guiando al usuario paso a paso desde que se detecta un evento de dominio (fuga/fuego) hasta que se notifican los servicios y se estabiliza el entorno.
+* **Cronológico para históricos:** Permitiendo analizar patrones de temperatura o pequeñas fluctuaciones de gas recurrentes a través del tiempo.
+* **Por audiencia:** Separando la experiencia técnica de un administrador de restaurante (múltiples dispositivos y actuadores) de la experiencia simplificada y directa de un usuario doméstico.
     
 ### 4.2.2. Labeling Systems.
     
