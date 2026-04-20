@@ -247,12 +247,18 @@ A pesar de su estilo distintivo, esta fuente mantiene una excelente legibilidad 
 
 **Colores**  
 
-**Colores**  
-
 Colores Se usará una paleta que refuerce la identidad de SmartGas, transmitiendo tecnología, prevención y seguridad. El azul **(#066CBB)** actúa como el tono principal, representando profesionalismo, confianza y la estabilidad de una arquitectura orientada a servicios. El naranja **(#E6501F)** se integra como un color de acento estratégico, simbolizando la energía, el calor bajo control y la inmediatez de las alertas críticas que procesa el sistema. Como tono de transición, se incorpora un color canela cobrizo **(#C38967)**, el cual actúa como el punto intermedio en el degradado de la marca; este color suaviza la composición y refuerza visualmente la idea de una telemetría fluida y un monitoreo constante de la temperatura. En conjunto, esta paleta construye una experiencia visual coherente y moderna, proyectando a SmartGas como una plataforma innovadora, segura y enfocada en la protección inteligente de entornos culinarios.
 
 <div align="center">
 <img width="502" height="150" alt="Color Palette" src="assets/branding-paleta-colores.png" />
+</div>
+
+**Spacing**  
+
+En la **Landing Page** y en la aplicación de **SmartGas** se utiliza un espaciado limpio y equilibrado que mejora la legibilidad, evita la sobrecarga visual y facilita la navegación. El uso estratégico de los espacios en blanco organiza el contenido, proporciona descanso visual y guía la atención del usuario hacia la información más relevante, logrando una experiencia clara, ordenada y agradable.  
+
+<div align="center">
+<img width="502" height="150" alt="Branding Spacing" src="assets/branding-spacing.png" />
 </div>
 
 ### 4.1.2. Web Style Guidelines.
