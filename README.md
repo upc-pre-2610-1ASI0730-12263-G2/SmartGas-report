@@ -234,7 +234,17 @@ El diseño del logotipo refuerza esta identidad: una red de nodos y líneas que 
 <div align="center">
   <img width="500" alt="Logo SmartGas" src="assets/logo-smartgas.jpeg" />
 </div>
-    
+
+**Tipografía**
+
+Para **SmartGas** se eligió la tipografía **Koulen** por su estilo moderno, audaz y con gran presencia visual, lo que refuerza la identidad innovadora y tecnológica de la plataforma de seguridad. Su diseño de formas anchas y fuertes transmite solidez y robustez, valores fundamentales al tratar con sistemas de prevención de riesgos y monitoreo de infraestructuras críticas.
+
+A pesar de su estilo distintivo, esta fuente mantiene una excelente legibilidad en titulares y paneles de control, facilitando la jerarquización de alertas y datos de telemetría en la interfaz web. Esta elección tipográfica genera un impacto visual inmediato que diferencia a **SmartGas** de las soluciones de seguridad tradicionales, asegurando una estética coherente y profesional en entornos digitales basados en arquitecturas en la nube.
+
+<div align="center">
+  <img width="500" height="1116" alt="Branding Tipografia" src="assets/branding-tipografia.png" />
+</div>
+
 ### 4.1.2. Web Style Guidelines.
     
 ## 4.2. Information Architecture.
