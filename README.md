@@ -224,6 +224,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 4.1. Style Guidelines.
    
 ### 4.1.1. General Style Guidelines.
+
+**Branding** 
+
+El nombre **SmartGas** surge de la combinación de “Smart” (inteligencia aplicada al IoT y la automatización) y “Gas” (el recurso crítico que buscamos asegurar), una fusión que refleja nuestra misión de integrar la seguridad preventiva con la tecnología en la nube mediante una plataforma SaaS robusta
+
+El diseño del logotipo refuerza esta identidad: una red de nodos y líneas que dibujan la silueta de una llama, simbolizando la telemetría y los datos en tiempo real. El degradado, que transiciona de un naranja cálido a un azul tecnológico, representa la transformación del peligro latente en un entorno controlado y seguro mediante el software. Elegir una identidad con este significado refuerza nuestra propuesta de valor y nos diferencia de las alarmas locales, permitiendo que el usuario identifique a SmartGas como el núcleo inteligente para la protección de sus entornos.  
+
+<div align="center">
+  <img width="500" alt="Logo SmartGas" src="assets/logo-smartgas.jpeg" />
+</div>
     
 ### 4.1.2. Web Style Guidelines.
     
