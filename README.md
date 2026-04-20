@@ -342,6 +342,26 @@ El sistema de etiquetado de **SmartGas** se diseña con un enfoque en **claridad
 - **Diferenciación por contexto:** En la Landing Page, las etiquetas son de exploración (Learn More); en la App son de reacción operativa (Comandos Rápidos).
     
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad en buscadores y garantizar un correcto posicionamiento de la experiencia digital, se definen los siguientes metadatos principales:
+
+* **Landing Page:**
+    * **Title:** "SmartGas – Prevención Inteligente de Fugas de Gas e Incendios"
+    * **Meta Description:** "Protege tu hogar o negocio con SmartGas. Sistema de monitoreo remoto en tiempo real, detección de incendios y control automático de válvulas mediante tecnología IoT."
+    * **Keywords:** seguridad gas, prevención incendios, sensor de gas inteligente, monitoreo IoT, domótica seguridad, control de fugas de gas
+    * **Author:** Equipo SmartGas
+
+* **Web App (Administradores / Restaurantes):**
+    * **Title:** "SmartGas Web – Gestión de Seguridad y Telemetría"
+    * **Description:** "Panel de control para administradores: monitoreo centralizado de sensores de temperatura y gas, gestión de incidentes y protocolos de actuación automática."
+    * **Keywords:** gestión de seguridad, telemetría industrial, reporte de incidentes, control de sensores remoto, seguridad restaurantes
+    * **Author:** Equipo SmartGas
+
+* **App Móvil (Usuarios Finales):**
+    * **Title:** "SmartGas Móvil – Control de Seguridad en tu Mano"
+    * **Description:** "Recibe alertas críticas de seguridad en tiempo real. Controla tus válvulas de gas y monitorea el estado de tu hogar desde cualquier lugar con notificaciones inmediatas."
+    * **Keywords:** app seguridad hogar, alertas de gas, monitoreo remoto, prevención de accidentes, notificaciones de emergencia
+    * **Author:** Equipo SmartGas
     
 ### 4.2.4. Searching Systems.
     
