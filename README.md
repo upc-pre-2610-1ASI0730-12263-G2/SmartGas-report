@@ -390,6 +390,25 @@ El sistema de búsqueda en **SmartGas** ha sido diseñado para que los usuarios 
 **En conclusión**, los sistemas de búsqueda de **SmartGas** priorizan la **visibilidad de datos críticos**, combinando filtros de estado y tiempo para asegurar que el usuario mantenga el control total sobre la seguridad de su entorno sin fricciones.
     
 ### 4.2.5. Navigation Systems.
+
+El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de guiar de manera intuitiva a los distintos perfiles de usuario —visitantes en la Landing Page, administradores en la Web App y familias en la App Móvil— asegurando que la respuesta ante incidentes sea inmediata y sin fricciones.
+
+**Landing Page** * **Menú principal fijo (Header):** Incluye accesos directos a *Start, Service, Benefits, Characteristics, Pricing Plan* y *Contact Us*. Al ser persistente, permite que el usuario navegue por la propuesta de valor sin perder de vista el botón de conversión "Sign Up".
+* **Navegación secuencial (Scrolling):** El diseño utiliza bloques verticales que conducen al visitante desde la concientización del riesgo (Hero Section) hasta la solución técnica y comercial, facilitando una comprensión progresiva del ecosistema SaaS.
+* **Botones de acción (CTA):** Estratégicamente ubicados como "Learn More" y "Sign Up", utilizando el color primario para destacar las rutas de registro y soporte.
+* **Footer con accesos rápidos:** Repite la estructura del menú y añade enlaces a términos de servicio, redes sociales y contacto técnico, optimizando el cierre de la experiencia de navegación.
+
+**Web Application (Administradores / Restaurantes)** * **Menú lateral persistente (Sidebar):** Proporciona acceso constante a las secciones de *Dashboard, Zonas de Monitoreo, Actuadores, Historial y Configuración*, manteniendo la jerarquía operativa siempre visible.
+* **Dashboard de estado crítico:** Incluye *widgets* con accesos rápidos a sensores que reportan niveles inusuales de gas o temperatura, funcionando como atajos de navegación hacia zonas en riesgo.
+* **Breadcrumbs:** Cruciales para la gestión de múltiples locales, permitiendo al administrador saber exactamente en qué sucursal y zona se encuentra al revisar reportes detallados.
+* **Alertas visuales dinámicas:** En caso de fuga, el sistema utiliza capas de navegación prioritarias (Modals) que bloquean otras funciones para obligar al usuario a interactuar con el protocolo de emergencia.
+
+**Mobile Application (Usuarios Finales / Familias)** * **Bottom Navigation:** Barra inferior optimizada para el pulgar con accesos a *Inicio (Estado), Alarmas, Dispositivos y Perfil*, facilitando el uso en situaciones de movilidad o estrés.
+* **Flujo secuencial de emergencia:** Basado en el flujo lógico del sistema: *Recibir Alerta → Ver Telemetría → Ejecutar Comando (Cerrar Válvula) → Confirmar Seguridad*.
+* **Botones de acción de gran formato:** Diseñados con alto contraste y tamaño para evitar errores táctiles al ejecutar acciones críticas como "Silenciar Alarma" o "Activar Ventilación".
+* **Notificaciones inteligentes:** Funcionan como puntos de entrada profundos que llevan al usuario directamente a la pantalla del sensor que disparó la alerta, ahorrando segundos vitales.
+
+**En resumen**, las técnicas de navegación en **SmartGas** combinan menús persistentes para la gestión diaria y flujos secuenciales estrictos para situaciones de emergencia, garantizando que cada usuario mantenga el control total del sistema de forma eficiente y segura.
     
 ## 4.3. Landing Page UI Design.
     
