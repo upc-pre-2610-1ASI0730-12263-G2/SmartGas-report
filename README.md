@@ -413,6 +413,70 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 ## 4.3. Landing Page UI Design.
     
 ### 4.3.1. Landing Page Wireframe.
+
+
+ 1.  Portada  
+**Wireframe:** Muestra una imagen principal de fondo, un título grande en la parte superior, un subtítulo explicativo debajo y dos botones de acción colocados en la parte baja de la sección.  
+
+<p align="center">
+  <img src="assets/wireframe-portada.png" alt="Wireframe Portada" />
+</p>
+
+
+2. Sobre nosotros (About Us)  
+**Wireframe:** Presenta un bloque con un título en la parte superior, un párrafo descriptivo al lado izquierdo y una ilustración colocada al lado derecho.  
+
+<p align="center">
+  <img src="assets/wireframe-about-us.png" alt="Wireframe About Us" />
+</p>
+
+ 3. Beneficios  
+**Wireframe:** Se organiza en tres columnas, cada una con un icono en la parte superior, un título en el medio y una breve explicación en la parte inferior.  
+
+<p align="center">
+  <img src="assets/wireframe-benefits.png" alt="Wireframe Benefits" />
+</p>
+
+ 4. Características  
+**Wireframe:** Contiene tres bloques horizontales alineados, cada uno con un icono en la parte superior, seguido de un título y una descripción corta debajo.  
+
+<p align="center">
+  <img src="assets/wireframe-character.png" alt="Wireframe Características" />
+</p>
+
+
+
+ 5. Planes / Pricing  
+**Wireframe:** Muestra tres tarjetas verticales organizadas en columnas, cada tarjeta incluye el nombre del plan, el precio en la parte superior, una lista breve de beneficios y un botón de selección al final.  
+
+<p align="center">
+  <img src="assets/wireframe-pricing.png" alt="Wireframe Pricing" />
+</p> 
+
+
+ 6. Equipo  
+**Wireframe:** Se presenta en una cuadrícula de fotografías, debajo de cada foto se incluye el nombre y el rol de cada integrante del equipo.  
+
+<p align="center">
+  <img src="assets/wireframe-members.png" alt="Wireframe Members" />
+</p>
+
+
+7. Formulario de contacto  
+**Wireframe:** Incluye un bloque con un texto llamativo en la parte superior, un campo para ingresar el correo electrónico en el centro y un botón de envío al lado o debajo.  
+
+<p align="center">
+  <img src="assets/wirefrmae-contact.png" alt="Wireframe Contact" />
+</p>
+
+
+8. Footer  
+**Wireframe:** Está dividido en tres partes: el logo de la marca, una lista de enlaces rápidos y los íconos de redes sociales.  
+
+<p align="center">
+  <img src="assets/wireframe-footer.png" alt="Wireframe Footer" />
+</p>
+
     
 ### 4.3.2. Landing Page Mock-up.
     
