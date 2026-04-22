@@ -201,7 +201,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### Entrevista 1:
 
-![Entrevista1.png](./assets/Entrevista1.png)
+![Entrevista1.png](./assets/entrevista1.png)
 
 - **Nombres y apellidos:** Raí Beizaga
 - **Edad:** 20 
