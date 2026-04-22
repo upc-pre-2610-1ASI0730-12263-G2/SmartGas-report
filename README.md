@@ -479,6 +479,73 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 
     
 ### 4.3.2. Landing Page Mock-up.
+
+ 1. Portada  
+**Mockup:** Utiliza una foto de un técnico especializado inspeccionando tuberías de gas industriales con una tablet. El texto principal dice “Your safety under control, always in real time” y debajo el subheader: "An innovative platform that detects, monitors, and automates emergency responses to gas leaks and fire risks". Incluye dos botones: Demo y Contact us. 
+
+<p align="center">
+  <img src="assets/mockup-portada.png" alt="Mockup Portada" />
+</p>  
+
+
+ 2. Sobre nosotros (About Us)  
+**Mockup:** Presenta un párrafo que explica la misión de la empresa acompañado de una ilustración de personas trabajando frente a gráficos en el lado derecho.  
+
+<p align="center">
+  <img src="assets/mockup-about-us.png" alt="Mockup About Us" />
+</p>  
+
+
+3. Beneficios  
+**Mockup:** Se destacan tres bloques con iconos tecnológicos y los textos: Automated Prevention, Real-time Monitoring e Instant Notifications. Cada bloque explica cómo la plataforma reduce el riesgo humano mediante el uso de IoT y alertas.
+
+<p align="center">
+  <img src="assets/mockup-benefits.png" alt="Mockup Benefits" />
+</p>  
+
+
+ 4. Características  
+**Mockup:** Presenta tres bloques con los títulos: Smart Gas Detection (sensores de precisión), Automatic Shut-off (actuadores de válvulas) y Cloud Telemetry (sincronización en la nube). Cada uno con iconos descriptivos (sensores, engranajes/candados y nubes de datos).
+
+<p align="center">
+  <img src="assets/mockup-character.png" alt="Mockup Características" />
+</p>  
+
+
+
+5. Pricing  
+**Mockup:** Se muestran tres tarjetas con diseño diferenciado. Los planes son *Basic (PEN 30)*, *Professional (PEN 70)* y *Corporate (PEN 100)*. Cada tarjeta incluye beneficios y un botón *Select*.  
+
+<p align="center">
+  <img src="assets/mockup-pricing.png" alt="Mockup Pricing" />
+</p>  
+
+
+
+ 6. Equipo  
+**Mockup:** Presenta cinco fotos de personas con sus nombres y roles: Desarrollador, Programador, Encargado, Analista y Diseñador.  
+
+<p align="center">
+  <img src="assets/mockup-member.png" alt="Mockup Members" />
+</p>  
+
+
+7. Formulario de contacto  
+**Mockup:** Utiliza un fondo suave con el texto “CONNECT WITH US AND DISCOVER HOW TO ENHANCE YOUR SAFETY PROTOCOLS.”. Incluye un campo para ingresar el correo electrónico y un botón *Send*.  
+
+<p align="center">
+  <img src="assets/mockup-contact.png" alt="Mockup Contact" />
+</p>  
+
+
+
+ 8. Footer  
+**Mockup:** Muestra el logo oficial de SmartGas, enlaces como *Prices, Support, Terms and Conditions, Privacy Policy*, íconos de redes sociales (Facebook, Twitter, Instagram, YouTube) y la leyenda de copyright 2025.  
+
+<p align="center">
+  <img src="assets/mockup-footer.png" alt="Mockup Footer" />
+</p>  
+
     
 ## 4.4. Web Applications UX/UI Design.
     
