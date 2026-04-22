@@ -540,7 +540,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 
 
  8. Footer  
-**Mockup:** Muestra el logo oficial de SmartGas, enlaces como *Prices, Support, Terms and Conditions, Privacy Policy*, íconos de redes sociales (Facebook, Twitter, Instagram, YouTube) y la leyenda de copyright 2025.  
+**Mockup:** Muestra el logo oficial de SmartGas, enlaces como *Prices, Support, Terms and Conditions, Privacy Policy*, íconos de redes sociales (Facebook, Twitter, Instagram, YouTube) y la leyenda de copyright 2026.  
 
 <p align="center">
   <img src="assets/mockup-footer.png" alt="Mockup Footer" />
