@@ -163,7 +163,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 1.2. Solution Profile
     
 ### 1.2.1 Antecedentes y problemática
+En los últimos años, los incidentes relacionados con fugas de gas e incendios han representado una de las principales causas de pérdidas en los sectores doméstico y gastronómico. Tradicionalmente, los sistemas de prevención se han limitado a hardware analógico o alarmas locales que exigen la presencia física del usuario para ser efectivas.
 
+La problemática central radica en la **ausencia de un monitoreo preventivo remoto y descentralizado**. Los propietarios de viviendas y administradores de cocinas no cuentan con una herramienta digital que procese en tiempo real el estado de sus instalaciones. Esta limitación impide una respuesta inmediata ante anomalías, incrementando exponencialmente el riesgo de desastres al no poder alertar a tiempo a las personas involucradas o a los servicios de emergencia.
+
+Para solucionar este vacío, es imperativo desarrollar una plataforma web basada en la nube. Un sistema que no solo consolide la telemetría de los entornos protegidos, sino que provea un panel de control interactivo, historial estadístico de incidencias y un sistema automatizado de alertas de alta disponibilidad, operando de forma continua como el núcleo de soporte para la toma de decisiones críticas.
 
     
 ### 1.2.2 Lean UX Process.
