@@ -823,7 +823,48 @@ Como ruta alternativa, si no existe ninguna zona en alerta, el sistema no obliga
 </p>
     
 ## 4.5. Web Applications Prototyping.
-   
+
+### 4.4.5. Web Applications Prototyping.
+
+En esta sección se presentan los **prototipos de la aplicación web de SmartGas** para **Desktop Web Browser** y **Mobile Web Browser**, desarrollados con simulación de interacción y navegación de acuerdo con los recorridos definidos en los **User Flow Diagrams**. Estos prototipos permiten validar el comportamiento de la interfaz antes de la implementación, comprobando que las decisiones de interacción, navegación y jerarquía de información respondan adecuadamente a los objetivos de los usuarios.
+
+La propuesta de prototipado se fundamenta en varios criterios de interacción. En primer lugar, se priorizó una **navegación clara y persistente**, de modo que el usuario pueda desplazarse entre los módulos principales del sistema sin perder contexto. En desktop, esto se refleja en una barra de navegación superior visible; mientras que, en mobile, se adapta a una estructura más compacta y optimizada para pantallas pequeñas. En segundo lugar, se buscó que las pantallas críticas, como **Dashboard, Reports y Zones**, mantengan una organización jerárquica que permita identificar primero la información más importante y luego acceder al detalle. Finalmente, se incorporaron decisiones de interacción orientadas a la **retroalimentación inmediata**, especialmente en acciones como el inicio de sesión, la revisión de alertas y la navegación hacia zonas específicas en estado de riesgo.
+
+Estas decisiones se relacionan directamente con la **arquitectura de información** planteada en el proyecto. El sistema de navegación conecta las vistas principales de manera consistente, mientras que la organización de contenidos responde a distintos criterios: jerárquico en el dashboard, cronológico en reportes y espacial en la sección de zonas. De este modo, el prototipo no solo representa una interfaz visual, sino también una experiencia de uso coherente con la lógica funcional del sistema.
+
+#### 1. Prototipo Desktop Web Browser
+
+**Explicación del prototipo:**  
+El prototipo desktop de **SmartGas** permite simular la navegación entre la landing page, el login, el dashboard, los reportes, las zonas monitoreadas y la gestión de miembros. La interacción está diseñada para que el usuario pueda seguir de forma intuitiva los recorridos principales del sistema, por ejemplo, iniciar sesión, revisar el estado general, consultar reportes y acceder al detalle de zonas críticas.
+
+La versión desktop aprovecha mejor el espacio horizontal para mostrar más información en simultáneo, por lo que se refuerza la visualización comparativa de indicadores, gráficos y tarjetas por módulo. Esto favorece la supervisión rápida del sistema y resulta especialmente útil para usuarios que gestionan múltiples zonas o requieren un monitoreo más completo desde una computadora.
+
+**Screenshot del video del prototipo Desktop:**
+
+<p align="center">
+  <img src="assets/DesktopPrototyping.png" alt="Screenshot del prototipo Desktop de SmartGas" />
+</p>
+
+**Video del prototipo Desktop:**  
+[Ver video del prototipo Desktop](https://youtu.be/MvH_wqlIlZI)
+
+#### 2. Prototipo Mobile Web Browser
+
+**Explicación del prototipo:**  
+El prototipo mobile adapta los mismos flujos principales a una experiencia de uso táctil y vertical. En esta versión, los contenidos se reorganizan en una sola columna, priorizando la lectura progresiva y la facilidad de interacción en pantallas reducidas. Así, el usuario puede consultar el dashboard, revisar reportes, acceder a zonas y verificar alertas activas desde un dispositivo móvil, sin perder la lógica de navegación definida para la versión desktop.
+
+El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los elementos táctiles y la reducción de la carga visual. Esto mejora la accesibilidad y permite que la supervisión del sistema pueda realizarse en contextos de movilidad, manteniendo coherencia con la propuesta responsive del producto digital.
+
+**Screenshot del video del prototipo Mobile:**
+
+<p align="center">
+  <img src="assets/MovilPrototyping.png" alt="Screenshot del prototipo Mobile de SmartGas" />
+</p>
+
+**Video del prototipo Mobile:**  
+[Ver video del prototipo Mobile](https://youtube.com/shorts/6qwLEAbAWd8?feature=share)
+
+
 ## 4.6. Domain-Driven Software Architecture.
     
 ### 4.6.1. Design-Level EventStorming.
