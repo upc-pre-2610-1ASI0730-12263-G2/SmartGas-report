@@ -687,7 +687,83 @@ Este wireflow pone en evidencia la organización espacial de la información, ya
 
 En conjunto, los wireflows de **SmartGas** permiten comprender cómo los usuarios interactúan con la aplicación web según sus objetivos principales, mostrando tanto las rutas típicas de navegación como los cambios de estado que se producen en la interfaz. Esto facilita validar tempranamente la experiencia de uso, asegurar coherencia con la arquitectura de información y comprobar que cada user goal cuenta con una secuencia lógica, clara y funcional dentro del sistema.
 ### 4.4.2. Web Applications Mock-ups.
-    
+
+En esta sección se presentan los **mock-ups** de la aplicación web de **SmartGas**, desarrollados a partir de los wireframes previamente definidos. A diferencia de los wireframes, estos mock-ups incorporan con mayor detalle los componentes visuales, la identidad de marca y la aplicación del **Design System** establecido para el producto digital, permitiendo representar de forma más cercana la apariencia final de la solución.
+
+La propuesta evidencia la aplicación de principios de diseño como **jerarquía visual, consistencia, proximidad, alineación, contraste y visibilidad del estado del sistema**, así como criterios de **diseño inclusivo**, mediante el uso de textos legibles, botones con suficiente presencia visual, distribución clara de la información y adaptación responsiva a distintos tamaños de pantalla. Asimismo, se mantiene coherencia con la **arquitectura de información** del sistema, ya que las pantallas conservan una organización jerárquica para la información crítica, una organización espacial en la sección de zonas y una organización cronológica en la visualización de reportes e incidencias.
+
+#### 1. Inicio
+
+**Mock-up Desktop:** La pantalla de inicio presenta una barra de navegación superior con el logo, accesos directos a los módulos principales, selector de idioma y botón de registro. En la sección principal se destaca un título central, un breve texto descriptivo, botones de acción y una imagen representativa del entorno monitoreado. Esta composición refuerza la **jerarquía visual** y permite que el usuario identifique rápidamente la propuesta de valor de la plataforma.
+
+**Mock-up Mobile:** En la versión móvil, la interfaz reorganiza los elementos en una sola columna y reemplaza el menú horizontal por un ícono de navegación. Los botones se mantienen amplios y visibles, facilitando la interacción táctil. Esta adaptación favorece la accesibilidad y la usabilidad, ya que simplifica la exploración del contenido sin perder consistencia respecto a la versión desktop.
+
+<p align="center">
+  <img src="assets/ap-mockup-desktop-inicio.png" alt="Mock-up Desktop - Inicio SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-mockup-movil-inicio.png" alt="Mock-up Mobile - Inicio SmartGas" />
+</p>
+
+#### 2. Dashboard
+
+**Mock-up Desktop:** El dashboard muestra tarjetas superiores con indicadores clave como el estado general, nivel de gas, temperatura y alertas activas. Debajo de estos elementos se incorpora una gráfica principal para visualizar el comportamiento de los sensores en el tiempo. Esta pantalla aplica una organización **jerárquica**, ya que prioriza primero la información crítica y luego amplía el detalle mediante visualizaciones complementarias.
+
+**Mock-up Mobile:** En la versión móvil, las tarjetas se presentan en disposición vertical, facilitando una lectura progresiva y ordenada. La estructura mantiene la prioridad informativa del dashboard, permitiendo que el usuario consulte rápidamente los datos esenciales del sistema desde un dispositivo de menor tamaño. Esta adaptación mejora la comprensión del contenido y reduce la sobrecarga visual.
+
+<p align="center">
+  <img src="assets/ap-mockup-desktop-dashboard.png" alt="Mock-up Desktop - Dashboard SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-mockup-movil-dashboard.png" alt="Mock-up Mobile - Dashboard SmartGas" />
+</p>
+
+#### 3. Zones
+
+**Mock-up Desktop:** La sección de zonas presenta un resumen inicial del número total de zonas, zonas seguras y sensores conectados, junto con una representación gráfica del espacio monitoreado. En la parte inferior se muestran tarjetas por cada zona, indicando su estado, temperatura y nivel de gas. Esta vista responde a una organización **espacial**, permitiendo identificar con claridad qué ambiente está comprometido y cuál se encuentra en condiciones seguras.
+
+**Mock-up Mobile:** La versión móvil adapta esta misma lógica en un flujo vertical, donde primero se presentan los indicadores generales y luego las zonas individuales. Esta estructura mejora la exploración del contenido en pantallas pequeñas y facilita que el usuario analice cada ambiente por separado, reforzando la claridad de la información y la experiencia responsiva.
+
+<p align="center">
+  <img src="assets/ap-mockup-desktop-zones.png" alt="Mock-up Desktop - Zones SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-mockup-movil-zones.png" alt="Mock-up Mobile - Zones SmartGas" />
+</p>
+
+#### 4. Reports
+
+**Mock-up Desktop:** La sección de reportes presenta un encabezado con el total de incidencias registradas, acompañado por visualizaciones orientadas al análisis de tendencias mensuales y clasificación de eventos. En la parte inferior se incorpora una tabla de historial de alertas con información detallada sobre fecha, zona, tipo de evento, severidad y estado. Esta estructura aplica una organización **cronológica y analítica**, útil para la toma de decisiones y el seguimiento de incidentes.
+
+**Mock-up Mobile:** En la versión móvil, la información se reorganiza en bloques verticales para preservar la legibilidad y mantener la claridad de los datos. Las visualizaciones y resúmenes se presentan de forma simplificada, permitiendo que el usuario consulte indicadores relevantes desde un dispositivo pequeño sin perder coherencia con la estructura general del sistema.
+
+<p align="center">
+  <img src="assets/ap-mockup-desktop-reports.png" alt="Mock-up Desktop - Reports SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-mockup-movil-reports.png" alt="Mock-up Mobile - Reports SmartGas" />
+</p>
+
+#### 5. Members
+
+**Mock-up Desktop:** La pantalla de miembros organiza la información en tarjetas que muestran datos clave de cada usuario, como nombre, rol, correo y zona asignada. Además, incorpora un footer con enlaces institucionales y elementos complementarios. Esta pantalla responde a una organización por **audiencia y gestión de usuarios**, ya que facilita la identificación rápida de cada integrante dentro del sistema y su función correspondiente.
+
+**Mock-up Mobile:** En la adaptación móvil, los datos de los miembros se apilan verticalmente para asegurar una lectura continua y ordenada. La interfaz reduce la densidad de información por bloque, manteniendo etiquetas claras y una disposición simple que favorece la comprensión. Esto fortalece el diseño inclusivo, ya que evita saturar la pantalla y mejora la accesibilidad visual.
+
+<p align="center">
+  <img src="assets/ap-mockup-desktop-members.png" alt="Mock-up Desktop - Members SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-mockup-movil-members.png" alt="Mock-up Mobile - Members SmartGas" />
+</p>
+
+En conjunto, los mock-ups de **SmartGas** permiten visualizar con mayor precisión la propuesta visual de la aplicación web, integrando la identidad de marca, la estructura funcional y los lineamientos del sistema de diseño definidos para el producto. De este modo, se valida no solo la organización de la información y la navegación entre pantallas, sino también la forma en que los elementos visuales, el diseño responsivo y los criterios de accesibilidad se articulan para construir una experiencia clara, consistente y orientada a la seguridad del usuario.
+
 ### 4.4.3. Web Applications User Flow Diagrams.
     
 ## 4.5. Web Applications Prototyping.
