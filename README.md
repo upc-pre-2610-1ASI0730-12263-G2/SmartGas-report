@@ -204,6 +204,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ##### Segmento objetivo #1 Familias y Propietarios de Viviendas
 
+#### Entrevista 1:
+
+![Entrevista1.png](./assets/entrevista1A.png)
+
+- **Nombres y apellidos:** Saúl Romani
+- **Edad:** 48
+- **Distrito:** Jesús María
+- **Inicio:** 0:18  
+- **Duración:** 7:05  
+- **URL:**  [entrevista](https://youtu.be/n1bmq2q0aiQ)
+- **Resumen:** Saúl, de 48 años, es ingeniero de sistemas de la información y reside en un departamento con servicio de seguridad en el distrito de Jesús María. A pesar de contar con medidas de protección en su vivienda, menciona que uno de sus mayores gastos está relacionado con el mantenimiento, especialmente en aspectos vinculados a la seguridad y el buen funcionamiento del hogar. Sin embargo, señala que aún no confía completamente en los sistemas tradicionales, ya que considera que no siempre previenen incidentes de manera oportuna. Frente a ello, indica que sí usaría una aplicación como Smart Guard, porque le brindaría mayor tranquilidad y control. Para él, las funcionalidades más útiles serían el monitoreo de los niveles de gas mediante sensores y la detección de movimiento, ya que estas permitirían identificar riesgos a tiempo y actuar rápidamente ante posibles emergencias en la cocina.
+
 ##### Segmento objetivo #2 Administradores y Chefs de Restaurantes
 
 #### Entrevista 1:
