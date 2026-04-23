@@ -149,13 +149,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo 1: Introducción
 
 ## 1.1. Startup Profile
-
-
-
 ### 1.1.1. Descripción de la Startup
+Somos **FireSecure**, una startup tecnológica orientada a la ingeniería de software y dedicada a la creación de plataformas web de monitoreo para la seguridad en infraestructuras residenciales y comerciales. Nuestro trabajo se centra en el desarrollo de arquitecturas orientadas a servicios (SOA) que centralizan y procesan datos de dispositivos IoT en la nube.
 
-
-
+Nuestra misión es disminuir el riesgo de desastres por fugas de gas e incendios mediante un producto de software accesible, intuitivo y altamente responsivo. Aspiramos a convertirnos en el ecosistema digital líder en gestión de emergencias, brindando tranquilidad a nuestros usuarios al permitirles visualizar el estado de sus entornos y recibir notificaciones críticas desde cualquier dispositivo con acceso web.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
