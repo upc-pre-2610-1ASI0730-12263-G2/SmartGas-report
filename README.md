@@ -765,6 +765,62 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 En conjunto, los mock-ups de **SmartGas** permiten visualizar con mayor precisión la propuesta visual de la aplicación web, integrando la identidad de marca, la estructura funcional y los lineamientos del sistema de diseño definidos para el producto. De este modo, se valida no solo la organización de la información y la navegación entre pantallas, sino también la forma en que los elementos visuales, el diseño responsivo y los criterios de accesibilidad se articulan para construir una experiencia clara, consistente y orientada a la seguridad del usuario.
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+En esta sección se presentan los **User Flow Diagrams** de la aplicación web de **SmartGas**, elaborados a partir de los **wireflows** definidos previamente. Estos diagramas permiten representar de manera más completa la ruta esperada de interacción del usuario, incorporando tanto el **happy path** como las posibles rutas alternativas o **unhappy paths**, de acuerdo con los principales **user goals** del sistema. Asimismo, los flujos mantienen consistencia con la arquitectura de información propuesta, especialmente con la organización jerárquica de la información crítica, la organización espacial de las zonas monitoreadas y la navegación entre módulos principales como Dashboard, Reports, Zones y Members.
+
+A diferencia de los wireflows, en los user flows se incluyen los **mock-ups de las pantallas**, lo que permite comprender con mayor claridad cómo evoluciona la experiencia del usuario durante la interacción real con la interfaz. De esta manera, no solo se representa la secuencia de pasos, sino también el estado visual de cada vista, favoreciendo la validación temprana de los recorridos principales y alternativos.
+
+#### 1. User Flow del inicio de sesión y acceso al sistema
+
+**User goal:** Como usuario, quiero iniciar sesión en la plataforma SmartGas para acceder al sistema de monitoreo.
+
+**Explicación del flujo:**  
+El flujo inicia en la **landing page**, desde donde el usuario selecciona la opción para ingresar o registrarse. Luego es dirigido a la pantalla de **sign up / login**, donde introduce sus credenciales. Si los datos son correctos, accede al **inicio de la aplicación web**, desde el cual puede navegar hacia el dashboard, reportes o zonas. Este recorrido representa el **happy path** del flujo, ya que conduce al acceso exitoso al sistema.
+
+Como ruta alternativa, el sistema contempla el caso en el que el usuario ingresa credenciales incorrectas. En ese escenario, se muestra un mensaje de error y el usuario debe volver a intentar el ingreso. Esto evidencia un **unhappy path**, ya que el objetivo no se completa en el primer intento, pero el sistema ofrece retroalimentación inmediata y una ruta clara para continuar.
+
+<p align="center">
+  <img src="assets/UserFlowDiagram1.png" alt="User Flow de inicio de sesión en SmartGas" />
+</p>
+
+#### 2. User Flow para revisar el estado de seguridad
+
+**User goal:** Como usuario, quiero revisar el estado de seguridad para identificar niveles de gas, temperatura y alertas activas.
+
+**Explicación del flujo:**  
+El flujo comienza en la pantalla de **Inicio**, desde donde el usuario accede al **Dashboard**. En esta vista puede revisar el estado general del sistema, los niveles de gas, la temperatura y la cantidad de alertas activas. Si detecta una incidencia o desea ampliar la información, continúa hacia la sección de **Reports**, donde puede observar tendencias y el registro de alertas. Posteriormente, puede acceder a la sección de **Zones** para ubicar la zona afectada y, finalmente, consultar el detalle de zonas específicas.
+
+Este recorrido representa el **happy path**, ya que el usuario logra pasar de una vista general del sistema a una inspección más específica del entorno monitoreado. Como rutas alternativas, se consideran los casos en los que no se detectan anomalías o no existen alertas activas, situaciones en las que el usuario simplemente continúa con el monitoreo general sin profundizar hacia reportes o zonas críticas. Así, el flujo contempla tanto la supervisión normal como la exploración detallada ante una incidencia.
+
+<p align="center">
+  <img src="assets/UserFlowDiagram2.png" alt="User Flow para revisar el estado de seguridad en SmartGas" />
+</p>
+
+#### 3. User Flow para consultar el historial de alertas
+
+**User goal:** Como padre de familia, quiero consultar el historial de alertas de mi hogar para saber si hubo incidentes mientras no estaba en casa.
+
+**Explicación del flujo:**  
+El flujo parte desde el **inicio de la aplicación**, desde donde el usuario accede a la sección de **alertas o reportes**. Si existe una alerta nueva, el sistema puede mostrar una notificación, luego permitir el acceso al **historial de alertas** y finalmente al **detalle de la alerta**. Esta es la ruta principal, ya que permite al usuario validar si ocurrió algún incidente y revisar información más específica sobre lo sucedido.
+
+Como ruta alternativa, si no existe ninguna alerta nueva, el usuario no recibe una notificación adicional y continúa directamente con el monitoreo general del sistema. Esta bifurcación representa claramente la diferencia entre el **happy path**, donde sí se consulta el historial y el detalle de eventos, y un **unhappy path o camino alternativo**, donde no se presentan incidencias recientes y, por tanto, el recorrido se simplifica.
+
+<p align="center">
+  <img src="assets/UserFlowDiagram3.png" alt="User Flow para consultar el historial de alertas en SmartGas" />
+</p>
+
+#### 4. User Flow para revisar el estado de una zona específica
+
+**User goal:** Como administrador de restaurante, quiero revisar el estado de una zona específica para verificar sus niveles de gas, temperatura y seguridad.
+
+**Explicación del flujo:**  
+El flujo inicia cuando el usuario accede a la sección de **Zones**. Desde allí revisa el estado general de las zonas registradas y verifica si alguna de ellas presenta una condición de alerta. Cuando existe una zona comprometida, el sistema muestra la cantidad de zonas en alerta y permite ingresar al panel específico para monitorear la zona afectada. Este es el **happy path**, ya que el usuario consigue identificar rápidamente el área crítica y revisar su detalle.
+
+Como ruta alternativa, si no existe ninguna zona en alerta, el sistema no obliga a profundizar en una zona específica y el usuario continúa con el monitoreo general. Esta estructura confirma la consistencia con el wireflow previo, ya que se mantienen tanto la vista general de zonas como la posibilidad de navegar hacia un detalle puntual solo cuando el estado operativo lo requiere.
+
+<p align="center">
+  <img src="assets/UserFlowDiagram4.png" alt="User Flow para revisar el estado de una zona específica en SmartGas" />
+</p>
     
 ## 4.5. Web Applications Prototyping.
    
