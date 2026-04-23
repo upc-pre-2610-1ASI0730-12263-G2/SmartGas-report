@@ -186,6 +186,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 2.1. Competidores.
     
 ### 2.1.1. Análisis competitivo.
+| Características | Google Nest Protect | Kidde | Tyco SimplexGrinnell | SmartGas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Perfil del Competidor** | Ecosistema inteligente cerrado de alta gama. | Líder en alarmas locales de bajo costo. | Sistema industrial corporativo especializado. | **Plataforma SaaS de monitoreo preventivo con arquitectura orientada a servicios (SOA).** |
+| **Mercado Objetivo** | Hogares con alta conectividad y presupuesto. | Familias y pequeños comercios locales. | Grandes corporaciones y sector industrial. | Hogares urbanos y restaurantes en Perú. |
+| **Ventaja Competitiva** | Integración total con Google Home y smartphones. | Reconocimiento de marca y bajo costo de adquisición. | Alta robustez y certificaciones de seguridad industrial. | **Monitoreo remoto vía Web App y notificaciones en tiempo real.** |
+| **Fortalezas** | Ecosistema digital sólido y actualizaciones constantes. | Disponibilidad masiva y sin pagos de suscripción. | Soluciones integrales para entornos de alta complejidad. | **Arquitectura SOA escalable, Backend en C# y alta usabilidad.** |
+| **Debilidades** | Dependencia de hardware propietario y costo elevado. | Carece de conectividad remota y gestión de datos. | Instalaciones complejas e interfaces de usuario cerradas. | Marca nueva en el mercado con necesidad de validación inicial. |
     
 ### 2.1.2. Estrategias y tácticas frente a competidores.
     
