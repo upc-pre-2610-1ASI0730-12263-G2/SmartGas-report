@@ -517,7 +517,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Se muestran tres tarjetas con diseño diferenciado. Los planes son *Basic (PEN 30)*, *Professional (PEN 70)* y *Corporate (PEN 100)*. Cada tarjeta incluye beneficios y un botón *Select*.  
 
 <p align="center">
-  <img src="assets/mockup-pricing.png" alt="Mockup Pricing" />
+  <img src="assets/mockup-price.png" alt="Mockup Price" />
 </p>  
 
 
