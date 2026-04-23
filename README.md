@@ -550,6 +550,82 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 ## 4.4. Web Applications UX/UI Design.
     
 ### 4.4.1. Web Applications Wireframes.
+
+Para la aplicación web de **SmartGas** se desarrollaron wireframes en versión **desktop** y **responsive móvil**, con el objetivo de representar la estructura base de cada pantalla, la jerarquía de la información y la adaptación del sistema a distintos tamaños de dispositivo. Estas propuestas evidencian la aplicación de principios de diseño como **jerarquía visual, alineación, proximidad, consistencia y visibilidad del estado del sistema**, así como criterios de **diseño inclusivo**, mediante textos claros, botones reconocibles, distribución ordenada de los elementos y navegación simplificada en pantallas pequeñas.
+
+Asimismo, los wireframes mantienen coherencia con la **arquitectura de información** definida previamente. En las pantallas de monitoreo se prioriza una organización **jerárquica** para destacar alertas y estados críticos; en la vista de zonas se aplica una organización **espacial**, al agrupar la información por ambientes o sectores; en reportes se utiliza una estructura **cronológica** para el historial de incidencias; y en miembros se presenta una organización orientada a la **audiencia y gestión de usuarios**, facilitando el reconocimiento de roles y zonas asignadas.
+
+#### 1. Inicio
+
+**Wireframe Desktop:** Presenta una barra de navegación superior con accesos directos a los módulos principales de la plataforma, junto con el logo, selector de idioma y botón de registro. En la sección principal se ubican el título, una breve descripción, dos botones de acción y una imagen referencial. Esta distribución responde a una **jerarquía visual clara** y permite que el usuario identifique rápidamente la propuesta principal del sistema y sus rutas de navegación.
+
+**Wireframe Mobile:** Reorganiza el contenido en una sola columna para facilitar la lectura vertical, reemplazando el menú horizontal por un ícono de hamburguesa. Los botones de acción se mantienen en tamaño visible y táctil, favoreciendo la interacción en dispositivos móviles. Esta adaptación demuestra un enfoque **responsive** y mejora la accesibilidad al reducir la sobrecarga visual y simplificar la navegación.
+
+<p align="center">
+  <img src="assets/ap-wireframe-desktop-inicio.png" alt="Wireframe Desktop - Inicio SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-wireframe-movil-inicio.png" alt="Wireframe Mobile - Inicio SmartGas" />
+</p>
+
+#### 2. Dashboard
+
+**Wireframe Desktop:** El dashboard organiza la información crítica en tarjetas superiores que resumen el estado general del sistema, el nivel de gas, la temperatura y las alertas activas. Debajo, se incorpora una gráfica principal que permite visualizar el comportamiento de los sensores y sus límites de referencia. Esta pantalla aplica una organización **jerárquica**, ya que muestra primero los indicadores más importantes y luego amplía el detalle mediante visualizaciones.
+
+**Wireframe Mobile:** Conserva la misma lógica informativa, pero apila las tarjetas en una sola columna para asegurar legibilidad y continuidad en la lectura. Esta solución refuerza el diseño inclusivo, ya que facilita la comprensión de los estados del sistema en pantallas pequeñas y permite identificar alertas sin depender únicamente de gráficos complejos o elementos decorativos.
+
+<p align="center">
+  <img src="assets/ap-wireframe-desktop-dashboard.png" alt="Wireframe Desktop - Dashboard SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-wireframe-movil-dashboard.png" alt="Wireframe Mobile - Dashboard SmartGas" />
+</p>
+
+#### 3. Zones
+
+**Wireframe Desktop:** La pantalla de zonas presenta primero un resumen general del número total de zonas, zonas seguras y sensores conectados, seguido de una representación visual del espacio monitoreado y tarjetas individuales para cada zona. En cada tarjeta se muestra el estado, la temperatura, el nivel de gas y un recurso visual complementario. Esta pantalla responde a una organización **espacial o geográfica**, ya que permite al usuario identificar rápidamente en qué zona ocurre una incidencia.
+
+**Wireframe Mobile:** Mantiene la misma estructura conceptual, pero adapta los bloques a un flujo vertical. Las tarjetas resumen se muestran primero, seguidas del mapa o representación visual y luego las zonas individuales. Esta disposición facilita la exploración progresiva del contenido y mejora la accesibilidad móvil, ya que cada zona se analiza de forma separada sin saturar la interfaz.
+
+<p align="center">
+  <img src="assets/ap-wireframe-desktop-zones.png" alt="Wireframe Desktop - Zones SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-wireframe-movil-zones.png" alt="Wireframe Mobile - Zones SmartGas" />
+</p>
+
+#### 4. Reports
+
+**Wireframe Desktop:** La vista de reportes incluye un encabezado con el total de incidencias registradas, seguido de dos bloques gráficos para el análisis de tendencias y tipos de eventos. En la parte inferior se ubica una tabla con el historial de alertas, mostrando fecha, zona, evento, severidad y estado. Esta estructura evidencia una organización **cronológica y analítica**, ya que combina resúmenes visuales con un registro detallado de eventos para apoyar la toma de decisiones.
+
+**Wireframe Mobile:** Reestructura los elementos en una sola columna, priorizando primero el total de incidencias y luego las gráficas, con el fin de conservar la claridad visual. La adaptación móvil reduce la complejidad del contenido sin perder la función informativa, permitiendo que el usuario consulte reportes desde un dispositivo pequeño de manera sencilla y ordenada.
+
+<p align="center">
+  <img src="assets/ap-wireframe-desktop-reports.png" alt="Wireframe Desktop - Reports SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-wireframe-movil-reports.png" alt="Wireframe Mobile - Reports SmartGas" />
+</p>
+
+#### 5. Members
+
+**Wireframe Desktop:** La pantalla de miembros muestra un listado de usuarios mediante tarjetas que incluyen imagen, nombre, rol, correo y zona asignada. En la parte inferior se incorpora un footer con enlaces complementarios, suscripción y elementos institucionales. Esta vista responde a una organización por **audiencia y gestión de usuarios**, ya que facilita la identificación rápida de cada integrante y su relación con una zona o función específica dentro del sistema.
+
+**Wireframe Mobile:** El contenido se presenta en formato vertical, apilando la información de cada miembro para optimizar el espacio disponible. Esta decisión favorece la lectura continua y evita que los datos se compriman en exceso. Además, el uso de etiquetas textuales claras permite que la comprensión de la información no dependa de recursos visuales complejos, reforzando así el diseño inclusivo.
+
+<p align="center">
+  <img src="assets/ap-wireframe-desktop-members.png" alt="Wireframe Desktop - Members SmartGas" />
+</p>
+
+<p align="center">
+  <img src="assets/ap-wireframe-movil-members.png" alt="Wireframe Mobile - Members SmartGas" />
+</p>
+
+En conjunto, estos wireframes permiten validar la estructura inicial de la aplicación web de **SmartGas**, asegurando que la información crítica se presente con claridad, que la navegación sea consistente entre pantallas y que la experiencia pueda adaptarse correctamente a entornos **desktop** y **móviles**. De esta manera, la propuesta no solo responde a los objetivos funcionales del sistema, sino que también incorpora principios de usabilidad, accesibilidad y arquitectura de información desde las primeras etapas del diseño.
     
 ### 4.4.2. Web Applications Wireflow Diagrams.
     
