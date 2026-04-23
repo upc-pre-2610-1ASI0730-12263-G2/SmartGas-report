@@ -628,7 +628,64 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 En conjunto, estos wireframes permiten validar la estructura inicial de la aplicación web de **SmartGas**, asegurando que la información crítica se presente con claridad, que la navegación sea consistente entre pantallas y que la experiencia pueda adaptarse correctamente a entornos **desktop** y **móviles**. De esta manera, la propuesta no solo responde a los objetivos funcionales del sistema, sino que también incorpora principios de usabilidad, accesibilidad y arquitectura de información desde las primeras etapas del diseño.
     
 ### 4.4.2. Web Applications Wireflow Diagrams.
-    
+
+En esta sección se presentan los **wireflow diagrams** de la aplicación web de **SmartGas**, elaborados a partir de los principales **user goals** identificados para los perfiles de usuario dentro del alcance del sistema. Cada wireflow integra wireframes y rutas de interacción para mostrar cómo evoluciona el estado de la interfaz en función de las acciones del usuario, evidenciando así la relación entre navegación, arquitectura de información y comportamiento esperado del sistema.
+
+Estos diagramas permiten visualizar los pasos típicos que sigue el usuario para completar una tarea, así como los posibles cambios de estado en pantalla, por ejemplo, cuando un inicio de sesión falla, cuando existen alertas activas o cuando una zona se encuentra en estado crítico. De esta manera, los wireflows complementan los wireframes al representar no solo la estructura de las pantallas, sino también la lógica de interacción entre ellas.
+
+#### 1. Wireflow del inicio de sesión a la plataforma
+
+**User goal:** Como usuario, quiero iniciar sesión en la plataforma SmartGas para acceder al sistema de monitoreo.
+
+**Explicación del flujo:**  
+El flujo inicia en la **Landing Page**, donde el usuario identifica el acceso principal a la plataforma y selecciona la opción de registro o inicio de sesión. Luego es dirigido a la **pantalla de login**, donde ingresa sus credenciales. A partir de esta interacción, el sistema contempla dos posibles estados: si las credenciales son incorrectas, se muestra una **pantalla de error de login** con la indicación correspondiente; si las credenciales son correctas, el usuario accede al **inicio de la aplicación web**, desde donde puede ingresar al dashboard y al resto de módulos del sistema.
+
+Este wireflow evidencia un flujo de navegación básico y esencial para el uso de la plataforma, así como la representación de un cambio de estado importante dentro de la interfaz: el paso exitoso o fallido de autenticación. Además, se aplican principios de claridad, retroalimentación inmediata y visibilidad del estado del sistema, ya que el usuario recibe una respuesta explícita según el resultado de su acción.
+
+<p align="center">
+  <img src="assets/WireflowDiagram1.png" alt="Wireflow de inicio de sesión en SmartGas" />
+</p>
+
+#### 2. Wireflow para revisar el estado de seguridad y alertas activas
+
+**User goal:** Como usuario, quiero revisar el estado de seguridad para identificar niveles de gas, temperatura y alertas activas.
+
+**Explicación del flujo:**  
+El flujo comienza en la **sección Dashboard**, donde el usuario puede visualizar un resumen general del sistema mediante indicadores como estado general, nivel de gas, temperatura y cantidad de alertas activas. Desde esta pantalla, el usuario selecciona la opción para **ver alertas**, lo que lo dirige a la **sección Reports**, donde puede revisar tendencias, tipos de eventos y el historial registrado. Si dentro de esa vista detecta una alerta crítica, puede hacer clic sobre ella para acceder a la **sección Zonas**, donde se presenta el estado detallado de cada ambiente monitoreado.
+
+Este wireflow evidencia una organización jerárquica de la información, ya que el sistema muestra primero una vista general y luego conduce al usuario hacia niveles de mayor detalle. Asimismo, se aprecia una organización espacial en la vista de zonas, donde el usuario puede identificar qué ambiente está comprometido. El flujo también refuerza la usabilidad al permitir una transición natural desde el monitoreo global hasta la localización específica del riesgo.
+
+<p align="center">
+  <img src="assets/WireflowDiagram2.png" alt="Wireflow para revisar seguridad y alertas activas en SmartGas" />
+</p>
+
+#### 3. Wireflow para consultar el historial de alertas del hogar
+
+**User goal:** Como padre de familia, quiero consultar el historial de alertas de mi hogar para saber si hubo incidentes mientras no estaba en casa.
+
+**Explicación del flujo:**  
+Este flujo parte desde el **inicio de la aplicación web**, donde el usuario accede al sistema ya autenticado. Desde allí, puede ingresar a la sección de alertas y reportes. El diagrama muestra dos posibles estados: uno en el que el usuario entra y **existen nuevas alertas**, y otro en el que ingresa y **no hay nuevas alertas**. En ambos casos se visualiza la **sección Reports**, pero con diferencias en el estado de la interfaz según la presencia o ausencia de incidencias recientes. Finalmente, el usuario accede al **detalle de alertas**, donde puede revisar información más específica sobre fecha, zona, evento, severidad y estado, complementada con una vista resumida de zonas.
+
+Este wireflow es importante porque demuestra cómo el sistema representa cambios de estado a partir de una misma pantalla base, lo cual responde directamente a la consigna de reflejar nuevas condiciones de interacción mediante wireframes adicionales. Además, el flujo se apoya en una organización cronológica de la información, ya que el historial de alertas se presenta como un registro útil para la supervisión del hogar y la toma de decisiones posteriores.
+
+<p align="center">
+  <img src="assets/WireflowDiagram3.png" alt="Wireflow para consultar historial de alertas del hogar en SmartGas" />
+</p>
+
+#### 4. Wireflow para revisar el estado de una zona específica
+
+**User goal:** Como administrador de restaurante, quiero revisar el estado de una zona específica para verificar sus niveles de gas, temperatura y seguridad.
+
+**Explicación del flujo:**  
+El flujo inicia en el **inicio de la aplicación web**, desde donde el administrador accede a la **sección Zonas**. En esta parte del recorrido se muestran dos estados posibles: uno en el que **hay zonas en alerta** y otro en el que **no hay zonas en alarma**. Cuando existe una zona comprometida, el usuario continúa hacia el **panel de detalle de zonas**, donde puede visualizar el estado particular de cada ambiente, incluyendo temperatura, gas y condición general de seguridad. De este modo, el administrador identifica con rapidez cuál es la zona afectada y puede tomar acciones oportunas.
+
+Este wireflow pone en evidencia la organización espacial de la información, ya que el sistema distribuye los datos por áreas o zonas monitoreadas. También demuestra el principio de visibilidad del estado del sistema, debido a que el usuario puede diferenciar claramente entre una zona segura y una zona en alarma. La presencia de variantes en el flujo según el estado operativo fortalece además la representación realista del comportamiento del sistema frente a distintos escenarios.
+
+<p align="center">
+  <img src="assets/WireflowDiagram4.png" alt="Wireflow para revisar el estado de una zona específica en SmartGas" />
+</p>
+
+En conjunto, los wireflows de **SmartGas** permiten comprender cómo los usuarios interactúan con la aplicación web según sus objetivos principales, mostrando tanto las rutas típicas de navegación como los cambios de estado que se producen en la interfaz. Esto facilita validar tempranamente la experiencia de uso, asegurar coherencia con la arquitectura de información y comprobar que cada user goal cuenta con una secuencia lógica, clara y funcional dentro del sistema.
 ### 4.4.2. Web Applications Mock-ups.
     
 ### 4.4.3. Web Applications User Flow Diagrams.
