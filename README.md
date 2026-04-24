@@ -366,6 +366,18 @@ Esto refuerza la necesidad de una solución que permita monitoreo remoto y alert
 
 ### 2.3.3. User Journey Mapping.
 
+En esta sección se describe el recorrido que siguen los usuarios en su interacción con una posible solución al problema identificado. A través de distintas etapas, se analiza cómo evolucionan sus objetivos, acciones, percepciones y dificultades desde el momento en que toman conciencia del riesgo hasta que adoptan una herramienta que les permita gestionarlo.
+
+El User Journey permite identificar puntos críticos y oportunidades de mejora, facilitando el diseño de una experiencia que responda de manera efectiva a las necesidades de cada segmento.
+
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+![UserJourneyMapping_1.png](./assets/UserJourneyMapping_1.png)
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+![UserJourneyMapping_2.png](./assets/UserJourneyMapping_2.png)
+
 ### 2.3.4. Empathy Mapping.
     
 ## 2.4. Big Picture EventStorming.
