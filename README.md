@@ -874,6 +874,10 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 </div>
     
 ### 4.6.2. Software Architecture Context Diagram.
+
+<div align="center">
+  <img alt="Context-Diagram" src="assets/Context-Diagram.svg" />
+</div>
     
 ### 4.6.3. Software Architecture Container Diagrams.
     
