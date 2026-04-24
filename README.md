@@ -405,6 +405,10 @@ El Empathy Map permite profundizar en las necesidades reales de cada segmento, i
 ![EmpathyMap_2.png](./assets/EmpathyMap_2.png)
 
 ## 2.4. Big Picture EventStorming.
+
+<div align="center">
+  <img alt="BigPicture" src="assets/BigPicture_EventStorming.jpg" />
+</div>
     
 ## 2.5. Ubiquitous Language.
 
