@@ -54,8 +54,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | | |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | | |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | Participamos activamente en reuniones grupales, escuchamos nuestras ideas mutuamente, propuse soluciones y asumí roles de liderazgo cuando fue necesario para organizar el trabajo. | El trabajo en equipo permitió obtener mejores resultados, ya que se integraron distintas perspectivas y se fortaleció el liderazgo compartido |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | Fomenté la participación de todos los integrantes, establecí metas claras, distribuí tareas de manera equitativa y realicé seguimiento al cumplimiento de los objetivos. | Un entorno colaborativo e inclusivo mejora la comunicación, facilita el logro de metas y asegura el cumplimiento eficiente de los objetivos planteados. |
 
 
 
