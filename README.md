@@ -334,6 +334,46 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 - **Resumen:** Resumen: Rubén Carhuaz, de 49 años y gerente de un restaurante con dos años de funcionamiento, reconoce que la tecnología es un recurso indispensable para la seguridad, especialmente porque su operación depende totalmente del gas. Actualmente, sus métodos de prevención son rudimentarios y se limitan a la revisión manual de mangueras, lo que representa un riesgo latente, ya que un incendio o fuga significaría "perderlo todo". Ante este panorama, Rubén se muestra dispuesto a implementar una solución tecnológica que centralice el monitoreo y, sobre todo, emita alertas inmediatas para garantizar la protección de sus trabajadores y clientes.
     
 ### 2.2.3. Análisis de entrevistas.
+
+**Segmento 1: Familias y Propietarios de Viviendas**
+
+* **Perfil y Residencia:** 100% reside en zonas urbanas en hogares con 3 o más personas.
+ 
+* **Equipamiento del Hogar:** 100% utiliza cocinas a gas y cuenta con dispositivos como celulares y laptops.
+ 
+* **Seguridad Actual:** 100% depende exclusivamente de métodos manuales (revisión visual y olfato) o de la vigilancia de terceros (vecinos).
+ 
+* **Problemas y Preocupaciones:**
+ 
+    * 100% manifiesta preocupación o desconfianza ante posibles fugas de gas cuando no están en casa.
+ 
+    * 50% señala que los sistemas tradicionales no previenen incidentes de forma oportuna.
+  
+    * 50% admite que no realiza mantenimientos preventivos con frecuencia.
+ 
+* **Funciones Valoradas:** 100% prioriza el monitoreo en tiempo real y las alertas automáticas al celular. El 50% también valora la detección de movimiento.
+ 
+* **Adopción de SmartGas:** 100% está dispuesto a utilizar la aplicación porque les brinda tranquilidad, control y una respuesta rápida ante emergencias.
+
+**Segmento 2: Administradores y Chefs de Restaurantes**
+
+* **Rol y Experiencia:** 100% opera directamente equipos de alto riesgo que dependen del gas.
+ 
+* **Gestión de Seguridad:** 100% gestiona la seguridad de forma manual mediante inspecciones visuales de mangueras y válvulas.
+ 
+* **Riesgos Identificados:**
+ 
+    * 100% afirma que una fuga o incendio significaría "perderlo todo" (inversión y activos).
+  
+    * 66% señala que el factor humano es insuficiente durante horas de alta demanda o para detectar peligros invisibles al olfato.
+
+    * 33% destaca el riesgo irreparable a la reputación del negocio.
+
+* **Tecnología y Confianza:** 100% considera la tecnología como un recurso indispensable y confía más en la precisión de los sensores que en el control manual.
+ 
+* **Funciones Deseadas en SmartGas:** 100% solicita alertas inmediatas al celular. El 66% valora medidas preventivas automáticas y el 33% requiere gráficos de temperatura.
+ 
+* **Adopción de SmartGas:** 100% considera la solución como una herramienta eficiente e indispensable para centralizar el monitoreo y proteger a sus trabajadores y clientes.
     
 ## 2.3. Needfinding.
     
