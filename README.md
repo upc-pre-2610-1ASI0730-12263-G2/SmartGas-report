@@ -430,13 +430,63 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
     
-## 5.2.1. Sprint n
+## 5.2.1. Sprint 1
     
-### 5.2.1.1. Sprint Planning n.
+### 5.2.1.1. Sprint Planning 1.
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-04-10 |
+| **Time** | 09:00 AM |
+| **Location** | Virtual (Discord) |
+| **Prepared By** | Cesar Jair Contreras Rojas |
+| **Attendees** | Cesar Jair Contreras Rojas / Gabriel Ferran Espinar Martínez / Briguite Eryka Carhuaz Centeno/ Camila Alizée Otiniano Rosales/ Valeria Alexandra Rojas Gomez|
+| **Sprint n – 1 Review Summary** | No aplica por ser el primer sprint. |
+| **Sprint n – 1 Retrospective Summary** | No aplica por ser el primer sprint.  |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | **Our focus is on** developing the Landing Page and defining the backend architecture. **We believe it delivers** an official web presence and a technical roadmap **to** potential customers and the development team. **This will be confirmed when** the Landing Page is deployed and the database schema for sensor monitoring is finalized. |
+| **Sprint 1 Velocity** | 25 Story Points |
+| **Sum of Story Points** | 25 Story Points |
     
 ### 5.2.1.2. Aspect Leaders and Collaborators.
+Para asegurar una comunicación efectiva y una ejecución organizada durante este primer Sprint, el equipo ha definido una matriz de Liderazgo y Colaboración (LACX). Los aspectos principales considerados en este Sprint se dividen en tres áreas críticas: 
+
+1. **Web Presence (Landing Page):** Desarrollo del código frontend y diseño responsivo.
+2. **System Architecture:** Definición de esquemas de base de datos y lógica de telemetría.
+3. **Infrastructure:** Configuración de servicios y entornos de despliegue.
+
+Cada aspecto cuenta con un líder responsable de la calidad final y colaboradores que apoyan en la implementación de las tareas.
+
+### Leadership and Collaboration Matrix (LACX)
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Development | Database & API Design | Cloud & DevOps Setup |
+| :--- | :--- | :---: | :---: | :---: |
+| Gabriel Ferran Espinar Martínez | zzZero14 | **L** | **C** | **L** |
+| Cesar Jair Contreras Rojas | CesarJrCR | **C** | **L** | **C** |
+| Briguite Eryka Carhuaz Centeno | briicarhuaz | **C** | **C** | **C** |
+| Camila Alizée Otiniano Rosales | CamilaaAlizee | **C** | **C** | **C** |
+| Valeria Alexandra Rojas Gomez | ValeriaAler | **C** | **C** | **C** |
+
+**Leyenda:** **L**: Leader / **C**: Collaborator
     
-### 5.2.1.3. Sprint Backlog n.
+### 5.2.1.3. Sprint Backlog 1.
+El objetivo de este primer Sprint es doble: por un lado, iniciar la presencia digital de **SmartGas** mediante la codificación y despliegue de la Landing Page; y por otro lado, establecer los cimientos técnicos (base de datos y formatos de telemetría) que permitirán el desarrollo de la aplicación web en los siguientes sprints.
+
+**Board del Sprint 1 (Jira):**
+![](./assets/Collaboration_JIRA.png)
+
+### Tabla de Control de Estado para el Sprint 1
+
+| User Story | | Work-Item / Task | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US-21 | Visualizar dashboard principal | T-01 | Landing Page Frontend | Codificación de la estructura HTML y estilos CSS de la Landing Page. | 10 | Todos | Done |
+| US-21 | Visualizar dashboard principal | T-02 | Responsive Design | Adaptación de la Landing Page para dispositivos móviles (Media Queries). | 6 | Todos | Done |
+| US-29 | Registrarse en el sistema | T-03 | Database Schema | Diseño y creación de las tablas de usuarios y perfiles en la base de datos. | 4 | Cesar | Done |
+| TS-02 | API Telemetría | T-04 | JSON Data Structure | Definición del formato de intercambio de datos (JSON) para gas y temperatura. | 6 | Briguite | To-do |
+| TS-06 | API Usuarios | T-05 | Auth Logic Design | Diseño de la lógica de autenticación y flujo de tokens para el acceso. | 5 | Camila | To-do |
+| CG-01 | Constraint General | T-06 | GitHub/Deployment Setup | Configuración del repositorio de la organización y hosting para la Landing Page. | 3 | Gabriel | Done |
+    
     
 ### 5.2.1.4. Development Evidence for Sprint Review.
     
