@@ -282,6 +282,37 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 5.1.1. Software Development Environment Configuration.
     
 ### 5.1.2. Source Code Management.
+
+En esta sección, se detallan los productos de software y herramientas utilizadas para el diseño, desarrollo y gestión del proyecto SmartGas.
+
+**Producto UX/UI Design:**
+* [Figma](https://www.figma.com/): Herramienta de diseño colaborativo utilizada para la creación de wireframes, maquetas de alta fidelidad y el diseño de la interfaz de usuario del dashboard de SmartGas.
+
+* [UXPressia](https://uxpressia.com/): Herramienta empleada para el diseño estratégico, específicamente para la creación del Impact Mapping, Empathy Mapping y User Journey Mapping.
+
+* [Miro](https://miro.com/): Plataforma de pizarra colaborativa usada para sesiones de lluvia de ideas, diagramación inicial y el desarrollo del EventStorming.
+
+* [Lucidchart](https://lucid.app/): Aplicación de diagramación basada en la web utilizada para la creación de diagramas de flujo, procesos de negocio y mapas conceptuales del sistema.
+
+* [Structurizr](https://structurizr.com/): Herramienta de modelado de software basada en el modelo C4, utilizada para documentar la arquitectura orientada a servicios (SOA) del sistema.
+
+**Software Development:**
+* [Visual Studio Code](https://code.visualstudio.com/): Editor de código fuente principal, ligero y extensible, utilizado para la programación del frontend y servicios de la plataforma.
+
+* [PlantUML](https://plantuml.com/): Herramienta que permite crear diagramas de UML (casos de uso, clases, secuencias) a partir de lenguaje de texto plano, facilitando la documentación técnica del código.
+
+* [HTML5](https://html.spec.whatwg.org/multipage/): Lenguaje de marcado utilizado para estructurar el contenido de la aplicación web y la landing page.
+
+* [CSS3](https://developer.mozilla.org/es/docs/Web/CSS): Lenguaje de estilos para definir la identidad visual de SmartGas, asegurando un diseño responsivo y moderno.
+
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript): Lenguaje de programación dinámico utilizado para añadir interactividad y gestionar la lógica de usuario en el frontend.
+
+* [Jira](https://www.atlassian.com/es/software/jira): Herramienta líder en gestión de proyectos ágiles utilizada para el seguimiento de User Stories, gestión del backlog y control de los Sprints.
+
+**Software Deployment:**
+* [GitHub](https://github.com/): Plataforma de alojamiento de código basada en Git, utilizada para el control de versiones y la colaboración del equipo de desarrollo.
+ 
+* [GitHub Pages](https://pages.github.com/): Servicio utilizado para el despliegue y alojamiento de la landing page del proyecto, permitiendo el acceso público a la propuesta de valor.
     
 ### 5.1.3. Source Code Style Guide & Conventions.
     
