@@ -272,6 +272,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## 3.2. Impact Mapping.
     
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+![ImpactMap_1.png](assets/ImpactMap_1.png)
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+![ImpactMap_2.png](assets/ImpactMap_2.png)
+
 ## 3.3. Product Backlog.
     
 # Capítulo IV: Product Design
