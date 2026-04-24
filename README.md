@@ -380,6 +380,18 @@ El User Journey permite identificar puntos críticos y oportunidades de mejora, 
 
 ### 2.3.4. Empathy Mapping.
     
+En esta sección se analizan los pensamientos, emociones, acciones y percepciones de los usuarios con el objetivo de comprender mejor su comportamiento frente al problema planteado.
+
+El Empathy Map permite profundizar en las necesidades reales de cada segmento, identificando sus preocupaciones, motivaciones y frustraciones. Esto contribuye a diseñar una solución más alineada con el usuario, asegurando que la propuesta de valor sea clara, útil y relevante en su contexto.
+
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+![EmpathyMap_1.png](./assets/EmpathyMap_1.png)
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+![EmpathyMap_2.png](./assets/EmpathyMap_2.png)
+
 ## 2.4. Big Picture EventStorming.
     
 ## 2.5. Ubiquitous Language.
