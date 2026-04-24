@@ -314,7 +314,68 @@ En esta sección, se detallan los productos de software y herramientas utilizada
 
 ### 5.1.2. Source Code Management.
 
+Para la gestión del código fuente de SmartGas, se utiliza GitHub como plataforma central. Se ha estructurado una organización que permite separar las responsabilidades del informe y del desarrollo del software.
 
+* **Organización en GitHub:** https://github.com/upc-pre-2610-1ASI0730-12263-G2
+
+* **Repositorio del informe:** https://github.com/upc-pre-2610-1ASI0730-12263-G2/SmartGas-report
+
+* **Repositorio de la Landing Page:**
+https://github.com/upc-pre-2610-1ASI0730-12263-G2/SmartGas-website
+
+**Modelo de ramificación: GitFlow**
+Se ha adoptado el modelo GitFlow para garantizar un flujo de trabajo ordenado. 
+
+**Ramas del repositorio del informe:**
+
+* **main:** Rama de producción que contiene la versión final y aprobada de cada entrega.
+
+* **develop:** Rama de integración donde se consolidan los avances de cada capítulo antes de ser revisados.
+
+* **feature/chapter-1:** Rama para el desarrollo del Capítulo I: Introducción.
+
+* **feature/chapter-2:** Rama para el Capítulo II: Requirements Elicitation & Analysis.
+
+* **feature/chapter-3:** Rama para el Capítulo III: Requirements Specification.
+
+* **feature/chapter-4:** Rama para el Capítulo IV: Product Design.
+
+* **feature/chapter-5:** Rama para el Capítulo V: Product Implementation, Validation & Deployment.
+
+**Ramas del repositorio de la Landing Page:**
+
+* **main:** Rama que contiene la versión estable y desplegada en GitHub Pages.
+
+* **feature/portada:** Implementación de la sección principal con el mensaje de valor y botones de acción.
+ 
+* **feature/about-us:** Desarrollo de la sección que detalla la misión de FireSecure.
+ 
+* **feature/benefits:** Implementación de los bloques informativos sobre los beneficios del sistema.
+ 
+* **feature/characteristics:** Desarrollo de las especificaciones técnicas y funcionalidades de los sensores.
+ 
+* **feature/pricing:** Creación de las tarjetas de planes y suscripciones.
+ 
+* **feature/members:** Desarrollo de la sección que presenta al equipo del proyecto.
+ 
+* **feature/navigation:** Implementación de la barra de navegación y menús del sitio.
+ 
+* **feature/contact:** Desarrollo del formulario de contacto para clientes potenciales.
+ 
+* **feature/footer:** Implementación del pie de página con enlaces legales y redes sociales.
+
+**Estilo de commits: Conventional Commits**
+Para mantener un historial de cambios legible y estandarizado, el equipo aplica la convención de Conventional Commits. Cada commit debe empezar con un prefijo que describa el tipo de cambio:
+
+* **feat:** Una nueva funcionalidad.
+ 
+* **fix:** Corrección de errores o errores ortográficos en el reporte.
+ 
+* **docs:** Cambios únicamente en la documentación o bibliografía.
+ 
+* **style:** Cambios de formato (espaciado, tipografía, negritas) que no afectan el contenido.
+ 
+* **refactor:** Reorganización de párrafos o secciones para mejorar la claridad sin añadir contenido nuevo.
     
 ### 5.1.3. Source Code Style Guide & Conventions.
 
