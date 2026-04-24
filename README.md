@@ -223,6 +223,43 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 ## 2.2. Entrevistas.
     
 ### 2.2.1. Diseño de entrevistas.
+
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+1. ¿Cuál es su nombre, edad y a qué se dedica actualmente?
+2. ¿En qué distrito vive y con cuántas personas comparte su hogar?
+3. ¿Qué tipo de dispositivos utiliza con mayor frecuencia (celular, laptop, tablet)?
+4. ¿Qué aplicaciones o páginas web usa en su día a día?
+5. ¿Qué tan familiarizado está con el uso de aplicaciones web o dispositivos inteligentes en el hogar?
+6. En su vivienda, ¿qué tipo de cocina utiliza (gas, eléctrica, mixta)?
+7. ¿Ha tenido alguna experiencia o conoce casos cercanos de fugas de gas o incendios domésticos?
+8. ¿Qué medidas de seguridad tiene actualmente en su hogar para prevenir estos riesgos?
+9. ¿Con qué frecuencia revisa el estado de su cocina o instalaciones de gas?
+10. ¿Qué tan seguro se siente respecto a posibles fugas de gas cuando no está en casa?
+11. Si ocurriera una fuga de gas mientras usted no está presente, ¿cómo se enteraría?
+12. ¿Qué dificultades encuentra al depender solo de revisiones manuales o alarmas tradicionales?
+13. ¿Le gustaría poder monitorear el estado de su hogar en tiempo real desde su celular o navegador?
+14. ¿Qué funcionalidades le parecerían más útiles en una plataforma web de seguridad doméstica (alertas, historial, visualización en tiempo real, etc.)?
+15. ¿Estaría dispuesto a usar una aplicación como SmartGas que le envíe alertas automáticas ante riesgos? ¿Por qué?
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+1. ¿Cuál es su nombre, edad y cuál es su rol dentro del restaurante o negocio?
+2. ¿En qué distrito se encuentra su local y cuánto tiempo lleva operando?
+3. ¿Qué dispositivos utiliza para gestionar su negocio (PC, laptop, celular, tablet)?
+4. ¿Qué sistemas o herramientas digitales utiliza actualmente en la gestión del restaurante?
+5. ¿Qué tan importante considera la tecnología en la seguridad y operación de su negocio?
+6. ¿Qué tipo de equipos de cocina utilizan y qué tan dependientes son del gas?
+7. ¿Ha experimentado o conoce incidentes relacionados con fugas de gas o incendios en restaurantes?
+8. ¿Qué protocolos de seguridad tiene implementados actualmente en su cocina?
+9. ¿Cómo supervisa el estado de las instalaciones de gas y temperatura en su local?
+10. ¿Qué dificultades enfrenta al monitorear la seguridad en tiempo real, especialmente en horas de alta demanda?
+11. ¿Qué consecuencias tendría para su negocio una fuga de gas o un incendio?
+12. ¿Qué tan complicado es llevar un registro o historial de incidentes de seguridad actualmente?
+13. ¿Le resultaría útil contar con un sistema centralizado que monitoree múltiples áreas o locales en tiempo real?
+14. ¿Qué funciones considera indispensables en una plataforma web de monitoreo (alertas automáticas, reportes, control por zonas, etc.)?
+15. ¿Estaría dispuesto a implementar una solución como SmartGas para mejorar la seguridad de su negocio? ¿Por qué?
+    
     
 ### 2.2.2. Registro de entrevistas.
 
