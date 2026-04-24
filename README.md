@@ -326,7 +326,19 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 ## 2.3. Needfinding.
     
 ### 2.3.1. User Personas.
-    
+
+En esta sección se presentan los User Personas que representan a los principales segmentos objetivo del proyecto. Estos perfiles han sido construidos a partir de las características, necesidades y comportamientos identificados durante el análisis previo.
+
+Cada persona refleja un tipo de usuario real, permitiendo comprender mejor sus objetivos, motivaciones y dificultades en relación con la seguridad en entornos donde se utiliza gas
+
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+![UserPersona_1.png](./assets/UserPersona_1.png)
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+![UserPersona_2.png](./assets/UserPersona_2.png)
+
 ### 2.3.2. User Task Matrix.
 
 ### 2.3.3. User Journey Mapping.
