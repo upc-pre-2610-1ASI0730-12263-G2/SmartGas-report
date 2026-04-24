@@ -280,8 +280,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 5.1. Software Configuration Management.
     
 ### 5.1.1. Software Development Environment Configuration.
-    
-### 5.1.2. Source Code Management.
 
 En esta sección, se detallan los productos de software y herramientas utilizadas para el diseño, desarrollo y gestión del proyecto SmartGas.
 
@@ -313,6 +311,10 @@ En esta sección, se detallan los productos de software y herramientas utilizada
 * [GitHub](https://github.com/): Plataforma de alojamiento de código basada en Git, utilizada para el control de versiones y la colaboración del equipo de desarrollo.
  
 * [GitHub Pages](https://pages.github.com/): Servicio utilizado para el despliegue y alojamiento de la landing page del proyecto, permitiendo el acceso público a la propuesta de valor.
+
+### 5.1.2. Source Code Management.
+
+
     
 ### 5.1.3. Source Code Style Guide & Conventions.
 
