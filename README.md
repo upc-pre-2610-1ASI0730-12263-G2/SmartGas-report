@@ -910,7 +910,11 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ## 4.7. Software Object-Oriented Design.
     
 ### 4.7.1. Class Diagrams.
-    
+
+<div align="center">
+  <img alt="ClassDiagram" src="assets/ClassDiagram.png" />
+</div>
+
 ## 4.8. Database Design.
     
 ### 4.8.1. Database Diagrams.
