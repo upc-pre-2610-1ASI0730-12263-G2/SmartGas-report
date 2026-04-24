@@ -154,7 +154,15 @@ Somos **FireSecure**, una startup tecnológica orientada a la ingeniería de sof
 
 Nuestra misión es disminuir el riesgo de desastres por fugas de gas e incendios mediante un producto de software accesible, intuitivo y altamente responsivo. Aspiramos a convertirnos en el ecosistema digital líder en gestión de emergencias, brindando tranquilidad a nuestros usuarios al permitirles visualizar el estado de sus entornos y recibir notificaciones críticas desde cualquier dispositivo con acceso web.
 
+
 ### 1.1.2. Perfiles de integrantes del equipo
+| Foto | Nombre | Descripción |
+| --- | --- | --- |
+| ![](./assets/Integrante_Gabriel.png) | Gabriel Ferran Espinar Martínez (U202310436)| Estudiante de ingenieria de Software. Cuento con conocimientos en html y css. Me considero una persona responsable, se trabajar en equipo y ayudo a mis compañeros si lo necesitan. |
+| ![](./assets/FotoValeria.jpeg) | Rojas Gómez, Valeria Alexandra (U202411373) | Estudiante de ingenieria de Software. Cuento con conocimientos en lenguajes de programación como c++, python, html, css y assembler. Me considero una persona amable, capaz de trabajar en equipo y establecer una comunicación efectiva con los demás. |
+| ![](./assets/briguite-photo.jpeg) | Carhuaz Centeno, Briguite Eryka (U20241D932)  | Estudiante de Ingeniería de Software. Cuento con un sólido dominio de lenguajes como Java y C++, además de experiencia en el diseño de prototipos con Figma. Me caracterizo por ser una persona receptiva a las opiniones de los demás.
+| ![](./assets/cesar-photo.png) | Contreras Rojas, Cesar Jair (U20241D995) | Estudiante de ingeniería de Software. He practicado con Phyton, C++, Java entre otros. Me considero alguien responsable, colaborativo, amable y dispuesto a ayudar a mis compañeros, soy alguien que se eferuza por encontrar soluciones a problemas. |
+| ![](./assets/camila-photo.png) | Otiniano Rosales, Camila Alizée (u202419547) | Estudiante de ingeniería de Software. Cuento con habilidades de liderazgo que me permiten fomentar la colaboración y organización en equipo. Me caracterizo por mi responsabilidad, compromiso y creatividad, siempre enfocada en alcanzar los objetivos del grupo.  |
 
 
 ## 1.2. Solution Profile
