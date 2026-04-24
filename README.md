@@ -282,6 +282,50 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## 3.3. Product Backlog.
     
+| #  | User Story ID | Título                                  | Descripción | Story Points |
+| -- | ------------- | --------------------------------------- | ----------- | ------------ |
+| 1  | US-05         | Visualizar estado en tiempo real        |     Como usuario, quiero ver los niveles de gas y temperatura en tiempo real para conocer el estado de mi entorno.        | 8            |
+| 2  | US-06         | Actualización automática de datos       |   Como usuario, quiero que los datos se actualicen automáticamente para no tener que recargar la página.          | 8            |
+| 3  | US-09         | Detectar niveles peligrosos de gas      |   Como sistema, quiero identificar niveles de gas fuera del rango seguro para prevenir fugas.          | 8            |
+| 4  | US-10         | Detectar temperaturas anómalas          |       Como sistema, quiero identificar temperaturas fuera de lo normal para evitar riesgos de incendio.      | 8            |
+| 5  | US-17         | Enviar notificación en tiempo real      |       Como sistema, quiero enviar notificaciones inmediatas cuando ocurre una alerta para informar al usuario.      | 8            |
+| 6  | US-18         | Notificar por múltiples canales         |      Como usuario, quiero recibir notificaciones por diferentes medios para asegurarme de enterarme del riesgo.       | 8            |
+| 7  | US-22         | Visualizar gráficos de sensores         |       Como usuario, quiero ver gráficos de gas y temperatura para analizar el comportamiento de los datos.      | 8            |
+| 8  | US-28         | Generar reporte de seguridad            |       Como usuario, quiero generar reportes para evaluar el estado de seguridad de mi entorno.      | 8            |
+| 9  | US-01         | Registrar sensor                        |       Como usuario, quiero registrar un sensor en el sistema para comenzar a monitorear mi entorno.      | 5            |
+| 10 | US-03         | Configurar parámetros del sensor        |     Como usuario, quiero configurar los límites de mi sensor para adaptarlo a mis necesidades.        | 5            |
+| 11 | US-08         | Identificar sensor con anomalía         |      Como usuario, quiero identificar qué sensor presenta un problema para tomar acción rápida.       | 5            |
+| 12 | US-11         | Validar datos del sensor                |      Como sistema, quiero validar los datos recibidos para evitar errores en la detección.       | 5            |
+| 13 | US-12         | Generar evento de anomalía              |       Como sistema, quiero registrar cada anomalía detectada para su posterior gestión.      | 5            |
+| 14 | US-13         | Generar alerta automática               |       Como sistema, quiero generar una alerta cuando se detecta una anomalía para iniciar el proceso de notificación.      | 5            |
+| 15 | US-21         | Visualizar dashboard principal          |       Como usuario, quiero ver un panel principal con el estado general de seguridad para tener una visión rápida.      | 5            |
+| 16 | US-23         | Filtrar información por sensor          |       Como usuario, quiero filtrar los datos por sensor para analizar información específica.      | 5            |
+| 17 | US-24         | Visualizar estado por ubicación         |      Como usuario, quiero ver el estado de cada área o ubicación para identificar riesgos específicos.       | 5            |
+| 18 | US-25         | Registrar historial de incidencias      |       Como sistema, quiero guardar cada evento detectado para mantener un registro de seguridad.      | 5            |
+| 19 | US-29         | Registrarse en el sistema               |      Como usuario, quiero crear una cuenta para acceder a la plataforma.       | 5            |
+| 20 | US-30         | Iniciar sesión                          |       Como usuario, quiero iniciar sesión para acceder a mi información.      | 5            |
+| 21 | US-33         | Configurar límites de seguridad         |      Como usuario, necesito configurar parámetros de seguridad para adaptar el sistema a mis necesidades y prevenir riesgos.       | 5            |
+| 22 | US-02         | Asociar sensor a ubicación              |       Como usuario, quiero vincular un sensor a mi vivienda o local para identificar su ubicación.      | 3            |
+| 23 | US-04         | Visualizar sensores registrados         |     Como usuario, quiero ver mis sensores registrados para gestionar su estado.        | 3            |
+| 24 | US-07         | Visualizar estado general de seguridad  |       Como usuario, quiero ver un indicador general de seguridad para entender rápidamente si hay riesgo.      | 3            |
+| 25 | US-14         | Clasificar nivel de alerta              |        Como sistema, quiero clasificar las alertas según su nivel de riesgo para priorizar la atención.     | 3            |
+| 26 | US-15         | Visualizar alertas activas              |       Como usuario, quiero ver las alertas activas para conocer los riesgos actuales.      | 3            |
+| 27 | US-19         | Visualizar notificaciones               |       Como usuario, quiero ver las notificaciones recibidas para revisar los eventos recientes.      | 3            |
+| 28 | US-26         | Consultar historial de eventos          |      Como usuario, quiero revisar eventos pasados para analizar lo ocurrido.       | 3            |
+| 29 | US-27         | Filtrar historial por fecha             |       Como usuario, quiero filtrar el historial por rango de fechas para facilitar el análisis.      | 3            |
+| 30 | US-31         | Gestionar perfil de usuario             |        Como usuario, quiero editar mi información personal para mantener mis datos actualizados.     | 3            |
+| 31 | US-34         | Configurar preferencias de notificación |      Como usuario, quiero elegir cómo recibir notificaciones para adaptarlas a mi disponibilidad.       | 3            |
+| 32 | US-16         | Marcar alerta como atendida             |      Como usuario, quiero marcar una alerta como atendida para llevar control de las incidencias.       | 2            |
+| 33 | US-20         | Confirmar recepción de alerta           |       Como usuario, quiero confirmar que recibí una alerta para asegurar el seguimiento del evento.      | 2            |
+| 34 | US-32         | Cerrar sesión                           |       Como usuario, quiero cerrar sesión para proteger mi cuenta.      | 1          |
+| 1 | TS-01         | API gestión de sensores    |       Como desarrollador, quiero endpoints CRUD para sensores para registrar y administrar dispositivos IoT.      | 8            |
+| 2 | TS-02         | API telemetría             |      Como desarrollador, quiero enviar datos de sensores para que el sistema procese la información en tiempo real.       | 8            |
+| 3 | TS-03         | API detección de anomalías |      Como desarrollador, quiero procesar datos para identificar valores fuera de rango.       | 8            |
+| 4 | TS-05         | API notificaciones         |    Como desarrollador, quiero integrar servicios externos para enviar notificaciones al usuario.         | 8            |
+| 5 | TS-04         | API gestión de alertas     |    Como desarrollador, quiero endpoints para crear y consultar alertas generadas por el sistema.         | 5            |
+| 6 | TS-06         | API usuarios               |  Como desarrollador, quiero gestionar usuarios mediante endpoints para autenticación y control de acceso.           | 5            |
+
+
 # Capítulo IV: Product Design
    
 ## 4.1. Style Guidelines.
