@@ -868,6 +868,10 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ## 4.6. Domain-Driven Software Architecture.
     
 ### 4.6.1. Design-Level EventStorming.
+
+<div align="center">
+  <img alt="Design-Level_EventStorming" src="assets/Design-Level_EventStorming.svg" />
+</div>
     
 ### 4.6.2. Software Architecture Context Diagram.
     
