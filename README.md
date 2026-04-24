@@ -341,6 +341,29 @@ Cada persona refleja un tipo de usuario real, permitiendo comprender mejor sus o
 
 ### 2.3.2. User Task Matrix.
 
+En esta sección se identifican las principales actividades que realizan los usuarios en su día a día para mantener la seguridad en sus entornos, tanto en el hogar como en espacios de trabajo.
+
+Estas tareas reflejan cómo gestionan actualmente los riesgos asociados al uso de gas, sin el apoyo de una solución digital como SmartGas.
+
+
+| Tareas / User Persona                                | Helí Rodríguez (Frec.) | Helí Rodríguez (Imp.) | María López (Frec.) | María López (Imp.) |
+| ---------------------------------------------------- | ---------------------- | --------------------- | ------------------- | ------------------ |
+| Supervisar equipos de cocina                         | Alta                   | Alta                  | Media               | Alta               |
+| Revisar instalaciones de gas                         | Media                  | Alta                  | Baja                | Alta               |
+| Detectar olores o señales de fuga                    | Media                  | Alta                  | Baja                | Alta               |
+| Verificar que todo esté apagado                      | Alta                   | Alta                  | Alta                | Alta               |
+| Actuar ante emergencias                              | Baja                   | Alta                  | Baja                | Alta               |
+| Realizar mantenimiento preventivo                    | Media                  | Alta                  | Baja                | Media              |
+| Depender de revisiones manuales                      | Alta                   | Alta                  | Alta                | Alta               |
+| Usar el celular para comunicarse                     | Alta                   | Media                 | Alta                | Media              |
+| Preocuparse por la seguridad cuando no está presente | Alta                   | Alta                  | Alta                | Alta               |
+
+Se observa que ambos usuarios dependen en gran medida de revisiones manuales para garantizar la seguridad, lo que puede generar descuidos o respuestas tardías ante un problema.
+
+Helí tiene una carga operativa más alta y necesita control constante en un entorno exigente, mientras que María busca principalmente tranquilidad y prevención en su hogar.
+
+Esto refuerza la necesidad de una solución que permita monitoreo remoto y alertas oportunas, adaptándose tanto a un uso profesional como doméstico.
+
 ### 2.3.3. User Journey Mapping.
 
 ### 2.3.4. Empathy Mapping.
