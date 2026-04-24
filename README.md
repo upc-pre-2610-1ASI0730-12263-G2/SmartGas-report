@@ -483,10 +483,117 @@ A continuación, se presentan los principales términos definidos:
   
 ## 3.1. User Stories.
    
+| Epic / Story ID | Título| Descripción| Criterios de Aceptación| Relacionado con (Epic ID) |
+| --------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| EP01 | Gestión de sensores| Como usuario, necesito registrar y administrar mis sensores para monitorear mi entorno de forma segura. |   |   |
+| US-01 | Registrar sensor | Como usuario, quiero registrar un sensor en el sistema para comenzar a monitorear mi entorno.   | Escenario 01: Given que el usuario accede al módulo de sensores, When ingresa los datos del sensor, Then el sistema valida y registra el sensor correctamente.| EP01  |
+| US-02 | Asociar sensor a ubicación| Como usuario, quiero vincular un sensor a mi vivienda o local para identificar su ubicación. | Escenario 01: Given que el usuario tiene sensores registrados, When selecciona una ubicación, Then el sistema asocia el sensor correctamente.| EP01 |
+| US-03 | Configurar parámetros del sensor | Como usuario, quiero configurar los límites de mi sensor para adaptarlo a mis necesidades. | Escenario 01: Given que el sensor está registrado, When el usuario modifica los parámetros, Then el sistema guarda los cambios validando los rangos permitidos. | EP01 |
+| US-04  | Visualizar sensores registrados  | Como usuario, quiero ver mis sensores registrados para gestionar su estado.| Escenario 01: Given que el usuario accede al módulo de sensores, When ingresa a la vista principal, Then el sistema muestra la lista de sensores con su estado actual. | EP01  |
+| EP02 | Monitoreo en tiempo real | Como usuario, necesito visualizar el estado de mis sensores en tiempo real para detectar posibles riesgos de forma inmediata. | | |
+| US-05 | Visualizar estado de sensores en tiempo real | Como usuario, quiero ver los niveles de gas y temperatura en tiempo real para conocer el estado de mi entorno. | Escenario 01: Given que el usuario ha iniciado sesión, When accede al dashboard, Then el sistema muestra los valores actualizados de los sensores en tiempo real.   | EP02 |
+| US-06 | Actualización automática de datos | Como usuario, quiero que los datos se actualicen automáticamente para no tener que recargar la página. | Escenario 01: Given que el usuario está visualizando el dashboard, When los sensores envían nuevos datos, Then el sistema actualiza la información automáticamente. | EP02 |
+| US-07 | Visualizar estado general de seguridad | Como usuario, quiero ver un indicador general de seguridad para entender rápidamente si hay riesgo.| Escenario 01: Given que existen datos de sensores, When el usuario accede al dashboard, Then el sistema muestra un estado general (seguro, alerta, peligro).| EP02 |
+| US-08  | Identificar sensor con anomalía | Como usuario, quiero identificar qué sensor presenta un problema para tomar acción rápida. | Escenario 01: Given que existe una anomalía, When el usuario revisa el dashboard, Then el sistema resalta el sensor afectado. | EP02 |
+| EP03 | Detección de anomalías | Como sistema, necesito identificar automáticamente valores fuera de lo normal para prevenir riesgos en el entorno. | | |
+| US-09 | Detectar niveles peligrosos de gas | Como sistema, quiero identificar niveles de gas fuera del rango seguro para prevenir fugas. | Escenario 01: Given que el sensor envía datos, When el nivel de gas supera el límite establecido, Then el sistema registra una anomalía.| EP03 |
+| US-10 | Detectar temperaturas anómalas | Como sistema, quiero identificar temperaturas fuera de lo normal para evitar riesgos de incendio. | Escenario 01: Given que el sensor envía datos, When la temperatura excede el rango permitido, Then el sistema detecta una anomalía. | EP03  |
+| US-11 | Validar datos del sensor | Como sistema, quiero validar los datos recibidos para evitar errores en la detección.  | Escenario 01: Given que se reciben datos del sensor, When los valores son inconsistentes, Then el sistema descarta o marca los datos como inválidos. | EP03 |
+| US-12 | Generar evento de anomalía | Como sistema, quiero registrar cada anomalía detectada para su posterior gestión.| Escenario 01: Given que se detecta una anomalía, When se confirma el evento, Then el sistema lo registra en el historial. | EP03 | 
+| EP04 | Gestión de alertas | Como sistema, necesito generar y gestionar alertas para notificar situaciones de riesgo de manera oportuna. |  |  |
+| US-13  | Generar alerta automática   | Como sistema, quiero generar una alerta cuando se detecta una anomalía para iniciar el proceso de notificación. | Escenario 01: Given que se detecta una anomalía, When se supera el umbral establecido, Then el sistema genera automáticamente una alerta. | EP04 |
+| US-14 | Clasificar nivel de alerta  | Como sistema, quiero clasificar las alertas según su nivel de riesgo para priorizar la atención. | Escenario 01: Given que se genera una alerta, When se evalúan los valores detectados, Then el sistema asigna un nivel (bajo, medio, alto). | EP04 |
+| US-15| Visualizar alertas activas  | Como usuario, quiero ver las alertas activas para conocer los riesgos actuales. | Escenario 01: Given que existen alertas activas, When el usuario accede al sistema, Then el sistema muestra la lista de alertas con su estado y nivel de riesgo. | EP04 |
+| US-16 | Marcar alerta como atendida | Como usuario, quiero marcar una alerta como atendida para llevar control de las incidencias. | Escenario 01: Given que el usuario revisa una alerta, When selecciona la opción de atender, Then el sistema cambia su estado a "resuelta". | EP04 |
+| EP05 | Notificaciones | Como sistema, necesito enviar notificaciones al usuario para informarle sobre situaciones de riesgo en tiempo real. |  | |
+| US-17 | Enviar notificación en tiempo real  | Como sistema, quiero enviar notificaciones inmediatas cuando ocurre una alerta para informar al usuario. | Escenario 01: Given que se genera una alerta, When el sistema procesa la información, Then se envía una notificación en tiempo real al usuario. | EP05 |
+| US-18  | Notificar por múltiples canales | Como usuario, quiero recibir notificaciones por diferentes medios para asegurarme de enterarme del riesgo. | Escenario 01: Given que existe una alerta activa, When se envía la notificación, Then el sistema utiliza canales como web, SMS o push. | EP05 |
+| US-19  | Visualizar notificaciones recibidas | Como usuario, quiero ver las notificaciones recibidas para revisar los eventos recientes. | Escenario 01: Given que el usuario accede al sistema, When ingresa a la sección de notificaciones, Then el sistema muestra el historial de notificaciones. | EP05 |
+| US-20 | Confirmar recepción de alerta | Como usuario, quiero confirmar que recibí una alerta para asegurar el seguimiento del evento. | Escenario 01: Given que el usuario recibe una notificación, When interactúa con ella, Then el sistema registra la confirmación de lectura.| EP05| 
+| EP06 | Dashboard y visualización | Como usuario, necesito visualizar la información de seguridad de forma clara para entender rápidamente el estado de mi entorno. |   |  |
+| US-21 | Visualizar dashboard principal  | Como usuario, quiero ver un panel principal con el estado general de seguridad para tener una visión rápida. | Escenario 01: Given que el usuario ha iniciado sesión, When accede al sistema, Then el dashboard muestra el estado general (seguro, alerta, peligro). | EP06 |
+| US-22 | Visualizar gráficos de sensores | Como usuario, quiero ver gráficos de gas y temperatura para analizar el comportamiento de los datos. | Escenario 01: Given que existen datos históricos, When el usuario accede a la sección de gráficos, Then el sistema muestra visualizaciones claras de los valores. | EP06 |
+| US-23 | Filtrar información por sensor  | Como usuario, quiero filtrar los datos por sensor para analizar información específica. | Escenario 01: Given que el usuario visualiza datos, When aplica un filtro por sensor, Then el sistema muestra únicamente la información seleccionada. | EP06 |
+| US-24 | Visualizar estado por ubicación | Como usuario, quiero ver el estado de cada área o ubicación para identificar riesgos específicos. | Escenario 01: Given que el usuario tiene múltiples sensores, When accede al dashboard, Then el sistema muestra el estado por cada ubicación.| EP06 |
+| EP07 | Historial y reportes  | Como usuario, necesito acceder al historial de eventos para analizar incidentes y tomar mejores decisiones. |  |   |
+| US-25 | Registrar historial de incidencias | Como sistema, quiero guardar cada evento detectado para mantener un registro de seguridad. | Escenario 01: Given que ocurre una anomalía o alerta, When el evento es confirmado, Then el sistema lo almacena en el historial con fecha y hora.  | EP07  |
+| US-26  | Consultar historial de eventos | Como usuario, quiero revisar eventos pasados para analizar lo ocurrido. | Escenario 01: Given que el usuario accede al módulo de historial, When solicita la información, Then el sistema muestra la lista de eventos registrados.   | EP07  |
+| US-27 | Filtrar historial por fecha | Como usuario, quiero filtrar el historial por rango de fechas para facilitar el análisis. | Escenario 01: Given que existen múltiples registros, When el usuario aplica un filtro de fechas, Then el sistema muestra los eventos correspondientes. | EP07 |
+| US-28 | Generar reporte de seguridad | Como usuario, quiero generar reportes para evaluar el estado de seguridad de mi entorno. | Escenario 01: Given que el usuario solicita un reporte, When selecciona un rango de fechas, Then el sistema genera un informe con los eventos registrados. | EP07  |
+| EP08 | Gestión de usuarios | Como usuario, necesito gestionar mi cuenta para acceder y controlar mi información dentro del sistema. | |  |
+| US-29 | Registrarse en el sistema | Como usuario, quiero crear una cuenta para acceder a la plataforma.   | Escenario 01: Given que el usuario ingresa sus datos, When completa el formulario de registro, Then el sistema crea la cuenta correctamente. | EP08  |
+| US-30 | Iniciar sesión | Como usuario, quiero iniciar sesión para acceder a mi información.| Escenario 01: Given que el usuario tiene una cuenta registrada, When ingresa sus credenciales, Then el sistema valida y permite el acceso.| EP08|
+| US-31  | Gestionar perfil de usuario | Como usuario, quiero editar mi información personal para mantener mis datos actualizados. | Escenario 01: Given que el usuario accede a su perfil, When modifica sus datos, Then el sistema guarda los cambios correctamente. | EP08 |
+| US-32 | Cerrar sesión | Como usuario, quiero cerrar sesión para proteger mi cuenta. | Escenario 01: Given que el usuario está autenticado, When selecciona cerrar sesión, Then el sistema finaliza la sesión correctamente.  | EP08 |
+| EP09 | Seguridad y configuración | Como usuario, necesito configurar parámetros de seguridad para adaptar el sistema a mis necesidades y prevenir riesgos. | |  |
+| US-33 | Configurar límites de seguridad | Como usuario, quiero definir los límites de gas y temperatura para personalizar las alertas.                            | Escenario 01: Given que el usuario accede a la configuración, When establece valores límite, Then el sistema guarda los parámetros y los aplica en la detección de anomalías. | EP09 |
+| US-34 | Configurar preferencias de notificación | Como usuario, quiero elegir cómo recibir notificaciones para adaptarlas a mi disponibilidad. | Escenario 01: Given que el usuario accede a configuración, When selecciona los canales de notificación, Then el sistema guarda y aplica las preferencias. | EP09 |
+| EP-API | API RESTful  | Como desarrollador, necesito exponer servicios mediante endpoints para integrar sensores, usuarios y alertas con la plataforma. |  |  |
+| TS-01  | API para gestión de sensores | Como desarrollador, quiero endpoints CRUD para sensores para registrar y administrar dispositivos IoT. | Escenario 01 (Crear): Given que se envían datos válidos del sensor, When se realiza POST a /api/sensors, Then la API registra el sensor y devuelve código 201.<br>Escenario 02 (Consultar): Given que se solicita la lista de sensores, When se realiza GET, Then la API devuelve los sensores registrados. | EP-API  |
+| TS-02  | API para telemetría  | Como desarrollador, quiero enviar datos de sensores para que el sistema procese la información en tiempo real. | Escenario 01 (Registro): Given que el sensor envía datos, When se realiza POST a /api/telemetry, Then la API guarda los datos y los envía al sistema de procesamiento.<br>Escenario 02 (Validación): Given que los datos son inválidos, When se procesan, Then la API responde con error 400.| EP-API  |
+| TS-03 | API para detección de anomalías | Como desarrollador, quiero procesar datos para identificar valores fuera de rango. | Escenario 01: Given que se reciben datos del sensor, When se evalúan los límites, Then el sistema detecta anomalías y genera un evento.    | EP-API |
+| TS-04 | API para gestión de alertas | Como desarrollador, quiero endpoints para crear y consultar alertas generadas por el sistema. | Escenario 01 (Crear): Given que existe una anomalía, When se procesa, Then la API crea una alerta.<br>Escenario 02 (Consultar): Given que se solicita la lista de alertas, When se realiza GET, Then la API devuelve las alertas registradas. | EP-API |
+| TS-05 | API para notificaciones | Como desarrollador, quiero integrar servicios externos para enviar notificaciones al usuario. | Escenario 01: Given que se genera una alerta, When se activa el servicio de notificación, Then la API envía mensajes mediante servicios externos (SMS/Push).   | EP-API |
+| TS-06 | API para usuarios | Como desarrollador, quiero gestionar usuarios mediante endpoints para autenticación y control de acceso.  | Escenario 01 (Registro): Given que se envían datos válidos, When se realiza POST a /api/users, Then la API crea el usuario.<br>Escenario 02 (Login): Given que se envían credenciales, When se valida, Then la API permite acceso y devuelve un token. | EP-API |
+
+   
+
 ## 3.2. Impact Mapping.
     
+**Segmento Objetivo 1: Familias y Propietarios de Viviendas**
+
+![ImpactMap_1.png](assets/ImpactMap_1.png)
+
+**Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
+
+![ImpactMap_2.png](assets/ImpactMap_2.png)
+
 ## 3.3. Product Backlog.
     
+| #  | User Story ID | Título                                  | Descripción | Story Points |
+| -- | ------------- | --------------------------------------- | ----------- | ------------ |
+| 1  | US-05         | Visualizar estado en tiempo real        |     Como usuario, quiero ver los niveles de gas y temperatura en tiempo real para conocer el estado de mi entorno.        | 8            |
+| 2  | US-06         | Actualización automática de datos       |   Como usuario, quiero que los datos se actualicen automáticamente para no tener que recargar la página.          | 8            |
+| 3  | US-09         | Detectar niveles peligrosos de gas      |   Como sistema, quiero identificar niveles de gas fuera del rango seguro para prevenir fugas.          | 8            |
+| 4  | US-10         | Detectar temperaturas anómalas          |       Como sistema, quiero identificar temperaturas fuera de lo normal para evitar riesgos de incendio.      | 8            |
+| 5  | US-17         | Enviar notificación en tiempo real      |       Como sistema, quiero enviar notificaciones inmediatas cuando ocurre una alerta para informar al usuario.      | 8            |
+| 6  | US-18         | Notificar por múltiples canales         |      Como usuario, quiero recibir notificaciones por diferentes medios para asegurarme de enterarme del riesgo.       | 8            |
+| 7  | US-22         | Visualizar gráficos de sensores         |       Como usuario, quiero ver gráficos de gas y temperatura para analizar el comportamiento de los datos.      | 8            |
+| 8  | US-28         | Generar reporte de seguridad            |       Como usuario, quiero generar reportes para evaluar el estado de seguridad de mi entorno.      | 8            |
+| 9  | US-01         | Registrar sensor                        |       Como usuario, quiero registrar un sensor en el sistema para comenzar a monitorear mi entorno.      | 5            |
+| 10 | US-03         | Configurar parámetros del sensor        |     Como usuario, quiero configurar los límites de mi sensor para adaptarlo a mis necesidades.        | 5            |
+| 11 | US-08         | Identificar sensor con anomalía         |      Como usuario, quiero identificar qué sensor presenta un problema para tomar acción rápida.       | 5            |
+| 12 | US-11         | Validar datos del sensor                |      Como sistema, quiero validar los datos recibidos para evitar errores en la detección.       | 5            |
+| 13 | US-12         | Generar evento de anomalía              |       Como sistema, quiero registrar cada anomalía detectada para su posterior gestión.      | 5            |
+| 14 | US-13         | Generar alerta automática               |       Como sistema, quiero generar una alerta cuando se detecta una anomalía para iniciar el proceso de notificación.      | 5            |
+| 15 | US-21         | Visualizar dashboard principal          |       Como usuario, quiero ver un panel principal con el estado general de seguridad para tener una visión rápida.      | 5            |
+| 16 | US-23         | Filtrar información por sensor          |       Como usuario, quiero filtrar los datos por sensor para analizar información específica.      | 5            |
+| 17 | US-24         | Visualizar estado por ubicación         |      Como usuario, quiero ver el estado de cada área o ubicación para identificar riesgos específicos.       | 5            |
+| 18 | US-25         | Registrar historial de incidencias      |       Como sistema, quiero guardar cada evento detectado para mantener un registro de seguridad.      | 5            |
+| 19 | US-29         | Registrarse en el sistema               |      Como usuario, quiero crear una cuenta para acceder a la plataforma.       | 5            |
+| 20 | US-30         | Iniciar sesión                          |       Como usuario, quiero iniciar sesión para acceder a mi información.      | 5            |
+| 21 | US-33         | Configurar límites de seguridad         |      Como usuario, necesito configurar parámetros de seguridad para adaptar el sistema a mis necesidades y prevenir riesgos.       | 5            |
+| 22 | US-02         | Asociar sensor a ubicación              |       Como usuario, quiero vincular un sensor a mi vivienda o local para identificar su ubicación.      | 3            |
+| 23 | US-04         | Visualizar sensores registrados         |     Como usuario, quiero ver mis sensores registrados para gestionar su estado.        | 3            |
+| 24 | US-07         | Visualizar estado general de seguridad  |       Como usuario, quiero ver un indicador general de seguridad para entender rápidamente si hay riesgo.      | 3            |
+| 25 | US-14         | Clasificar nivel de alerta              |        Como sistema, quiero clasificar las alertas según su nivel de riesgo para priorizar la atención.     | 3            |
+| 26 | US-15         | Visualizar alertas activas              |       Como usuario, quiero ver las alertas activas para conocer los riesgos actuales.      | 3            |
+| 27 | US-19         | Visualizar notificaciones               |       Como usuario, quiero ver las notificaciones recibidas para revisar los eventos recientes.      | 3            |
+| 28 | US-26         | Consultar historial de eventos          |      Como usuario, quiero revisar eventos pasados para analizar lo ocurrido.       | 3            |
+| 29 | US-27         | Filtrar historial por fecha             |       Como usuario, quiero filtrar el historial por rango de fechas para facilitar el análisis.      | 3            |
+| 30 | US-31         | Gestionar perfil de usuario             |        Como usuario, quiero editar mi información personal para mantener mis datos actualizados.     | 3            |
+| 31 | US-34         | Configurar preferencias de notificación |      Como usuario, quiero elegir cómo recibir notificaciones para adaptarlas a mi disponibilidad.       | 3            |
+| 32 | US-16         | Marcar alerta como atendida             |      Como usuario, quiero marcar una alerta como atendida para llevar control de las incidencias.       | 2            |
+| 33 | US-20         | Confirmar recepción de alerta           |       Como usuario, quiero confirmar que recibí una alerta para asegurar el seguimiento del evento.      | 2            |
+| 34 | US-32         | Cerrar sesión                           |       Como usuario, quiero cerrar sesión para proteger mi cuenta.      | 1          |
+| 1 | TS-01         | API gestión de sensores    |       Como desarrollador, quiero endpoints CRUD para sensores para registrar y administrar dispositivos IoT.      | 8            |
+| 2 | TS-02         | API telemetría             |      Como desarrollador, quiero enviar datos de sensores para que el sistema procese la información en tiempo real.       | 8            |
+| 3 | TS-03         | API detección de anomalías |      Como desarrollador, quiero procesar datos para identificar valores fuera de rango.       | 8            |
+| 4 | TS-05         | API notificaciones         |    Como desarrollador, quiero integrar servicios externos para enviar notificaciones al usuario.         | 8            |
+| 5 | TS-04         | API gestión de alertas     |    Como desarrollador, quiero endpoints para crear y consultar alertas generadas por el sistema.         | 5            |
+| 6 | TS-06         | API usuarios               |  Como desarrollador, quiero gestionar usuarios mediante endpoints para autenticación y control de acceso.           | 5            |
+
+
 # Capítulo IV: Product Design
    
 ## 4.1. Style Guidelines.
