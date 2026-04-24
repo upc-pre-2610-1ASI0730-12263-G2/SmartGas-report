@@ -918,6 +918,11 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ## 4.8. Database Design.
     
 ### 4.8.1. Database Diagrams.
+
+<div align="center">
+  <img alt="DataBaseDiagram" src="assets/DataBaseDiagram.svg" />
+</div>
+
     
 # Capítulo V: Product Implementation, Validation & Deployment
     
