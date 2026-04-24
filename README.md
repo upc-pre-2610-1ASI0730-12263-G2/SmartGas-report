@@ -35,7 +35,7 @@
 # **Registro de Versiones del Informe**
 
 | Versión | Fecha | Autor | Descripción de modificación |
-|-----------|-----------|-----------|-----------|
+|AV1|24/04/2025|FireSecure|Primer avance del proyecto|
 |-----------|-----------|-----------|-----------|
 |-----------|-----------|-----------|-----------|
 
