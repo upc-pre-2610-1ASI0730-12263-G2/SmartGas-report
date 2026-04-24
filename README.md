@@ -886,6 +886,26 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 </div>
     
 ### 4.6.4. Software Architecture Components Diagrams.
+
+<div align="center">
+  <img alt="Component-Diagram-1" src="assets/Component-Diagram-1.svg" />
+</div>
+
+<div align="center">
+  <img alt="Component-Diagram-2" src="assets/Component-Diagram-2.svg" />
+</div>
+
+<div align="center">
+  <img alt="Component-Diagram-3" src="assets/Component-Diagram-3.svg" />
+</div>
+
+<div align="center">
+  <img alt="Component-Diagram-4" src="assets/Component-Diagram-4.svg" />
+</div>
+
+<div align="center">
+  <img alt="Component-Diagram-5" src="assets/Component-Diagram-5.svg" />
+</div>
     
 ## 4.7. Software Object-Oriented Design.
     
