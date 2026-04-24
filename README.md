@@ -395,6 +395,33 @@ El Empathy Map permite profundizar en las necesidades reales de cada segmento, i
 ## 2.4. Big Picture EventStorming.
     
 ## 2.5. Ubiquitous Language.
+
+En este apartado se definen los términos clave que se utilizarán a lo largo del desarrollo del sistema SmartGas. Este conjunto de conceptos permite que tanto el equipo técnico como los usuarios tengan una misma interpretación de los elementos y procesos del sistema.
+
+El uso de este lenguaje común facilita la comprensión del funcionamiento de la plataforma, reduce confusiones y asegura coherencia en el diseño e implementación de la solución.
+
+A continuación, se presentan los principales términos definidos:
+    
+* Telemetría de sensores en tiempo real: Datos continuos enviados por sensores de gas y temperatura hacia el sistema para su monitoreo.
+
+* Sensor IoT: Dispositivo físico instalado en cocinas o ambientes que mide niveles de gas y temperatura.
+
+* Anomalía de gas o temperatura: Valor detectado fuera de los rangos seguros establecidos que puede representar un riesgo.
+
+* Detección de fuga de gas: Identificación automática de niveles peligrosos de gas en el ambiente.
+
+* Alerta de seguridad: Notificación generada por el sistema cuando se detecta una anomalía.
+
+* Notificación en tiempo real: Mensaje enviado al usuario a través de la web o servicios externos de forma inmediata.
+ 
+* Dashboard de monitoreo: Interfaz web donde el usuario visualiza el estado de sus sensores y niveles de seguridad.
+
+* Historial de incidencias: Registro almacenado de eventos relacionados con anomalías o alertas detectadas.
+ 
+* Monitoreo remoto: Capacidad de supervisar el estado del entorno desde cualquier dispositivo con acceso a internet.
+ 
+* Gestión de dispositivos: Proceso de registrar, configurar y asociar sensores a usuarios o ubicaciones.
+
     
 # Capítulo III: Requirements Specification
   
