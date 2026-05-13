@@ -767,6 +767,190 @@ Para una mejor comprensión de la funcionalidad implementada, se ha preparado un
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
+## Relación de Endpoints y Documentación OpenAPI
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI relacionados con el alcance del Sprint 2. La sección inicia con una introducción que resume los logros relacionados con la documentación de Web Services para este Sprint.
+
+Durante el Sprint 2, el equipo se enfocó exclusivamente en el desarrollo del frontend de las aplicaciones web. Este sprint corresponde al TP1 (Stage Review), que tiene como objetivo principal la implementación y despliegue de las Frontend Web Applications. Los Web Services (backend) serán implementados y documentados en el Sprint 3 (TB2), por lo que en este sprint no se realizó trabajo de implementación de servicios web.
+
+---
+
+## Estado de la Documentación en Sprint 2
+
+Los Web Services aún no han sido implementados, ya que el Sprint 2 se enfoca únicamente en el desarrollo del frontend. La documentación de servicios web con OpenAPI/Swagger se realizará en el Sprint 3 cuando se implementen los endpoints del backend.
+
+Por lo tanto, esta sección documenta que los servicios web están planificados pero aún no implementados.
+
+---
+
+## Enfoque del Sprint 2: Frontend Web Applications
+
+El Sprint 2 se centra en el desarrollo del frontend, por lo que no se realizó trabajo de implementación de servicios web. Sin embargo, durante el desarrollo del frontend se utilizaron datos mock que simulan las respuestas de los servicios web que serán implementados en el Sprint 3.
+
+Esto permitió:
+
+- Validar la estructura de datos esperada desde el frontend.
+- Definir los contratos de API que se implementarán en el Sprint 3.
+- Desarrollar los servicios API del frontend (capa Infrastructure) que se conectarán al backend.
+
+---
+
+## Repositorio de Frontend
+
+- **Repositorio Frontend:** [SmartGas](https://smartgas-app-web-v1.web.app/login)
+- **Estado:** Implementado y funcional con datos mock.
+- **Framework:** Vue.js 3, Pinia, Vue Router.
+- **Arquitectura:** Clean Architecture con capas de Infrastructure que preparan la integración con servicios web.
+
+#### 1. User Management / IAM
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/accounts` | GET | `GET /accounts?email={email}&password={password}` | Query: email, password | Implementado |
+| `/accounts` | GET | `GET /accounts?email={email}` | Query: email | Implementado |
+| `/accounts` | POST | `POST /accounts` | Body: account data `(email, password, role, planId, status)` | Implementado |
+| `/accounts/{id}` | PATCH | `PATCH /accounts/{id}` | Path: id, Body: datos de cuenta actualizados | Implementado |
+| `/profiles` | GET | `GET /profiles?accountId={accountId}` | Query: accountId | Implementado |
+| `/profiles` | POST | `POST /profiles` | Body: profile data `(accountId, fullName, businessName, phone, district, planId)` | Implementado |
+| `/profiles/{id}` | PATCH | `PATCH /profiles/{id}` | Path: id, Body: datos de perfil actualizados | Implementado |
+| `/settings` | GET | `GET /settings?accountId={accountId}` | Query: accountId | Implementado |
+| `/settings` | POST | `POST /settings` | Body: settings data `(language, darkMode, notifications, thresholds)` | Implementado |
+| `/settings/{id}` | PATCH | `PATCH /settings/{id}` | Path: id, Body: preferencias actualizadas | Implementado |
+| `/emergencyContacts` | GET | `GET /emergencyContacts?accountId={accountId}` | Query: accountId | Implementado |
+| `/emergencyContacts` | POST | `POST /emergencyContacts` | Body: emergency contact data | Implementado |
+| `/emergencyContacts/{id}` | PATCH | `PATCH /emergencyContacts/{id}` | Path: id, Body: datos del contacto actualizados | Implementado |
+| `/accountActivities` | GET | `GET /accountActivities?accountId={accountId}` | Query: accountId | Implementado |
+| `/accountActivities` | POST | `POST /accountActivities` | Body: activity data `(accountId, type, description, createdAt)` | Implementado |
+
+---
+
+#### 2. Kitchen Monitoring
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/zones` | GET | `GET /zones?accountId={accountId}` | Query: accountId | Implementado |
+| `/zones/{id}` | GET | `GET /zones/{id}` | Path: id | Implementado |
+| `/zones` | POST | `POST /zones` | Body: zone data `(accountId, name, sensitivity, status, gasLevel, temperature)` | Implementado |
+| `/zones/{id}` | PATCH | `PATCH /zones/{id}` | Path: id, Body: datos de zona actualizados | Implementado |
+| `/sensors` | GET | `GET /sensors?accountId={accountId}` | Query: accountId | Implementado |
+| `/sensors` | GET | `GET /sensors?accountId={accountId}&code={code}` | Query: accountId, code | Implementado |
+| `/sensors/{id}` | GET | `GET /sensors/{id}` | Path: id | Implementado |
+| `/sensors` | POST | `POST /sensors` | Body: sensor data `(accountId, zoneId, code, name, type, status, battery)` | Implementado |
+| `/sensors/{id}` | PATCH | `PATCH /sensors/{id}` | Path: id, Body: datos de sensor actualizados | Implementado |
+| `/sensorReadings` | GET | `GET /sensorReadings?accountId={accountId}` | Query: accountId | Implementado |
+| `/sensorReadings` | POST | `POST /sensorReadings` | Body: reading data `(accountId, sensorId, zoneId, gasLevel, temperature, createdAt)` | Implementado |
+| `/sensorReadings/{id}` | PATCH | `PATCH /sensorReadings/{id}` | Path: id, Body: datos de lectura actualizados | Implementado |
+
+---
+
+#### 3. Incident Detection
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/incidents` | GET | `GET /incidents?accountId={accountId}` | Query: accountId | Implementado |
+| `/incidents` | GET | `GET /incidents?accountId={accountId}&zoneId={zoneId}` | Query: accountId, zoneId | Implementado |
+| `/incidents/{id}` | GET | `GET /incidents/{id}` | Path: id | Implementado |
+| `/incidents` | POST | `POST /incidents` | Body: incident data `(accountId, zoneId, sensorId, type, severity, status, detectedAt)` | Implementado |
+| `/incidents/{id}` | PATCH | `PATCH /incidents/{id}` | Path: id, Body: estado, nota, reviewedAt o resolvedAt | Implementado |
+| `/alerts` | GET | `GET /alerts?accountId={accountId}` | Query: accountId | Implementado |
+| `/alerts` | GET | `GET /alerts?incidentId={incidentId}` | Query: incidentId | Implementado |
+| `/alerts` | POST | `POST /alerts` | Body: alert data `(accountId, incidentId, message, status, createdAt)` | Implementado |
+| `/alerts/{id}` | PATCH | `PATCH /alerts/{id}` | Path: id, Body: status, resolvedAt | Implementado |
+
+---
+
+#### 4. Incident Prevention & Notification
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/notifications` | GET | `GET /notifications?accountId={accountId}` | Query: accountId | Implementado |
+| `/notifications` | POST | `POST /notifications` | Body: notification data `(accountId, incidentId, message, channel, read, confirmed, createdAt)` | Implementado |
+| `/notifications/{id}` | PATCH | `PATCH /notifications/{id}` | Path: id, Body: read, confirmed, confirmedAt | Implementado |
+
+---
+
+#### 5. Post-Incident Procedures / Reports
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/incidents` | GET | `GET /incidents?accountId={accountId}` | Query: accountId | Implementado |
+| `/alerts` | GET | `GET /alerts?accountId={accountId}` | Query: accountId | Implementado |
+| `/zones` | GET | `GET /zones?accountId={accountId}` | Query: accountId | Implementado |
+| `/incidents/{id}` | PATCH | `PATCH /incidents/{id}` | Path: id, Body: note, status, reviewedAt, resolvedAt | Implementado |
+
+> Nota: El reporte de seguridad se genera en el frontend usando datos obtenidos desde `/incidents`, `/alerts` y `/zones`.  
+> No existe un endpoint físico llamado `/reports`, porque el reporte se construye como vista de análisis dentro de la Web Application.
+
+---
+
+#### 6. Payment Management
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/plans` | GET | `GET /plans` | Sin parámetros | Implementado |
+| `/plans/{id}` | GET | `GET /plans/{id}` | Path: id | Implementado |
+| `/subscriptions` | GET | `GET /subscriptions?accountId={accountId}` | Query: accountId | Implementado |
+| `/subscriptions` | POST | `POST /subscriptions` | Body: subscription data `(accountId, planId, status, startDate, renewalDate)` | Implementado |
+| `/subscriptions/{id}` | PATCH | `PATCH /subscriptions/{id}` | Path: id, Body: planId, updatedAt | Implementado |
+| `/subscriptionRequests` | GET | `GET /subscriptionRequests?accountId={accountId}` | Query: accountId | Implementado |
+| `/subscriptionRequests` | GET | `GET /subscriptionRequests?accountId={accountId}&status=Pending` | Query: accountId, status | Implementado |
+| `/subscriptionRequests` | POST | `POST /subscriptionRequests` | Body: request data `(accountId, currentPlanId, targetPlanId, status, createdAt)` | Implementado |
+| `/subscriptionRequests/{id}` | PATCH | `PATCH /subscriptionRequests/{id}` | Path: id, Body: status, updatedAt | Implementado |
+
+---
+
+#### 7. Dashboard / Panel General
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+|---|---|---|---|---|
+| `/sensors` | GET | `GET /sensors?accountId={accountId}` | Query: accountId | Implementado |
+| `/zones` | GET | `GET /zones?accountId={accountId}` | Query: accountId | Implementado |
+| `/incidents` | GET | `GET /incidents?accountId={accountId}` | Query: accountId | Implementado |
+| `/alerts` | GET | `GET /alerts?accountId={accountId}` | Query: accountId | Implementado |
+| `/sensorReadings` | GET | `GET /sensorReadings?accountId={accountId}` | Query: accountId | Implementado |
+| `/subscriptions` | GET | `GET /subscriptions?accountId={accountId}` | Query: accountId | Implementado |
+| `/plans` | GET | `GET /plans` | Sin parámetros | Implementado |
+
+> Nota: El dashboard no es un bounded context propio.  
+> Es una vista resumen que consume información de Kitchen Monitoring, Incident Detection, Incident Prevention & Notification y Payment Management.
+
+---
+
+#### Resumen de recursos usados en JSON Server
+
+| Recurso | Uso principal |
+|---|---|
+| `/accounts` | Login, registro y datos principales de cuenta |
+| `/profiles` | Información del perfil del usuario |
+| `/plans` | Planes disponibles |
+| `/subscriptions` | Suscripción activa del usuario |
+| `/subscriptionRequests` | Solicitudes de cambio de plan |
+| `/zones` | Zonas monitoreadas |
+| `/sensors` | Sensores registrados |
+| `/sensorReadings` | Lecturas de sensores |
+| `/incidents` | Incidentes detectados |
+| `/alerts` | Alertas relacionadas con incidentes |
+| `/notifications` | Notificaciones al usuario |
+| `/settings` | Preferencias de seguridad e interfaz |
+| `/emergencyContacts` | Contacto de emergencia |
+| `/accountActivities` | Actividad reciente de la cuenta |
+
+---
+
+# Observación técnica
+
+El proyecto utiliza JSON Server como fake API. Por esa razón, los endpoints siguen una estructura REST simple sobre recursos del archivo `db.json`.
+
+En una API real de backend, estos endpoints podrían agruparse bajo el prefijo `/api`, por ejemplo:
+
+```txt
+/api/accounts
+/api/zones
+/api/sensors
+/api/incidents
+/api/subscriptions
+```
+
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
