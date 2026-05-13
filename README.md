@@ -1156,11 +1156,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, la interfaz reorganiza los elementos en una sola columna y reemplaza el menú horizontal por un ícono de navegación. Los botones se mantienen amplios y visibles, facilitando la interacción táctil. Esta adaptación favorece la accesibilidad y la usabilidad, ya que simplifica la exploración del contenido sin perder consistencia respecto a la versión desktop.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-inicio.png" alt="Mock-up Desktop - Inicio SmartGas" />
+  <img src="assets/Desktop.png" alt="Mock-up Desktop - Inicio SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-inicio.png" alt="Mock-up Mobile - Inicio SmartGas" />
+  <img src="assets/Desktop2.png" alt="Mock-up Mobile - Inicio SmartGas" />
 </p>
 
 #### 2. Dashboard
@@ -1170,11 +1170,7 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, las tarjetas se presentan en disposición vertical, facilitando una lectura progresiva y ordenada. La estructura mantiene la prioridad informativa del dashboard, permitiendo que el usuario consulte rápidamente los datos esenciales del sistema desde un dispositivo de menor tamaño. Esta adaptación mejora la comprensión del contenido y reduce la sobrecarga visual.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-dashboard.png" alt="Mock-up Desktop - Dashboard SmartGas" />
-</p>
-
-<p align="center">
-  <img src="assets/ap-mockup-movil-dashboard.png" alt="Mock-up Mobile - Dashboard SmartGas" />
+  <img src="assets/Desktop3.png" alt="Mock-up Desktop - Dashboard SmartGas" />
 </p>
 
 #### 3. Zones
@@ -1184,12 +1180,9 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** La versión móvil adapta esta misma lógica en un flujo vertical, donde primero se presentan los indicadores generales y luego las zonas individuales. Esta estructura mejora la exploración del contenido en pantallas pequeñas y facilita que el usuario analice cada ambiente por separado, reforzando la claridad de la información y la experiencia responsiva.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-zones.png" alt="Mock-up Desktop - Zones SmartGas" />
+  <img src="assets/Desktop4.png" alt="Mock-up Desktop - Zones SmartGas" />
 </p>
 
-<p align="center">
-  <img src="assets/ap-mockup-movil-zones.png" alt="Mock-up Mobile - Zones SmartGas" />
-</p>
 
 #### 4. Reports
 
@@ -1198,28 +1191,23 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, la información se reorganiza en bloques verticales para preservar la legibilidad y mantener la claridad de los datos. Las visualizaciones y resúmenes se presentan de forma simplificada, permitiendo que el usuario consulte indicadores relevantes desde un dispositivo pequeño sin perder coherencia con la estructura general del sistema.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-reports.png" alt="Mock-up Desktop - Reports SmartGas" />
+  <img src="assets/Desktop5.png" alt="Mock-up Desktop - Reports SmartGas" />
 </p>
+
+## 5. Subscription
+Mock-up Desktop: El módulo de suscripción ofrece una vista clara de los planes de servicio, el ciclo de facturación y las funcionalidades activas de la cuenta. Mediante una interfaz limpia y estructurada, el usuario puede gestionar sus métodos de pago, visualizar el historial de transacciones y escalar los recursos del sistema según sus necesidades. El enfoque de esta sección es la transparencia y el control administrativo, garantizando una gestión sencilla de la escalabilidad del software.
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-reports.png" alt="Mock-up Mobile - Reports SmartGas" />
+  <img src="assets/Desktop6.png" alt="Mock-up Desktop - Reports SmartGas" />
 </p>
 
-#### 5. Members
-
-**Mock-up Desktop:** La pantalla de miembros organiza la información en tarjetas que muestran datos clave de cada usuario, como nombre, rol, correo y zona asignada. Además, incorpora un footer con enlaces institucionales y elementos complementarios. Esta pantalla responde a una organización por **audiencia y gestión de usuarios**, ya que facilita la identificación rápida de cada integrante dentro del sistema y su función correspondiente.
-
-**Mock-up Mobile:** En la adaptación móvil, los datos de los miembros se apilan verticalmente para asegurar una lectura continua y ordenada. La interfaz reduce la densidad de información por bloque, manteniendo etiquetas claras y una disposición simple que favorece la comprensión. Esto fortalece el diseño inclusivo, ya que evita saturar la pantalla y mejora la accesibilidad visual.
+## 6. Devices
+Mock-up Desktop: Este apartado está diseñado para la gestión integral del ecosistema de hardware. Presenta un inventario organizado mediante tarjetas o listados detallados que muestran el estado de conexión, nivel de batería y ubicación de cada sensor o nodo. La estructura facilita una administración centralizada y técnica, permitiendo realizar configuraciones remotas, diagnósticos preventivos y el registro de nuevos dispositivos de manera intuitiva y eficiente.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-members.png" alt="Mock-up Desktop - Members SmartGas" />
+  <img src="assets/Desktop7.png" alt="Mock-up Desktop - Reports SmartGas" />
 </p>
 
-<p align="center">
-  <img src="assets/ap-mockup-movil-members.png" alt="Mock-up Mobile - Members SmartGas" />
-</p>
-
-En conjunto, los mock-ups de **SmartGas** permiten visualizar con mayor precisión la propuesta visual de la aplicación web, integrando la identidad de marca, la estructura funcional y los lineamientos del sistema de diseño definidos para el producto. De este modo, se valida no solo la organización de la información y la navegación entre pantallas, sino también la forma en que los elementos visuales, el diseño responsivo y los criterios de accesibilidad se articulan para construir una experiencia clara, consistente y orientada a la seguridad del usuario.
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
