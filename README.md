@@ -1615,3 +1615,5 @@ SmartGas-report            | feature/chapter-5            | 41a0ef133a4675a28b7d
 ## Bibliografía
 
 ## Anexos
+
+Anexo X: Diagramas de User Flow - (https://www.figma.com/design/jrZJlI8p0wm479vBs69MwC/Sin-t%C3%ADtulo?node-id=0-1&t=qfnHzjxt1msbtS5C-1)
