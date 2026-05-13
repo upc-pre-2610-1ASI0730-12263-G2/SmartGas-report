@@ -543,7 +543,53 @@ Es el footer de landing page se puede ver nuestro logo, el copyright y un aparta
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
     
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-    
+
+Para el despliegue continuo (CI/CD) de este Sprint, se configuró el entorno de GitHub Pages conectado directamente al repositorio de GitHub del Landing Page estático, permitiendo publicaciones automáticas y ultra-rápidas con cada PR fusionado en la rama main.
+
+|Aspecto       |Detalle         |
+|--------------|----------------|
+|Plataforma de despliegue|GitHub Pages|
+|Repositorio|[SmartGuard-Website](https://github.com/upc-pre-2610-1ASI0730-12263-G2/SmartGas-website)|
+|URL Landing Page|https://upc-pre-2610-1asi0730-12263-g2.github.io/SmartGas-website/ |
+|Rama de despliegue|main|
+|Fecha de despliegue|24/04/2026|
+|Estado Actual|	Desplegado y Funcional|
+|Tipo de Sitio|Sitio Web Estático (HTML, CSS, JavaScript)|
+|HTTPS|Habilitado (Certificado SSL automático)|
+
+Proceso de Despliegue Detallado
+El proceso de despliegue se realizó siguiendo los siguientes pasos:
+
+#### Paso 1: Preparación del Repositorio
+
+Se configuró el repositorio del Landing Page en GitHub con la estructura completa de archivos
+Se organizaron los archivos HTML, CSS, JavaScript y assets en carpetas apropiadas
+Se aseguró que todos los archivos estuvieran en la rama main
+#### Paso 2: Configuración de GitHub Pages
+
+Se accedió a la configuración del repositorio en GitHub
+Se habilitó GitHub Pages en la sección "Pages" de la configuración
+Se seleccionó la rama main como fuente del sitio.
+#### Paso 3: Generación de la URL
+
+GitHub Pages generó automáticamente la URL del sitio
+La URL sigue el formato: "https://[organizacion].github.io/[nombre-repositorio]/"
+
+#### Paso 4: Verificación del Despliegue
+
+Se verificó que el sitio estuviera accesible en la URL proporcionada
+Se comprobó que el certificado SSL estuviera activo (HTTPS)
+Se validó que todos los recursos se cargaran correctamente
+#### Paso 5: Validación de Funcionalidad Se realizaron pruebas exhaustivas para verificar que todas las funcionalidades del Landing Page funcionaran correctamente:
+
+Navegación entre secciones: Todos los enlaces del menú funcionan correctamente
+Diseño responsive: El sitio se adapta correctamente a diferentes tamaños de pantalla (mobile, tablet, desktop)
+Carga de imágenes y assets: Todas las imágenes y recursos se cargan sin errores
+Funcionalidad de enlaces y botones: Todos los botones y enlaces son funcionales
+Estilos CSS aplicados: Los estilos se aplican correctamente en todas las secciones
+Rendimiento: El sitio carga rápidamente y sin errores en la consola
+Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 ## Conclusiones
