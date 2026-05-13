@@ -509,6 +509,36 @@ El objetivo de este primer Sprint es doble: por un lado, iniciar la presencia di
 SmartGas-report            | feature/chapter-5            | 41a0ef133a4675a28b7d9ee70aa8d8dff233fb37     | docs: add jira preview                             |                   | 17/04/2026         |
     
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Durante este Sprint, el equipo logró implementar la versión inicial del Landing Page funcional, rápido y estático, incluido el sistema de idiomas.
+
+La sección principal de la Landing page nos presenta el titulo, subtitulo, descripción del producto y llamados a la acción (CTA) los cuales guian al visitante hacia el registro o a la sección de más información.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_1.png)
+
+En está sección el usuario puede ver cuales son nuestros valores como empresa, sobre que trata nuestro producto y con que fin lo estamos desarrollando.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_2.png)
+
+En está sección se muestra de forma detallada que es lo que ofrecemos a los usuarios y las caracteristicas importantes de SmartGas.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_3.png)
+
+En está sección se puede apreciar los planes que ofrecemos y cual es el costo de cada uno de ellos. Los precios son presentados mediante tarjetas visuales que indican las caracteristicas de cada plan.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_4.png)
+
+Está sección nos muestra a todos los integrantes del equipo SmartGuard mediante cards visuales las caules contienen una foto de cada uno de los integrantes acompañada de una pequeña descripción.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_5.png)
+
+En está sección el usuario puede colocar sus datos para contactarse con nosotros.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_6.png)
+
+Es el footer de landing page se puede ver nuestro logo, el copyright y un apartado en donde el usuario puede colocar su correo para registrarlo.
+
+![](./assets/Execution_Evidence_for_Sprint_Review_7.png)
     
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
     
