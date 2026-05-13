@@ -541,6 +541,8 @@ Es el footer de landing page se puede ver nuestro logo, el copyright y un aparta
 ![](./assets/Execution_Evidence_for_Sprint_Review_7.png)
     
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+N/A. Durante el Sprint 1 el esfuerzo de desarrollo se enfocó exclusivamente en la creación del sitio web estático promocional (Landing Page), por lo que aún no se han implementado APIs RESTful ni Endpoints que requieran documentación con Swagger/OpenAPI. Esta documentación se generará a partir del Sprint 3.
     
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
