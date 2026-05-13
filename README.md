@@ -757,6 +757,8 @@ La asignación de líderes se realizó considerando las fortalezas y experiencia
 
 ### 5.2.2.4. Development Evidence for Sprint Review. 
 
+
+
 ### 5.2.2.5. Execution Evidence for Sprint Review. 
 
 En esta sección se presenta un resumen de lo logrado en el Sprint 2 actual, mostrando las principales vistas implementadas y la funcionalidad desarrollada. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas.
@@ -952,6 +954,91 @@ En una API real de backend, estos endpoints podrían agruparse bajo el prefijo `
 ```
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+
+# Despliegue de la Web Application
+
+Para el despliegue de la Web Application de SmartGas se utilizó una estrategia separada entre el frontend y la fake API. El frontend, desarrollado con Vue y Vite, fue desplegado en Firebase Hosting, mientras que el servidor JSON, basado en JSON Server y el archivo `db.json`, fue desplegado en Render. Esta separación permitió que la aplicación pudiera funcionar desde una URL pública sin depender del entorno local del desarrollador.
+
+## Preparación del servidor JSON
+
+En primer lugar, se preparó el servidor JSON para que pudiera ejecutarse correctamente en Render. Para ello, se creó un archivo de configuración llamado `server.cjs`, el cual se encarga de iniciar JSON Server tomando como fuente de datos el archivo `db.json`.
+
+Este servidor fue configurado para utilizar el puerto asignado automáticamente por Render y aceptar conexiones externas, lo que permitió que la fake API quedara disponible públicamente en internet.
+
+## Configuración de producción
+
+Luego, en el archivo `package.json` se agregó un comando específico para producción, llamado `api:render`. Este comando permite que Render ejecute únicamente el servidor JSON, sin levantar el frontend de desarrollo.
+
+Esto fue importante porque el comando local del proyecto inicia tanto Vite como JSON Server, pero en Render solo se necesitaba publicar la API.
+
+## Despliegue en Render
+
+Después de preparar el servidor, el proyecto fue subido a GitLab. GitLab se utilizó como repositorio para que Render pudiera acceder al código del proyecto y realizar el despliegue.
+
+Posteriormente, en Render se creó un nuevo Web Service conectado al repositorio de GitLab. En la configuración del servicio se seleccionó Node como entorno de ejecución, se colocó `npm install` como comando de construcción y `npm run api:render` como comando de inicio.
+
+Con esta configuración, Render instaló las dependencias del proyecto y ejecutó el servidor JSON de manera automática.
+
+## Validación de la fake API
+
+Una vez finalizado el despliegue en Render, se generó una URL pública para la API. Desde esta URL se pudieron consultar los recursos principales del sistema, como:
+
+- `accounts`
+- `plans`
+- `zones`
+- `sensors`
+- `subscriptions`
+- `incidents`
+- `notifications`
+- `settings`
+
+Esto confirmó que la fake API estaba funcionando correctamente fuera del entorno local.
+
+## Conexión entre frontend y API
+
+Después de desplegar la API, se conectó el frontend con la URL pública de Render. Para ello, se configuró Axios para que pudiera usar una URL local durante el desarrollo y una URL de producción durante el despliegue.
+
+En el entorno local, la aplicación consume los datos desde `localhost`, mientras que en producción utiliza la URL generada por Render.
+
+Para lograr esto, se creó el archivo `.env.production` y se colocó allí la variable:
+
+```env
+VITE_API_BASE_URL=https://your-render-url.onrender.com
+```
+
+## Build de producción
+
+Luego se generó la versión final del frontend mediante el proceso de build de Vite. Este proceso creó la carpeta `dist`, que contiene los archivos estáticos listos para producción, como HTML, CSS y JavaScript.
+
+Esta carpeta fue la que posteriormente se publicó en Firebase Hosting.
+
+## Configuración de Firebase Hosting
+
+Para el despliegue del frontend, se inició sesión en Firebase desde la terminal y luego se configuró Firebase Hosting dentro del proyecto.
+
+Durante la configuración se indicó que la carpeta pública sería `dist`, ya que ahí se encuentra la versión compilada de la aplicación.
+
+También se configuró el proyecto como una **Single Page Application (SPA)**, lo cual permite que las rutas internas de Vue Router funcionen correctamente aunque el usuario recargue la página o ingrese directamente a una ruta específica.
+
+## Despliegue final
+
+Finalmente, se ejecutó el despliegue en Firebase Hosting. Como resultado, Firebase generó una URL pública para acceder a la Web Application de SmartGas.
+
+Desde esta URL se validó que:
+
+- La aplicación cargara correctamente.
+- El login funcionara adecuadamente.
+- Se pudieran visualizar y registrar datos.
+- Las solicitudes HTTP ya no apuntaran a `localhost`, sino a la API desplegada en Render.
+
+## Resultado final
+
+En conclusión, el despliegue final quedó organizado de la siguiente manera:
+
+- **Firebase Hosting:** aloja el frontend de SmartGas.
+- **Render:** aloja la fake API construida con JSON Server y `db.json`.
+
+De esta forma, la aplicación puede ser utilizada desde internet y mantiene una separación clara entre la interfaz web y la fuente de datos simulada.
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 
