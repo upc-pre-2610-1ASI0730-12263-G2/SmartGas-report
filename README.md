@@ -592,6 +592,26 @@ Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+![](./assets/Team_Collaboration_Insights_during_Sprint_Portada.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Navigation.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Pricing.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Members.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Footer.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Extra.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Contact.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Characteristics.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_Benefits.png)
+
+![](./assets/Team_Collaboration_Insights_during_Sprint_About-us.png)
+
 ## Conclusiones
 
 ## Bibliografía
