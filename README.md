@@ -982,6 +982,12 @@ El equipo utilizó las siguientes herramientas para facilitar la colaboración y
 
 ## Conclusiones
 
+  - La aplicación de SmartGas seria efectiva para la prevención de accidentes en el hogar
+  - La aplicación de SmartGas seria efectiva para la prevención de accidentes en un entorno comercial
+  - Los entrevistados estan contentos con las caracteristicas de SmartGas
+  - Los Bounded Context realizados nos sirvieron para las divisiones de la app web
+  - Los EndPoins fueron claves para la realización de la app web
+
 ## Bibliografía
 
 ## Anexos
