@@ -759,6 +759,12 @@ La asignación de líderes se realizó considerando las fortalezas y experiencia
 
 ### 5.2.2.5. Execution Evidence for Sprint Review. 
 
+En esta sección se presenta un resumen de lo logrado en el Sprint 2 actual, mostrando las principales vistas implementadas y la funcionalidad desarrollada. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas.
+
+Para una mejor comprensión de la funcionalidad implementada, se ha preparado un video que demuestra la navegación y las principales funcionalidades desarrolladas durante el Sprint 2.
+
+- **URL del video:**  [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411373_upc_edu_pe/IQAUkAcj096SSLc3sJ-zlna-ARi38JolC3zBGlj_T-jjMhg?e=xiV87p&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
