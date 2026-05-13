@@ -632,9 +632,88 @@ Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
 
 ### 5.2.2.1. Sprint Planning 2. 
 
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-05-13 |
+| **Time** | 10:00 AM |
+| **Location** | Virtual (Discord) |
+| **Prepared By** | Cesar Jair Contreras Rojas |
+| **Attendees** | Cesar Jair Contreras Rojas / Gabriel Ferran Espinar Martínez / Briguite Eryka Carhuaz Centeno/ Camila Alizée Otiniano Rosales/ Valeria Alexandra Rojas Gomez|
+| **Sprint n – 1 Review Summary** | During Sprint 1, the team successfully delivered the Landing Page and completed the initial setup of the development environment. |
+| **Sprint n – 1 Retrospective Summary** |The team agreed that communication and task assignment worked efficiently through Discord. However, they identified the need to improve time estimation for user stories and maintain more consistent documentation updates across all modules.  |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** |Deliver the foundational components of the SmartGas platform by designing and deploying a fully functional and responsive web interface that effectively communicates the IoT safety solution's value proposition and facilitates seamless user authentication and real-time alert monitoring. |
+| **Sprint 2 Velocity** | 25 Story Points |
+| **Sum of Story Points** | 25 Story Points |
+
 ### 5.2.2.2. Aspect Leaders and Collaborators. 
 
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 2, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Cesar Jair Contreras Rojas</td>
+    <td>CesarJrCR</td>
+    <td><strong>L</strong></td>
+    <td>C</></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Briguite Eryka Carhuaz Centeno</td>
+    <td>briicarhuaz</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <td>Valeria Alexandra Rojas Gomez</td>
+    <td>ValeriaAler</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  <tr>
+    <td>Espinar Martínez Gabriel Ferran</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Camila Alizée Otiniano Rosales</td>
+    <td>CamilaaAlizee </td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+</table>
+
 ### 5.2.2.3. Sprint Backlog 2. 
+
+
 
 ### 5.2.2.4. Development Evidence for Sprint Review. 
 
@@ -645,6 +724,31 @@ Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presentan capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Applications, Web Services.
+
+Durante el Sprint 2, el equipo trabajó de manera colaborativa utilizando diversas herramientas y metodologías para asegurar la entrega exitosa de las aplicaciones web frontend. La colaboración se caracterizó por una comunicación constante, distribución efectiva de tareas y seguimiento continuo del progreso mediante herramientas de gestión de proyectos y control de versiones. Este sprint se enfocó principalmente en el desarrollo del frontend (Web Applications), con mejoras continuas al Landing Page y preparación para la implementación de servicios web en el Sprint 3.
+
+#### Herramientas de Colaboración Utilizadas
+
+El equipo utilizó las siguientes herramientas para facilitar la colaboración y el trabajo en equipo:
+
+- **GitHub**: Control de versiones distribuido, code reviews mediante Pull Requests, seguimiento de issues y gestión de proyectos
+  - Repositorios principales: SmartGas-webapp, SmartGas-report, SmartGas-website
+  - Uso de GitFlow para gestión de branches
+  - Conventional Commits para mensajes de commit consistentes
+
+- **Jira**: Gestión de tareas y seguimiento del Sprint
+  - Sprint Backlog con User Stories y tareas
+  - Seguimiento de progreso en tiempo real
+  - Gestión de bugs y mejoras
+  - Reportes de velocidad del equipo
+
+- **Figma**: Colaboración en diseño
+  - Revisión de wireframes y mockups
+  - Alineación del desarrollo con el diseño
+  - Feedback visual sobre implementaciones
+
 
 ## Conclusiones
 
