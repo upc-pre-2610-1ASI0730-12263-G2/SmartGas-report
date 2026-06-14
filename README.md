@@ -482,6 +482,8 @@ Cada aspecto cuenta con un líder responsable de la calidad final y colaboradore
 El objetivo de este primer Sprint es doble: por un lado, iniciar la presencia digital de **SmartGas** mediante la codificación y despliegue de la Landing Page; y por otro lado, establecer los cimientos técnicos (base de datos y formatos de telemetría) que permitirán el desarrollo de la aplicación web en los siguientes sprints.
 
 **Board del Sprint 1 (Jira):**
+
+*Figura 73 (JIRA)*
 ![](./assets/79-Collaboration_JIRA.png)
 
 ### Tabla de Control de Estado para el Sprint 1
@@ -528,30 +530,37 @@ Durante este Sprint, el equipo logró implementar la versión inicial del Landin
 
 La sección principal de la Landing page nos presenta el titulo, subtitulo, descripción del producto y llamados a la acción (CTA) los cuales guian al visitante hacia el registro o a la sección de más información.
 
+*Figura 74 (Execution Evidence for Sprint Review 1)*
 ![](./assets/80-Execution_Evidence_for_Sprint_Review_1.png)
 
 En está sección el usuario puede ver cuales son nuestros valores como empresa, sobre que trata nuestro producto y con que fin lo estamos desarrollando.
 
+*Figura 75 (Execution Evidence for Sprint Review 2)*
 ![](./assets/81-Execution_Evidence_for_Sprint_Review_2.png)
 
 En está sección se muestra de forma detallada que es lo que ofrecemos a los usuarios y las caracteristicas importantes de SmartGas.
 
+*Figura 76 (Execution Evidence for Sprint Review 3)*
 ![](./assets/82-Execution_Evidence_for_Sprint_Review_3.png)
 
 En está sección se puede apreciar los planes que ofrecemos y cual es el costo de cada uno de ellos. Los precios son presentados mediante tarjetas visuales que indican las caracteristicas de cada plan.
 
+*Figura 77 (Execution Evidence for Sprint Review 4)*
 ![](./assets/83-Execution_Evidence_for_Sprint_Review_4.png)
 
 Está sección nos muestra a todos los integrantes del equipo SmartGuard mediante cards visuales las caules contienen una foto de cada uno de los integrantes acompañada de una pequeña descripción.
 
+*Figura 78 (Execution Evidence for Sprint Review 5)*
 ![](./assets/84-Execution_Evidence_for_Sprint_Review_5.png)
 
 En está sección el usuario puede colocar sus datos para contactarse con nosotros.
 
+*Figura 79 (Execution Evidence for Sprint Review 6)*
 ![](./assets/85-Execution_Evidence_for_Sprint_Review_6.png)
 
 Es el footer de landing page se puede ver nuestro logo, el copyright y un apartado en donde el usuario puede colocar su correo para registrarlo.
 
+*Figura 80 (Execution Evidence for Sprint Review 7)*
 ![](./assets/86-Execution_Evidence_for_Sprint_Review_7.png)
     
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -608,24 +617,34 @@ Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+*Figura 81 (Team Collaboration Insights during Sprint Portada)*
 ![](./assets/87-Team_Collaboration_Insights_during_Sprint_Portada.png)
 
+*Figura 82 (Team Collaboration Insights during Sprint Navigation)*
 ![](./assets/88-Team_Collaboration_Insights_during_Sprint_Navigation.png)
 
+*Figura 83 (Team Collaboration Insights during Sprint Pricing)*
 ![](./assets/89-Team_Collaboration_Insights_during_Sprint_Pricing.png)
 
+*Figura 84 (Team Collaboration Insights during Sprint Members)*
 ![](./assets/90-Team_Collaboration_Insights_during_Sprint_Members.png)
 
+*Figura 85 (Team Collaboration Insights during Sprint Footer)*
 ![](./assets/91-Team_Collaboration_Insights_during_Sprint_Footer.png)
 
+*Figura 86 (Team Collaboration Insights during Sprint Extra)*
 ![](./assets/92-Team_Collaboration_Insights_during_Sprint_Extra.pngg)
 
+*Figura 87 (Team Collaboration Insights during Sprint Contact)*
 ![](./assets/93-Team_Collaboration_Insights_during_Sprint_Contact.png)
 
+*Figura 88 (Team Collaboration Insights during Sprint Characteristics)*
 ![](./assets/94-Team_Collaboration_Insights_during_Sprint_Characteristics.png)
 
+*Figura 89 (Team Collaboration Insights during Sprint Benefits)*
 ![](./assets/95-Team_Collaboration_Insights_during_Sprint_Benefits.png)
 
+*Figura 90 (Team Collaboration Insights during Sprint About-us)*
 ![](./assets/96-Team_Collaboration_Insights_during_Sprint_About-us.png)
 
 ## 5.2.2. Sprint 2 
