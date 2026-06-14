@@ -248,6 +248,7 @@ Si logramos desarrollar una plataforma web que no solo centralice los datos, sin
 * **Cocinas Domésticas (Familias):** Creemos que las familias necesitan una aplicación web de seguridad intuitiva que les permita monitorear su hogar remotamente, ya que su prioridad es la protección de sus seres queridos sin lidiar con configuraciones técnicas complejas. 
 * **Restaurantes (Administradores):** Creemos que los administradores de restaurantes necesitan una plataforma SaaS que automatice la prevención y centralice la información de múltiples zonas, ya que su prioridad es asegurar la continuidad del negocio y proteger sus activos mediante decisiones basadas en datos en tiempo real.
 ### 1.2.2.4. Lean UX Canvas.
+*Figura 1 (Lean UX Canvas)*
 ![](./assets/01-Lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo.
