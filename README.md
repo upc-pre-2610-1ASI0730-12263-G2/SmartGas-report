@@ -267,7 +267,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 1:
 
-![Entrevista1.png](./assets/entrevista1A.png)
+![Entrevista1.png](./assets/02-entrevista1A.png)
 
 - **Nombres y apellidos:** Saúl Romani
 - **Edad:** 48
@@ -279,7 +279,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 2:
 
-![entrevista2A.png](./assets/entrevista2A.png)
+![entrevista2A.png](./assets/03-entrevista2A.png)
 
 - **Nombres y apellidos:** Sheila Rosales
 - **Edad:** 42 
@@ -291,7 +291,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 3:
 
-![entrevista3A.png](./assets/entrevista3A.png)
+![entrevista3A.png](./assets/04-entrevista3A.png)
 
 - **Nombres y apellidos:** Sonia Rojas
 - **Edad:** 57
@@ -305,7 +305,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 1:
 
-![Entrevista1.png](./assets/entrevista1.png)
+![Entrevista1.png](./assets/05-entrevista1.png)
 
 - **Nombres y apellidos:** Raí Beizaga
 - **Edad:** 20 
@@ -317,7 +317,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 2:
 
-![Entrevista2.png](./assets/entrevista2.png)
+![Entrevista2.png](./assets/06-entrevista2.png)
 
 - **Nombres y apellidos:** Kevin Arnold Izquiero Pardave
 - **Edad:** 31
@@ -334,7 +334,7 @@ Mantener una ventaja competitiva a través de la innovación ágil en el softwar
 
 #### Entrevista 3:
 
-![Entrevista3.png](./assets/entrevista3.png)
+![Entrevista3.png](./assets/07-entrevista3.png)
 
 - **Nombres y apellidos:** Ruben Isaias Carhuaz Pomachagua
 - **Edad:** 49
@@ -397,11 +397,11 @@ Cada persona refleja un tipo de usuario real, permitiendo comprender mejor sus o
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
-![UserPersona_1.png](./assets/UserPersona_1.png)
+![UserPersona_1.png](./assets/08-UserPersona_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
-![UserPersona_2.png](./assets/UserPersona_2.png)
+![UserPersona_2.png](./assets/09-UserPersona_2.png)
 
 ### 2.3.2. User Task Matrix.
 
@@ -436,11 +436,11 @@ El User Journey permite identificar puntos críticos y oportunidades de mejora, 
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
-![UserJourneyMapping_1.png](./assets/UserJourneyMapping_1.png)
+![UserJourneyMapping_1.png](./assets/10-UserJourneyMapping_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
-![UserJourneyMapping_2.png](./assets/UserJourneyMapping_2.png)
+![UserJourneyMapping_2.png](./assets/11-UserJourneyMapping_2.png)
 
 ### 2.3.4. Empathy Mapping.
     
@@ -450,16 +450,16 @@ El Empathy Map permite profundizar en las necesidades reales de cada segmento, i
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
-![EmpathyMap_1.png](./assets/EmpathyMap_1.png)
+![EmpathyMap_1.png](./assets/12-EmpathyMap_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
-![EmpathyMap_2.png](./assets/EmpathyMap_2.png)
+![EmpathyMap_2.png](./assets/13-EmpathyMap_2.png)
 
 ## 2.4. Big Picture EventStorming.
 
 <div align="center">
-  <img alt="BigPicture" src="assets/BigPicture_EventStorming.jpg" />
+  <img alt="BigPicture" src="assets/14-BigPicture_EventStorming.jpg" />
 </div>
     
 ## 2.5. Ubiquitous Language.
