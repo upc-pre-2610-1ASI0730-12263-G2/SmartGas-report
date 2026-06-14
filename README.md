@@ -232,7 +232,7 @@ El nombre **SmartGas** surge de la combinación de “Smart” (inteligencia apl
 El diseño del logotipo refuerza esta identidad: una red de nodos y líneas que dibujan la silueta de una llama, simbolizando la telemetría y los datos en tiempo real. El degradado, que transiciona de un naranja cálido a un azul tecnológico, representa la transformación del peligro latente en un entorno controlado y seguro mediante el software. Elegir una identidad con este significado refuerza nuestra propuesta de valor y nos diferencia de las alarmas locales, permitiendo que el usuario identifique a SmartGas como el núcleo inteligente para la protección de sus entornos.  
 
 <div align="center">
-  <img width="500" alt="Logo SmartGas" src="assets/logo-smartgas.jpeg" />
+  <img width="500" alt="Logo SmartGas" src="assets/17-logo-smartgas.jpeg" />
 </div>
 
 **Tipografía**
@@ -242,7 +242,7 @@ Para **SmartGas** se eligió la tipografía **Koulen** por su estilo moderno, au
 A pesar de su estilo distintivo, esta fuente mantiene una excelente legibilidad en titulares y paneles de control, facilitando la jerarquización de alertas y datos de telemetría en la interfaz web. Esta elección tipográfica genera un impacto visual inmediato que diferencia a **SmartGas** de las soluciones de seguridad tradicionales, asegurando una estética coherente y profesional en entornos digitales basados en arquitecturas en la nube.
 
 <div align="center">
-  <img width="500" height="1116" alt="Branding Tipografia" src="assets/branding-tipografia.png" />
+  <img width="500" height="1116" alt="Branding Tipografia" src="assets/18-branding-tipografia.png" />
 </div>
 
 **Colores**  
@@ -250,7 +250,7 @@ A pesar de su estilo distintivo, esta fuente mantiene una excelente legibilidad 
 Colores Se usará una paleta que refuerce la identidad de SmartGas, transmitiendo tecnología, prevención y seguridad. El azul **(#066CBB)** actúa como el tono principal, representando profesionalismo, confianza y la estabilidad de una arquitectura orientada a servicios. El naranja **(#E6501F)** se integra como un color de acento estratégico, simbolizando la energía, el calor bajo control y la inmediatez de las alertas críticas que procesa el sistema. Como tono de transición, se incorpora un color canela cobrizo **(#C38967)**, el cual actúa como el punto intermedio en el degradado de la marca; este color suaviza la composición y refuerza visualmente la idea de una telemetría fluida y un monitoreo constante de la temperatura. En conjunto, esta paleta construye una experiencia visual coherente y moderna, proyectando a SmartGas como una plataforma innovadora, segura y enfocada en la protección inteligente de entornos culinarios.
 
 <div align="center">
-<img width="502" height="150" alt="Color Palette" src="assets/branding-paleta-colores.png" />
+<img width="502" height="150" alt="Color Palette" src="assets/19-branding-paleta-colores.png" />
 </div>
 
 **Spacing**  
@@ -258,7 +258,7 @@ Colores Se usará una paleta que refuerce la identidad de SmartGas, transmitiend
 En la **Landing Page** y en la aplicación de **SmartGas** se utiliza un espaciado limpio y equilibrado que mejora la legibilidad, evita la sobrecarga visual y facilita la navegación. El uso estratégico de los espacios en blanco organiza el contenido, proporciona descanso visual y guía la atención del usuario hacia la información más relevante, logrando una experiencia clara, ordenada y agradable.  
 
 <div align="center">
-<img width="502" height="150" alt="Branding Spacing" src="assets/branding-spacing.png" />
+<img width="502" height="150" alt="Branding Spacing" src="assets/20-branding-spacing.png" />
 </div>
 
 **Tono de Comunicación y Lenguaje Aplicado**
@@ -273,7 +273,7 @@ En cuanto al lenguaje, **SmartGas** adopta un tono profesional, técnico y direc
 Para **SmartGas**, desarrollaremos una aplicación web distribuida bajo un enfoque *mobile-first* y adaptable a cualquier dispositivo tecnológico, garantizando que el dashboard de monitoreo y las alertas en tiempo real mantengan su integridad visual y funcional sin distorsiones. Para lograrlo, se considerarán las particularidades de hardware de diversos dispositivos, desde smartphones hasta terminales de escritorio en cocinas industriales, asegurando que la telemetría de gas y temperatura esté siempre estructurada de manera jerárquica. Esto ofrece una experiencia consistente, accesible y optimizada, permitiendo que tanto familias como administradores de restaurantes tomen decisiones críticas desde cualquier navegador con una latencia visual mínima.
 
 <div align="center">
-<img width="500" alt="SmartGas Responsive Branding" src="assets/branding-responsive.png"/>
+<img width="500" alt="SmartGas Responsive Branding" src="assets/21-branding-responsive.png"/>
 </div>
 
 **Patrón Z**
@@ -283,7 +283,7 @@ El diseño de la aplicación web y la landing page de **SmartGas** seguirá el *
 Este enfoque asegura que el usuario identifique primero el estado de seguridad global y luego sea conducido naturalmente hacia los controles de automatización, facilitando una navegación eficiente en situaciones de emergencia y mejorando la tasa de respuesta ante alertas preventivas.
 
 <div align="center">
-<img width="500" alt="SmartGas Pattern Z" src="assets/patron-z.jpg" />
+<img width="500" alt="SmartGas Pattern Z" src="assets/22-patron-z.jpg" />
 </div>
     
 ## 4.2. Information Architecture.
@@ -419,7 +419,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Muestra una imagen principal de fondo, un título grande en la parte superior, un subtítulo explicativo debajo y dos botones de acción colocados en la parte baja de la sección.  
 
 <p align="center">
-  <img src="assets/wireframe-portada.png" alt="Wireframe Portada" />
+  <img src="assets/23-wireframe-portada.png" alt="Wireframe Portada" />
 </p>
 
 
@@ -427,21 +427,21 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Presenta un bloque con un título en la parte superior, un párrafo descriptivo al lado izquierdo y una ilustración colocada al lado derecho.  
 
 <p align="center">
-  <img src="assets/wireframe-about-us.png" alt="Wireframe About Us" />
+  <img src="assets/24-wireframe-about-us.png" alt="Wireframe About Us" />
 </p>
 
  3. Beneficios  
 **Wireframe:** Se organiza en tres columnas, cada una con un icono en la parte superior, un título en el medio y una breve explicación en la parte inferior.  
 
 <p align="center">
-  <img src="assets/wireframe-benefits.png" alt="Wireframe Benefits" />
+  <img src="assets/25-wireframe-benefits.png" alt="Wireframe Benefits" />
 </p>
 
  4. Características  
 **Wireframe:** Contiene tres bloques horizontales alineados, cada uno con un icono en la parte superior, seguido de un título y una descripción corta debajo.  
 
 <p align="center">
-  <img src="assets/wireframe-character.png" alt="Wireframe Características" />
+  <img src="assets/26-wireframe-character.png" alt="Wireframe Características" />
 </p>
 
 
@@ -450,7 +450,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Muestra tres tarjetas verticales organizadas en columnas, cada tarjeta incluye el nombre del plan, el precio en la parte superior, una lista breve de beneficios y un botón de selección al final.  
 
 <p align="center">
-  <img src="assets/wireframe-pricing.png" alt="Wireframe Pricing" />
+  <img src="assets/27-wireframe-pricing.png" alt="Wireframe Pricing" />
 </p> 
 
 
@@ -458,7 +458,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Se presenta en una cuadrícula de fotografías, debajo de cada foto se incluye el nombre y el rol de cada integrante del equipo.  
 
 <p align="center">
-  <img src="assets/wireframe-members.png" alt="Wireframe Members" />
+  <img src="assets/28-wireframe-members.png" alt="Wireframe Members" />
 </p>
 
 
@@ -466,7 +466,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Incluye un bloque con un texto llamativo en la parte superior, un campo para ingresar el correo electrónico en el centro y un botón de envío al lado o debajo.  
 
 <p align="center">
-  <img src="assets/wirefrmae-contact.png" alt="Wireframe Contact" />
+  <img src="assets/29-wireframe-contact.png" alt="Wireframe Contact" />
 </p>
 
 
@@ -474,7 +474,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Wireframe:** Está dividido en tres partes: el logo de la marca, una lista de enlaces rápidos y los íconos de redes sociales.  
 
 <p align="center">
-  <img src="assets/wireframe-footer.png" alt="Wireframe Footer" />
+  <img src="assets/30-wireframe-footer.png" alt="Wireframe Footer" />
 </p>
 
     
@@ -484,7 +484,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Utiliza una foto de un técnico especializado inspeccionando tuberías de gas industriales con una tablet. El texto principal dice “Your safety under control, always in real time” y debajo el subheader: "An innovative platform that detects, monitors, and automates emergency responses to gas leaks and fire risks". Incluye dos botones: Demo y Contact us. 
 
 <p align="center">
-  <img src="assets/mockup-portada.png" alt="Mockup Portada" />
+  <img src="assets/31-mockup-portada.png" alt="Mockup Portada" />
 </p>  
 
 
@@ -492,7 +492,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Presenta un párrafo que explica la misión de la empresa acompañado de una ilustración de personas trabajando frente a gráficos en el lado derecho.  
 
 <p align="center">
-  <img src="assets/mockup-about-us.png" alt="Mockup About Us" />
+  <img src="assets/32-mockup-about-us.png" alt="Mockup About Us" />
 </p>  
 
 
@@ -500,7 +500,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Se destacan tres bloques con iconos tecnológicos y los textos: Automated Prevention, Real-time Monitoring e Instant Notifications. Cada bloque explica cómo la plataforma reduce el riesgo humano mediante el uso de IoT y alertas.
 
 <p align="center">
-  <img src="assets/mockup-benefits.png" alt="Mockup Benefits" />
+  <img src="assets/33-mockup-benefits.png" alt="Mockup Benefits" />
 </p>  
 
 
@@ -508,7 +508,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Presenta tres bloques con los títulos: Smart Gas Detection (sensores de precisión), Automatic Shut-off (actuadores de válvulas) y Cloud Telemetry (sincronización en la nube). Cada uno con iconos descriptivos (sensores, engranajes/candados y nubes de datos).
 
 <p align="center">
-  <img src="assets/mockup-character.png" alt="Mockup Características" />
+  <img src="assets/34-mockup-character.png" alt="Mockup Características" />
 </p>  
 
 
@@ -517,7 +517,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Se muestran tres tarjetas con diseño diferenciado. Los planes son *Basic (PEN 30)*, *Professional (PEN 70)* y *Corporate (PEN 100)*. Cada tarjeta incluye beneficios y un botón *Select*.  
 
 <p align="center">
-  <img src="assets/mockup-price.png" alt="Mockup Price" />
+  <img src="assets/35-mockup-price.png" alt="Mockup Price" />
 </p>  
 
 
@@ -526,7 +526,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Presenta cinco fotos de personas con sus nombres y roles: Desarrollador, Programador, Encargado, Analista y Diseñador.  
 
 <p align="center">
-  <img src="assets/mockup-member.png" alt="Mockup Members" />
+  <img src="assets/36-mockup-member.png" alt="Mockup Members" />
 </p>  
 
 
@@ -534,7 +534,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Utiliza un fondo suave con el texto “CONNECT WITH US AND DISCOVER HOW TO ENHANCE YOUR SAFETY PROTOCOLS.”. Incluye un campo para ingresar el correo electrónico y un botón *Send*.  
 
 <p align="center">
-  <img src="assets/mockup-contact.png" alt="Mockup Contact" />
+  <img src="assets/37-mockup-contact.png" alt="Mockup Contact" />
 </p>  
 
 
@@ -543,7 +543,7 @@ El sistema de navegación de **SmartGas** se ha diseñado con el objetivo de gui
 **Mockup:** Muestra el logo oficial de SmartGas, enlaces como *Prices, Support, Terms and Conditions, Privacy Policy*, íconos de redes sociales (Facebook, Twitter, Instagram, YouTube) y la leyenda de copyright 2026.  
 
 <p align="center">
-  <img src="assets/mockup-footer.png" alt="Mockup Footer" />
+  <img src="assets/38-mockup-footer.png" alt="Mockup Footer" />
 </p>  
 
     
@@ -562,11 +562,11 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 **Wireframe Mobile:** Reorganiza el contenido en una sola columna para facilitar la lectura vertical, reemplazando el menú horizontal por un ícono de hamburguesa. Los botones de acción se mantienen en tamaño visible y táctil, favoreciendo la interacción en dispositivos móviles. Esta adaptación demuestra un enfoque **responsive** y mejora la accesibilidad al reducir la sobrecarga visual y simplificar la navegación.
 
 <p align="center">
-  <img src="assets/ap-wireframe-desktop-inicio.png" alt="Wireframe Desktop - Inicio SmartGas" />
+  <img src="assets/39-ap-wireframe-desktop-inicio.png" alt="Wireframe Desktop - Inicio SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-wireframe-movil-inicio.png" alt="Wireframe Mobile - Inicio SmartGas" />
+  <img src="assets/40-ap-wireframe-movil-inicio.png" alt="Wireframe Mobile - Inicio SmartGas" />
 </p>
 
 #### 2. Dashboard
@@ -576,11 +576,11 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 **Wireframe Mobile:** Conserva la misma lógica informativa, pero apila las tarjetas en una sola columna para asegurar legibilidad y continuidad en la lectura. Esta solución refuerza el diseño inclusivo, ya que facilita la comprensión de los estados del sistema en pantallas pequeñas y permite identificar alertas sin depender únicamente de gráficos complejos o elementos decorativos.
 
 <p align="center">
-  <img src="assets/ap-wireframe-desktop-dashboard.png" alt="Wireframe Desktop - Dashboard SmartGas" />
+  <img src="assets/41-ap-wireframe-desktop-dashboard.png" alt="Wireframe Desktop - Dashboard SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-wireframe-movil-dashboard.png" alt="Wireframe Mobile - Dashboard SmartGas" />
+  <img src="assets/42-ap-wireframe-movil-dashboard.png" alt="Wireframe Mobile - Dashboard SmartGas" />
 </p>
 
 #### 3. Zones
@@ -590,11 +590,11 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 **Wireframe Mobile:** Mantiene la misma estructura conceptual, pero adapta los bloques a un flujo vertical. Las tarjetas resumen se muestran primero, seguidas del mapa o representación visual y luego las zonas individuales. Esta disposición facilita la exploración progresiva del contenido y mejora la accesibilidad móvil, ya que cada zona se analiza de forma separada sin saturar la interfaz.
 
 <p align="center">
-  <img src="assets/ap-wireframe-desktop-zones.png" alt="Wireframe Desktop - Zones SmartGas" />
+  <img src="assets/43-ap-wireframe-desktop-zones.png" alt="Wireframe Desktop - Zones SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-wireframe-movil-zones.png" alt="Wireframe Mobile - Zones SmartGas" />
+  <img src="assets/44-ap-wireframe-movil-zones.png" alt="Wireframe Mobile - Zones SmartGas" />
 </p>
 
 #### 4. Reports
@@ -604,11 +604,11 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 **Wireframe Mobile:** Reestructura los elementos en una sola columna, priorizando primero el total de incidencias y luego las gráficas, con el fin de conservar la claridad visual. La adaptación móvil reduce la complejidad del contenido sin perder la función informativa, permitiendo que el usuario consulte reportes desde un dispositivo pequeño de manera sencilla y ordenada.
 
 <p align="center">
-  <img src="assets/ap-wireframe-desktop-reports.png" alt="Wireframe Desktop - Reports SmartGas" />
+  <img src="assets/45-ap-wireframe-desktop-reports.png" alt="Wireframe Desktop - Reports SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-wireframe-movil-reports.png" alt="Wireframe Mobile - Reports SmartGas" />
+  <img src="assets/46-ap-wireframe-movil-reports.png" alt="Wireframe Mobile - Reports SmartGas" />
 </p>
 
 #### 5. Members
@@ -618,11 +618,11 @@ Asimismo, los wireframes mantienen coherencia con la **arquitectura de informaci
 **Wireframe Mobile:** El contenido se presenta en formato vertical, apilando la información de cada miembro para optimizar el espacio disponible. Esta decisión favorece la lectura continua y evita que los datos se compriman en exceso. Además, el uso de etiquetas textuales claras permite que la comprensión de la información no dependa de recursos visuales complejos, reforzando así el diseño inclusivo.
 
 <p align="center">
-  <img src="assets/ap-wireframe-desktop-members.png" alt="Wireframe Desktop - Members SmartGas" />
+  <img src="assets/47-ap-wireframe-desktop-members.png" alt="Wireframe Desktop - Members SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-wireframe-movil-members.png" alt="Wireframe Mobile - Members SmartGas" />
+  <img src="assets/48-ap-wireframe-movil-members.png" alt="Wireframe Mobile - Members SmartGas" />
 </p>
 
 En conjunto, estos wireframes permiten validar la estructura inicial de la aplicación web de **SmartGas**, asegurando que la información crítica se presente con claridad, que la navegación sea consistente entre pantallas y que la experiencia pueda adaptarse correctamente a entornos **desktop** y **móviles**. De esta manera, la propuesta no solo responde a los objetivos funcionales del sistema, sino que también incorpora principios de usabilidad, accesibilidad y arquitectura de información desde las primeras etapas del diseño.
@@ -643,7 +643,7 @@ El flujo inicia en la **Landing Page**, donde el usuario identifica el acceso pr
 Este wireflow evidencia un flujo de navegación básico y esencial para el uso de la plataforma, así como la representación de un cambio de estado importante dentro de la interfaz: el paso exitoso o fallido de autenticación. Además, se aplican principios de claridad, retroalimentación inmediata y visibilidad del estado del sistema, ya que el usuario recibe una respuesta explícita según el resultado de su acción.
 
 <p align="center">
-  <img src="assets/WireflowDiagram1.png" alt="Wireflow de inicio de sesión en SmartGas" />
+  <img src="assets/49-WireflowDiagram1.png" alt="Wireflow de inicio de sesión en SmartGas" />
 </p>
 
 #### 2. Wireflow para revisar el estado de seguridad y alertas activas
@@ -656,7 +656,7 @@ El flujo comienza en la **sección Dashboard**, donde el usuario puede visualiza
 Este wireflow evidencia una organización jerárquica de la información, ya que el sistema muestra primero una vista general y luego conduce al usuario hacia niveles de mayor detalle. Asimismo, se aprecia una organización espacial en la vista de zonas, donde el usuario puede identificar qué ambiente está comprometido. El flujo también refuerza la usabilidad al permitir una transición natural desde el monitoreo global hasta la localización específica del riesgo.
 
 <p align="center">
-  <img src="assets/WireflowDiagram2.png" alt="Wireflow para revisar seguridad y alertas activas en SmartGas" />
+  <img src="assets/50-WireflowDiagram2.png" alt="Wireflow para revisar seguridad y alertas activas en SmartGas" />
 </p>
 
 #### 3. Wireflow para consultar el historial de alertas del hogar
@@ -669,7 +669,7 @@ Este flujo parte desde el **inicio de la aplicación web**, donde el usuario acc
 Este wireflow es importante porque demuestra cómo el sistema representa cambios de estado a partir de una misma pantalla base, lo cual responde directamente a la consigna de reflejar nuevas condiciones de interacción mediante wireframes adicionales. Además, el flujo se apoya en una organización cronológica de la información, ya que el historial de alertas se presenta como un registro útil para la supervisión del hogar y la toma de decisiones posteriores.
 
 <p align="center">
-  <img src="assets/WireflowDiagram3.png" alt="Wireflow para consultar historial de alertas del hogar en SmartGas" />
+  <img src="assets/51-WireflowDiagram3.png" alt="Wireflow para consultar historial de alertas del hogar en SmartGas" />
 </p>
 
 #### 4. Wireflow para revisar el estado de una zona específica
@@ -682,7 +682,7 @@ El flujo inicia en el **inicio de la aplicación web**, desde donde el administr
 Este wireflow pone en evidencia la organización espacial de la información, ya que el sistema distribuye los datos por áreas o zonas monitoreadas. También demuestra el principio de visibilidad del estado del sistema, debido a que el usuario puede diferenciar claramente entre una zona segura y una zona en alarma. La presencia de variantes en el flujo según el estado operativo fortalece además la representación realista del comportamiento del sistema frente a distintos escenarios.
 
 <p align="center">
-  <img src="assets/WireflowDiagram4.png" alt="Wireflow para revisar el estado de una zona específica en SmartGas" />
+  <img src="assets/52-WireflowDiagram4.png" alt="Wireflow para revisar el estado de una zona específica en SmartGas" />
 </p>
 
 En conjunto, los wireflows de **SmartGas** permiten comprender cómo los usuarios interactúan con la aplicación web según sus objetivos principales, mostrando tanto las rutas típicas de navegación como los cambios de estado que se producen en la interfaz. Esto facilita validar tempranamente la experiencia de uso, asegurar coherencia con la arquitectura de información y comprobar que cada user goal cuenta con una secuencia lógica, clara y funcional dentro del sistema.
@@ -699,11 +699,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, la interfaz reorganiza los elementos en una sola columna y reemplaza el menú horizontal por un ícono de navegación. Los botones se mantienen amplios y visibles, facilitando la interacción táctil. Esta adaptación favorece la accesibilidad y la usabilidad, ya que simplifica la exploración del contenido sin perder consistencia respecto a la versión desktop.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-inicio.png" alt="Mock-up Desktop - Inicio SmartGas" />
+  <img src="assets/53-ap-mockup-desktop-inicio.png" alt="Mock-up Desktop - Inicio SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-inicio.png" alt="Mock-up Mobile - Inicio SmartGas" />
+  <img src="assets/54-ap-mockup-movil-inicio.png" alt="Mock-up Mobile - Inicio SmartGas" />
 </p>
 
 #### 2. Dashboard
@@ -713,11 +713,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, las tarjetas se presentan en disposición vertical, facilitando una lectura progresiva y ordenada. La estructura mantiene la prioridad informativa del dashboard, permitiendo que el usuario consulte rápidamente los datos esenciales del sistema desde un dispositivo de menor tamaño. Esta adaptación mejora la comprensión del contenido y reduce la sobrecarga visual.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-dashboard.png" alt="Mock-up Desktop - Dashboard SmartGas" />
+  <img src="assets/55-ap-mockup-desktop-dashboard.png" alt="Mock-up Desktop - Dashboard SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-dashboard.png" alt="Mock-up Mobile - Dashboard SmartGas" />
+  <img src="assets/56-ap-mockup-movil-dashboard.png" alt="Mock-up Mobile - Dashboard SmartGas" />
 </p>
 
 #### 3. Zones
@@ -727,11 +727,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** La versión móvil adapta esta misma lógica en un flujo vertical, donde primero se presentan los indicadores generales y luego las zonas individuales. Esta estructura mejora la exploración del contenido en pantallas pequeñas y facilita que el usuario analice cada ambiente por separado, reforzando la claridad de la información y la experiencia responsiva.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-zones.png" alt="Mock-up Desktop - Zones SmartGas" />
+  <img src="assets/57-ap-mockup-desktop-zones.png" alt="Mock-up Desktop - Zones SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-zones.png" alt="Mock-up Mobile - Zones SmartGas" />
+  <img src="assets/58-ap-mockup-movil-zones.png" alt="Mock-up Mobile - Zones SmartGas" />
 </p>
 
 #### 4. Reports
@@ -741,11 +741,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la versión móvil, la información se reorganiza en bloques verticales para preservar la legibilidad y mantener la claridad de los datos. Las visualizaciones y resúmenes se presentan de forma simplificada, permitiendo que el usuario consulte indicadores relevantes desde un dispositivo pequeño sin perder coherencia con la estructura general del sistema.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-reports.png" alt="Mock-up Desktop - Reports SmartGas" />
+  <img src="assets/59-ap-mockup-desktop-reports.png" alt="Mock-up Desktop - Reports SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-reports.png" alt="Mock-up Mobile - Reports SmartGas" />
+  <img src="assets/60-ap-mockup-movil-reports.png" alt="Mock-up Mobile - Reports SmartGas" />
 </p>
 
 #### 5. Members
@@ -755,11 +755,11 @@ La propuesta evidencia la aplicación de principios de diseño como **jerarquía
 **Mock-up Mobile:** En la adaptación móvil, los datos de los miembros se apilan verticalmente para asegurar una lectura continua y ordenada. La interfaz reduce la densidad de información por bloque, manteniendo etiquetas claras y una disposición simple que favorece la comprensión. Esto fortalece el diseño inclusivo, ya que evita saturar la pantalla y mejora la accesibilidad visual.
 
 <p align="center">
-  <img src="assets/ap-mockup-desktop-members.png" alt="Mock-up Desktop - Members SmartGas" />
+  <img src="assets/61-ap-mockup-desktop-members.png" alt="Mock-up Desktop - Members SmartGas" />
 </p>
 
 <p align="center">
-  <img src="assets/ap-mockup-movil-members.png" alt="Mock-up Mobile - Members SmartGas" />
+  <img src="assets/62-ap-mockup-movil-members.png" alt="Mock-up Mobile - Members SmartGas" />
 </p>
 
 En conjunto, los mock-ups de **SmartGas** permiten visualizar con mayor precisión la propuesta visual de la aplicación web, integrando la identidad de marca, la estructura funcional y los lineamientos del sistema de diseño definidos para el producto. De este modo, se valida no solo la organización de la información y la navegación entre pantallas, sino también la forma en que los elementos visuales, el diseño responsivo y los criterios de accesibilidad se articulan para construir una experiencia clara, consistente y orientada a la seguridad del usuario.
@@ -780,7 +780,7 @@ El flujo inicia en la **landing page**, desde donde el usuario selecciona la opc
 Como ruta alternativa, el sistema contempla el caso en el que el usuario ingresa credenciales incorrectas. En ese escenario, se muestra un mensaje de error y el usuario debe volver a intentar el ingreso. Esto evidencia un **unhappy path**, ya que el objetivo no se completa en el primer intento, pero el sistema ofrece retroalimentación inmediata y una ruta clara para continuar.
 
 <p align="center">
-  <img src="assets/UserFlowDiagram1.png" alt="User Flow de inicio de sesión en SmartGas" />
+  <img src="assets/63-UserFlowDiagram1.png" alt="User Flow de inicio de sesión en SmartGas" />
 </p>
 
 #### 2. User Flow para revisar el estado de seguridad
@@ -793,7 +793,7 @@ El flujo comienza en la pantalla de **Inicio**, desde donde el usuario accede al
 Este recorrido representa el **happy path**, ya que el usuario logra pasar de una vista general del sistema a una inspección más específica del entorno monitoreado. Como rutas alternativas, se consideran los casos en los que no se detectan anomalías o no existen alertas activas, situaciones en las que el usuario simplemente continúa con el monitoreo general sin profundizar hacia reportes o zonas críticas. Así, el flujo contempla tanto la supervisión normal como la exploración detallada ante una incidencia.
 
 <p align="center">
-  <img src="assets/UserFlowDiagram2.png" alt="User Flow para revisar el estado de seguridad en SmartGas" />
+  <img src="assets/64-UserFlowDiagram2.png" alt="User Flow para revisar el estado de seguridad en SmartGas" />
 </p>
 
 #### 3. User Flow para consultar el historial de alertas
@@ -806,7 +806,7 @@ El flujo parte desde el **inicio de la aplicación**, desde donde el usuario acc
 Como ruta alternativa, si no existe ninguna alerta nueva, el usuario no recibe una notificación adicional y continúa directamente con el monitoreo general del sistema. Esta bifurcación representa claramente la diferencia entre el **happy path**, donde sí se consulta el historial y el detalle de eventos, y un **unhappy path o camino alternativo**, donde no se presentan incidencias recientes y, por tanto, el recorrido se simplifica.
 
 <p align="center">
-  <img src="assets/UserFlowDiagram3.png" alt="User Flow para consultar el historial de alertas en SmartGas" />
+  <img src="assets/65-UserFlowDiagram3.png" alt="User Flow para consultar el historial de alertas en SmartGas" />
 </p>
 
 #### 4. User Flow para revisar el estado de una zona específica
@@ -819,7 +819,7 @@ El flujo inicia cuando el usuario accede a la sección de **Zones**. Desde allí
 Como ruta alternativa, si no existe ninguna zona en alerta, el sistema no obliga a profundizar en una zona específica y el usuario continúa con el monitoreo general. Esta estructura confirma la consistencia con el wireflow previo, ya que se mantienen tanto la vista general de zonas como la posibilidad de navegar hacia un detalle puntual solo cuando el estado operativo lo requiere.
 
 <p align="center">
-  <img src="assets/UserFlowDiagram4.png" alt="User Flow para revisar el estado de una zona específica en SmartGas" />
+  <img src="assets/66-UserFlowDiagram4.png" alt="User Flow para revisar el estado de una zona específica en SmartGas" />
 </p>
     
 ## 4.5. Web Applications Prototyping.
@@ -842,7 +842,7 @@ La versión desktop aprovecha mejor el espacio horizontal para mostrar más info
 **Screenshot del video del prototipo Desktop:**
 
 <p align="center">
-  <img src="assets/DesktopPrototyping.png" alt="Screenshot del prototipo Desktop de SmartGas" />
+  <img src="assets/67-DesktopPrototyping.png" alt="Screenshot del prototipo Desktop de SmartGas" />
 </p>
 
 **Video del prototipo Desktop:**  
@@ -858,7 +858,7 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 **Screenshot del video del prototipo Mobile:**
 
 <p align="center">
-  <img src="assets/MovilPrototyping.png" alt="Screenshot del prototipo Mobile de SmartGas" />
+  <img src="assets/68-MovilPrototyping.png" alt="Screenshot del prototipo Mobile de SmartGas" />
 </p>
 
 **Video del prototipo Mobile:**  
@@ -870,41 +870,41 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ### 4.6.1. Design-Level EventStorming.
 
 <div align="center">
-  <img alt="Design-Level_EventStorming" src="assets/Design-Level_EventStorming.svg" />
+  <img alt="Design-Level_EventStorming" src="assets/69-Design-Level_EventStorming.svg" />
 </div>
     
 ### 4.6.2. Software Architecture Context Diagram.
 
 <div align="center">
-  <img alt="Context-Diagram" src="assets/Context-Diagram.svg" />
+  <img alt="Context-Diagram" src="assets/70-Context-Diagram.svg" />
 </div>
     
 ### 4.6.3. Software Architecture Container Diagrams.
 
 <div align="center">
-  <img alt="Container-Diagram" src="assets/Container-Diagram.svg" />
+  <img alt="Container-Diagram" src="assets/71-Container-Diagram.svg" />
 </div>
     
 ### 4.6.4. Software Architecture Components Diagrams.
 
 <div align="center">
-  <img alt="Component-Diagram-1" src="assets/Component-Diagram-1.svg" />
+  <img alt="Component-Diagram-1" src="assets/72-Component-Diagram-1.svg" />
 </div>
 
 <div align="center">
-  <img alt="Component-Diagram-2" src="assets/Component-Diagram-2.svg" />
+  <img alt="Component-Diagram-2" src="assets/73-Component-Diagram-2.svg" />
 </div>
 
 <div align="center">
-  <img alt="Component-Diagram-3" src="assets/Component-Diagram-3.svg" />
+  <img alt="Component-Diagram-3" src="assets/74-Component-Diagram-3.svg" />
 </div>
 
 <div align="center">
-  <img alt="Component-Diagram-4" src="assets/Component-Diagram-4.svg" />
+  <img alt="Component-Diagram-4" src="assets/75-Component-Diagram-4.svg" />
 </div>
 
 <div align="center">
-  <img alt="Component-Diagram-5" src="assets/Component-Diagram-5.svg" />
+  <img alt="Component-Diagram-5" src="assets/76-Component-Diagram-5.svg" />
 </div>
     
 ## 4.7. Software Object-Oriented Design.
@@ -912,7 +912,7 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ### 4.7.1. Class Diagrams.
 
 <div align="center">
-  <img alt="ClassDiagram" src="assets/ClassDiagram.png" />
+  <img alt="ClassDiagram" src="assets/77-ClassDiagram.png" />
 </div>
 
 ## 4.8. Database Design.
@@ -920,7 +920,7 @@ El diseño mobile pone énfasis en la simplicidad, el tamaño adecuado de los el
 ### 4.8.1. Database Diagrams.
 
 <div align="center">
-  <img alt="DataBaseDiagram" src="assets/DataBaseDiagram.svg" />
+  <img alt="DataBaseDiagram" src="assets/78-DataBaseDiagram.svg" />
 </div>
 
     
