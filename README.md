@@ -274,10 +274,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
+*Figura 9 (Impact Map 1)*
 ![ImpactMap_1.png](assets/15-ImpactMap_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
+*Figura 10 (Impact Map 2)*
 ![ImpactMap_2.png](assets/16-ImpactMap_2.png)
 
 ## 3.3. Product Backlog.
