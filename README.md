@@ -397,10 +397,12 @@ Cada persona refleja un tipo de usuario real, permitiendo comprender mejor sus o
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
+*Figura 2 (User Persona 1)*
 ![UserPersona_1.png](./assets/08-UserPersona_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
+*Figura 3 (User Persona 2)*
 ![UserPersona_2.png](./assets/09-UserPersona_2.png)
 
 ### 2.3.2. User Task Matrix.
@@ -436,10 +438,12 @@ El User Journey permite identificar puntos críticos y oportunidades de mejora, 
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
+*Figura 4 (User Journey Mapping 1)*
 ![UserJourneyMapping_1.png](./assets/10-UserJourneyMapping_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
+*Figura 5 (User Journey Mapping 2)*
 ![UserJourneyMapping_2.png](./assets/11-UserJourneyMapping_2.png)
 
 ### 2.3.4. Empathy Mapping.
@@ -450,14 +454,17 @@ El Empathy Map permite profundizar en las necesidades reales de cada segmento, i
 
 **Segmento Objetivo 1: Familias y Propietarios de Viviendas**
 
+*Figura 6 (Empathy Map 1)*
 ![EmpathyMap_1.png](./assets/12-EmpathyMap_1.png)
 
 **Segmento Objetivo 2: Administradores y Chefs de Restaurantes**
 
+*Figura 7 (Empathy Map 2)*
 ![EmpathyMap_2.png](./assets/13-EmpathyMap_2.png)
 
 ## 2.4. Big Picture EventStorming.
 
+*Figura 8 (BigPicture Event Storming)*
 <div align="center">
   <img alt="BigPicture" src="assets/14-BigPicture_EventStorming.jpg" />
 </div>
