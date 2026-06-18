@@ -1180,8 +1180,6 @@ La asignación de líderes se realizó considerando las fortalezas y experiencia
 
 ### 5.2.3.3. Sprint Backlog 3. 
 
-# Sprint 3 Backlog
-
 ## Sprint Goal
 Implementar el backend real de SmartGas API con endpoints RESTful, integración de servicios externos,
 y conexión del frontend al nuevo backend desplegado en producción.
