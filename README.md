@@ -1095,6 +1095,121 @@ El equipo utilizó las siguientes herramientas para facilitar la colaboración y
   - Feedback visual sobre implementaciones
 
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3. 
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-18 |
+| **Time** | 10:00 AM |
+| **Location** | Virtual (Discord) |
+| **Prepared By** | Cesar Jair Contreras Rojas |
+| **Attendees** | Cesar Jair Contreras Rojas / Gabriel Ferran Espinar Martínez / Briguite Eryka Carhuaz Centeno/ Camila Alizée Otiniano Rosales/ Valeria Alexandra Rojas Gomez|
+| **Sprint n – 3 Review Summary** | The team successfully delivered the Landing Page with a functional deployment. The initial environment connection to the backend database is validated and minor adjustments to the registration process user experience (UX) to be more intuitive, which should be addressed in this Sprint. |
+| **Sprint n – 3 Retrospective Summary**| The primary opportunity for improvement identified was the overestimation of time in the user stories . It was agreed to be more conservative in the estimation for Sprint 3. Communication remains fluid via Discord, and internal documentation improved as planned.|
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** |Deliver the foundational components of the SmartGas platform by designing and deploying a fully functional and responsive web interface that effectively communicates the IoT safety solution's value proposition and facilitates seamless user authentication and real-time alert monitoring. |
+| **Sprint 3 Velocity** | 25 Story Points |
+| **Sum of Story Points** | 25 Story Points |
+
+### 5.2.3.2. Aspect Leaders and Collaborators. 
+
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 2, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Cesar Jair Contreras Rojas</td>
+    <td>CesarJrCR</td>
+    <td><strong>L</strong></td>
+    <td>C</></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Briguite Eryka Carhuaz Centeno</td>
+    <td>briicarhuaz</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <td>Valeria Alexandra Rojas Gomez</td>
+    <td>ValeriaAler</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  <tr>
+    <td>Espinar Martínez Gabriel Ferran</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Camila Alizée Otiniano Rosales</td>
+    <td>CamilaaAlizee </td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+</table>
+
+### 5.2.3.3. Sprint Backlog 3. 
+
+# Sprint 3 Backlog
+
+## Sprint Goal
+Implementar el backend real de SmartGas API con endpoints RESTful, integración de servicios externos,
+y conexión del frontend al nuevo backend desplegado en producción.
+
+---
+
+| User Story | | Work-Item / Task | | | | | |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS-06 | API para usuarios | T-01 | Backend Infrastructure Setup | Inicialización del repositorio backend, configuración del proyecto y estructura base. | 3 | Briguite | Done |
+| TS-06 | API para usuarios | T-02 | Database Context & Seed Data | Configuración del contexto de base de datos y datos semilla iniciales. | 4 | Briguite | Done |
+| TS-06 | API para usuarios | T-03 | Authentication Endpoints | Implementación de endpoints de registro, login y autenticación con tokens. | 6 | Cesar | Done |
+| US-31 | Gestionar perfil de usuario | T-04 | Profiles & Settings Management | Implementación de endpoints para gestión de perfiles y configuraciones de usuario. | 5 | Cesar | Done |
+| US-34 | Configurar preferencias de notificación | T-05 | Emergency Contact Management | Implementación de endpoints para gestión de contactos de emergencia. | 4 | Cesar | Done |
+| TS-01 | API gestión de sensores | T-06 | Zone Management Endpoints | Desarrollo de endpoints CRUD para zonas monitoreadas. | 5 | Gabriel | Done |
+| TS-01 | API gestión de sensores | T-07 | Sensor Management Endpoints | Desarrollo de endpoints CRUD para sensores IoT. | 6 | Gabriel | Done |
+| TS-02 | API telemetría | T-08 | IoT Sensor Reading Flow | Implementación del flujo de recepción y procesamiento de lecturas de sensores IoT. | 8 | Gabriel | Done |
+| EP-API | API RESTful | T-09 | Subscription Plans Endpoints | Desarrollo de endpoints para gestión de planes de suscripción. | 5 | Camila | Done |
+| EP-API | API RESTful | T-10 | Subscription Plan Changes | Implementación de lógica para cambios y actualizaciones de plan. | 4 | Camila | Done |
+| EP-API | API RESTful | T-11 | External Weather Service Integration | Integración con servicio externo de clima para datos ambientales. | 6 | Camila | Done |
+| TS-03 | API detección de anomalías | T-12 | Incident Management Endpoints | Desarrollo de endpoints para creación y consulta de incidentes detectados. | 6 | Valeria | Done |
+| TS-04 | API gestión de alertas | T-13 | Alerts & Notifications Endpoints | Implementación de endpoints para alertas y notificaciones generadas por el sistema. | 6 | Valeria | Done |
+| US-21 | Visualizar dashboard principal | T-14 | Dashboard Summary Endpoints | Implementación de endpoints de resumen para el panel principal. | 5 | Valeria | Done |
+| CG-01 | Constraint General | T-15 | Docker Configuration for Render | Configuración de Docker y despliegue del backend en Render. | 4 | Briguite | Done |
+| CG-01 | Constraint General | T-16 | CORS Configuration for Firebase | Configuración de CORS para permitir conexión desde el frontend en Firebase Hosting. | 2 | Briguite | Done |
+| CG-01 | Constraint General | T-17 | External Weather Service Fixes | Correcciones en parsing de humedad y fallback para el servicio externo de clima. | 3 | Briguite | Done |
+
+
 ## Conclusiones
 
   - La aplicación de SmartGas seria efectiva para la prevención de accidentes en el hogar
