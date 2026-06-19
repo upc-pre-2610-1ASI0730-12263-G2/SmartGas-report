@@ -1583,7 +1583,9 @@ Cada aspecto cuenta con un líder responsable de la calidad final y colaboradore
 El objetivo de este primer Sprint es doble: por un lado, iniciar la presencia digital de **SmartGas** mediante la codificación y despliegue de la Landing Page; y por otro lado, establecer los cimientos técnicos (base de datos y formatos de telemetría) que permitirán el desarrollo de la aplicación web en los siguientes sprints.
 
 **Board del Sprint 1 (Jira):**
-![](./assets/Collaboration_JIRA.png)
+
+*Figura 73 (JIRA)*
+![](./assets/79-Collaboration_JIRA.png)
 
 ### Tabla de Control de Estado para el Sprint 1
 
@@ -1629,31 +1631,38 @@ Durante este Sprint, el equipo logró implementar la versión inicial del Landin
 
 La sección principal de la Landing page nos presenta el titulo, subtitulo, descripción del producto y llamados a la acción (CTA) los cuales guian al visitante hacia el registro o a la sección de más información.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_1.png)
+*Figura 74 (Execution Evidence for Sprint Review 1)*
+![](./assets/80-Execution_Evidence_for_Sprint_Review_1.png)
 
 En está sección el usuario puede ver cuales son nuestros valores como empresa, sobre que trata nuestro producto y con que fin lo estamos desarrollando.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_2.png)
+*Figura 75 (Execution Evidence for Sprint Review 2)*
+![](./assets/81-Execution_Evidence_for_Sprint_Review_2.png)
 
 En está sección se muestra de forma detallada que es lo que ofrecemos a los usuarios y las caracteristicas importantes de SmartGas.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_3.png)
+*Figura 76 (Execution Evidence for Sprint Review 3)*
+![](./assets/82-Execution_Evidence_for_Sprint_Review_3.png)
 
 En está sección se puede apreciar los planes que ofrecemos y cual es el costo de cada uno de ellos. Los precios son presentados mediante tarjetas visuales que indican las caracteristicas de cada plan.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_4.png)
+*Figura 77 (Execution Evidence for Sprint Review 4)*
+![](./assets/83-Execution_Evidence_for_Sprint_Review_4.png)
 
 Está sección nos muestra a todos los integrantes del equipo SmartGuard mediante cards visuales las caules contienen una foto de cada uno de los integrantes acompañada de una pequeña descripción.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_5.png)
+*Figura 78 (Execution Evidence for Sprint Review 5)*
+![](./assets/84-Execution_Evidence_for_Sprint_Review_5.png)
 
 En está sección el usuario puede colocar sus datos para contactarse con nosotros.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_6.png)
+*Figura 79 (Execution Evidence for Sprint Review 6)*
+![](./assets/85-Execution_Evidence_for_Sprint_Review_6.png)
 
 Es el footer de landing page se puede ver nuestro logo, el copyright y un apartado en donde el usuario puede colocar su correo para registrarlo.
 
-![](./assets/Execution_Evidence_for_Sprint_Review_7.png)
+*Figura 80 (Execution Evidence for Sprint Review 7)*
+![](./assets/86-Execution_Evidence_for_Sprint_Review_7.png)
     
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -1709,25 +1718,35 @@ Compatibilidad de navegadores: Se probó en Chrome, Firefox, Safari y Edge
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Portada.png)
+*Figura 81 (Team Collaboration Insights during Sprint Portada)*
+![](./assets/87-Team_Collaboration_Insights_during_Sprint_Portada.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Navigation.png)
+*Figura 82 (Team Collaboration Insights during Sprint Navigation)*
+![](./assets/88-Team_Collaboration_Insights_during_Sprint_Navigation.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Pricing.png)
+*Figura 83 (Team Collaboration Insights during Sprint Pricing)*
+![](./assets/89-Team_Collaboration_Insights_during_Sprint_Pricing.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Members.png)
+*Figura 84 (Team Collaboration Insights during Sprint Members)*
+![](./assets/90-Team_Collaboration_Insights_during_Sprint_Members.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Footer.png)
+*Figura 85 (Team Collaboration Insights during Sprint Footer)*
+![](./assets/91-Team_Collaboration_Insights_during_Sprint_Footer.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Extra.png)
+*Figura 86 (Team Collaboration Insights during Sprint Extra)*
+![](./assets/92-Team_Collaboration_Insights_during_Sprint_Extra.pngg)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Contact.png)
+*Figura 87 (Team Collaboration Insights during Sprint Contact)*
+![](./assets/93-Team_Collaboration_Insights_during_Sprint_Contact.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Characteristics.png)
+*Figura 88 (Team Collaboration Insights during Sprint Characteristics)*
+![](./assets/94-Team_Collaboration_Insights_during_Sprint_Characteristics.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_Benefits.png)
+*Figura 89 (Team Collaboration Insights during Sprint Benefits)*
+![](./assets/95-Team_Collaboration_Insights_during_Sprint_Benefits.png)
 
-![](./assets/Team_Collaboration_Insights_during_Sprint_About-us.png)
+*Figura 90 (Team Collaboration Insights during Sprint About-us)*
+![](./assets/96-Team_Collaboration_Insights_during_Sprint_About-us.png)
 
 ## 5.2.2. Sprint 2 
 
@@ -1909,7 +1928,7 @@ Esto permitió:
 
 ## Repositorio de Frontend
 
-- **Repositorio Frontend:** [SmartGas](https://smartgas-app-web-v1.web.app/login)
+- **Repositorio Frontend:** [SmartGas](https://smartgas-app-web-v1.web.app)
 - **Estado:** Implementado y funcional con datos mock.
 - **Framework:** Vue.js 3, Pinia, Vue Router.
 - **Arquitectura:** Clean Architecture con capas de Infrastructure que preparan la integración con servicios web.
@@ -2176,6 +2195,552 @@ El equipo utilizó las siguientes herramientas para facilitar la colaboración y
   - Alineación del desarrollo con el diseño
   - Feedback visual sobre implementaciones
 
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3. 
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-18 |
+| **Time** | 10:00 AM |
+| **Location** | Virtual (Discord) |
+| **Prepared By** | Cesar Jair Contreras Rojas |
+| **Attendees** | Cesar Jair Contreras Rojas / Gabriel Ferran Espinar Martínez / Briguite Eryka Carhuaz Centeno/ Camila Alizée Otiniano Rosales/ Valeria Alexandra Rojas Gomez|
+| **Sprint n – 3 Review Summary** | The team successfully delivered the Landing Page with a functional deployment. The initial environment connection to the backend database is validated and minor adjustments to the registration process user experience (UX) to be more intuitive, which should be addressed in this Sprint. |
+| **Sprint n – 3 Retrospective Summary**| The primary opportunity for improvement identified was the overestimation of time in the user stories . It was agreed to be more conservative in the estimation for Sprint 3. Communication remains fluid via Discord, and internal documentation improved as planned.|
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** |Deliver the foundational components of the SmartGas platform by designing and deploying a fully functional and responsive web interface that effectively communicates the IoT safety solution's value proposition and facilitates seamless user authentication and real-time alert monitoring. |
+| **Sprint 3 Velocity** | 25 Story Points |
+| **Sum of Story Points** | 25 Story Points |
+
+### 5.2.3.2. Aspect Leaders and Collaborators. 
+
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 2, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Cesar Jair Contreras Rojas</td>
+    <td>CesarJrCR</td>
+    <td><strong>L</strong></td>
+    <td>C</></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Briguite Eryka Carhuaz Centeno</td>
+    <td>briicarhuaz</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <td>Valeria Alexandra Rojas Gomez</td>
+    <td>ValeriaAler</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  <tr>
+    <td>Espinar Martínez Gabriel Ferran</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td> Camila Alizée Otiniano Rosales</td>
+    <td>CamilaaAlizee </td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+</table>
+
+### 5.2.3.3. Sprint Backlog 3. 
+
+## Sprint Goal
+Implementar el backend real de SmartGas API con endpoints RESTful, integración de servicios externos,
+y conexión del frontend al nuevo backend desplegado en producción.
+
+---
+
+| User Story | | Work-Item / Task | | | | | |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS-06 | API para usuarios | T-01 | Backend Infrastructure Setup | Inicialización del repositorio backend, configuración del proyecto y estructura base. | 3 | Briguite | Done |
+| TS-06 | API para usuarios | T-02 | Database Context & Seed Data | Configuración del contexto de base de datos y datos semilla iniciales. | 4 | Briguite | Done |
+| TS-06 | API para usuarios | T-03 | Authentication Endpoints | Implementación de endpoints de registro, login y autenticación con tokens. | 6 | Cesar | Done |
+| US-31 | Gestionar perfil de usuario | T-04 | Profiles & Settings Management | Implementación de endpoints para gestión de perfiles y configuraciones de usuario. | 5 | Cesar | Done |
+| US-34 | Configurar preferencias de notificación | T-05 | Emergency Contact Management | Implementación de endpoints para gestión de contactos de emergencia. | 4 | Cesar | Done |
+| TS-01 | API gestión de sensores | T-06 | Zone Management Endpoints | Desarrollo de endpoints CRUD para zonas monitoreadas. | 5 | Gabriel | Done |
+| TS-01 | API gestión de sensores | T-07 | Sensor Management Endpoints | Desarrollo de endpoints CRUD para sensores IoT. | 6 | Gabriel | Done |
+| TS-02 | API telemetría | T-08 | IoT Sensor Reading Flow | Implementación del flujo de recepción y procesamiento de lecturas de sensores IoT. | 8 | Gabriel | Done |
+| EP-API | API RESTful | T-09 | Subscription Plans Endpoints | Desarrollo de endpoints para gestión de planes de suscripción. | 5 | Camila | Done |
+| EP-API | API RESTful | T-10 | Subscription Plan Changes | Implementación de lógica para cambios y actualizaciones de plan. | 4 | Camila | Done |
+| EP-API | API RESTful | T-11 | External Weather Service Integration | Integración con servicio externo de clima para datos ambientales. | 6 | Camila | Done |
+| TS-03 | API detección de anomalías | T-12 | Incident Management Endpoints | Desarrollo de endpoints para creación y consulta de incidentes detectados. | 6 | Valeria | Done |
+| TS-04 | API gestión de alertas | T-13 | Alerts & Notifications Endpoints | Implementación de endpoints para alertas y notificaciones generadas por el sistema. | 6 | Valeria | Done |
+| US-21 | Visualizar dashboard principal | T-14 | Dashboard Summary Endpoints | Implementación de endpoints de resumen para el panel principal. | 5 | Valeria | Done |
+| CG-01 | Constraint General | T-15 | Docker Configuration for Render | Configuración de Docker y despliegue del backend en Render. | 4 | Briguite | Done |
+| CG-01 | Constraint General | T-16 | CORS Configuration for Firebase | Configuración de CORS para permitir conexión desde el frontend en Firebase Hosting. | 2 | Briguite | Done |
+| CG-01 | Constraint General | T-17 | External Weather Service Fixes | Correcciones en parsing de humedad y fallback para el servicio externo de clima. | 3 | Briguite | Done |
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
+|------------|--------|-----------|----------------|---------------------|-------------------|
+|SmartGas-api |feature/backend-insfraestructure-deployment |20327de6c38f8523d675a2d9f9160f5a48d677ea |feat: configure database context and seed data |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |5bef7b5d297ee4d07a626272281e84fad93d1f7d |chore: initialize backend repository |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |67e407bc2b8dd69d2247b15548512636a0e88a76 |chore: configure backend project infrastructure |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |17a7a480b0a082f15faac5ff0ff0d935e43f80fd |chore: configure docker deployment for render |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings |b713e10d4ab4c2e7d2dcedf043658f31ebeb1a49 |feat: implement authentication endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings  |25a2ff0fdc0c770cafd4086884df6f70ab498478 |feat: implement profiles and settings management |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings  |0ae3f33a936c2475d30b07d815c51a3c5bf033af |feat: implement emergency contact management |Blank |12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings |291cd83ffabfd4ec037b485c2cb50c6eae6efa47 |feat: implement zone management endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings   |b14c8b3185349e88ad9a569efd634138e1a02cd8 |feat: implement sensor management endpoints|Blank|12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings  |0284a31b242d7f082775b9fc54e9fa901345c3ef |feat: implement iot sensor reading flow |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather |13ce106f34ff01d552fe53c04241ca0379937ce0 |feat: implement plans endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather  |78c4ab546b7e2c9db4716085b5f78c0870659c78 |feat: implement subscription plan changes |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather  |dc6923664ac35f6d63b6c5f9d5ba9ce81e59e573 |feat: integrate external weather service |Blank |12/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard |27d66dafd0f38605144643331e7ea922fb26c7fc |feat: implement incident management endpoints |Blank |13/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard  |c7410469db57b08d581df60e336fb1d07c77b7e4 |feat: implement alerts and notifications |Blank |13/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard  |3bc5e1fbd1dc2164ca6b5b60084ddc6e20a4b920 |feat: implement dashboard summary endpoints |Blank |13/07/2026 |
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+
+En esta sección se presenta un resumen de lo logrado en el Sprint 3 actual, mostrando las principales vistas implementadas y la funcionalidad desarrollada. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas.
+
+*Figura 91 (SmartGas Swagger)*
+
+![](./assets/97_SmartGas_Swagger_1.png)
+
+*Figura 92 (SmartGas Swagger)*
+
+![](./assets/98_SmartGas_Swagger_2.png)
+
+*Figura 93 (SmartGas Swagger)*
+
+![](./assets/97_SmartGas_Swagger_1.png)
+
+*Figura 94 (SmartGas Swagger)*
+
+![](./assets/100_SmartGas_Swagger_4.png)
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+## Relación de Endpoints y Documentación OpenAPI
+En esta sección se incluye la relación de Endpoints reales implementados y documentados de manera dinámica con OpenAPI/Swagger relacionados con el alcance del Sprint 3. La sección inicia con una introducción que resume los logros consolidados en cuanto a la puesta en marcha de los Web Services funcionales del backend.
+
+Durante el Sprint 3, el equipo de ingeniería se enfocó exclusivamente en la implementación física y documentación técnica de los Web Services (backend) utilizando el entorno de ASP.NET Core. Este sprint corresponde al hito TB2 (Sprint Review), cuyo objetivo principal es la transición de las simulaciones previas hacia servicios web RESTful reales y conectados a la persistencia definitiva de datos en producción.
+
+## Estado de la Documentación en Sprint 3
+A diferencia del ciclo anterior, los Web Services se encuentran 100% implementados, completamente desplegados y en estado accesible. La documentación basada en la especificación OpenAPI es dinámica y provee al equipo de desarrollo una guía exacta para el consumo de datos de la plataforma SmartGas en producción. 
+
+* **URL de Documentación Swagger (Entorno Cloud):** https://smartgas-api-abop.onrender.com/swagger/index.html
+* **Punto de Enlace Base (Base URL):** https://smartgas-api-abop.onrender.com
+
+**Hitos alcanzados en el aseguramiento y documentación de la API (Sprint 3):**
+
+* **Mapeo del modelo de negocio:** Cobertura de documentación sobre los controladores esenciales de la arquitectura (módulos de gestión de usuarios, telemetría de sensores, emisión de alertas y almacenamiento de contactos de emergencia).
+* **Consola de pruebas interactiva:** Despliegue de una interfaz gráfica de usuario (Swagger UI) operativa en la nube, lo que facilita el consumo de endpoints y pruebas de integración inmediatas para el equipo de frontend.
+* **Contratos de datos transparentes:** Definición explícita de esquemas de respuesta y solicitudes con objetos JSON de ejemplo estructurados con datos realistas del negocio.
+* **Estandarización de respuestas HTTP:** Catalogación de los comportamientos del servidor mediante respuestas estandarizadas, incluyendo flujos exitosos y control de excepciones (como solicitudes incorrectas o recursos no encontrados).
+* **Visibilidad pública:** Disponibilidad de la documentación técnica en servidores de producción a través de la plataforma Render, facilitando la transparencia del avance frente a los stakeholders del proyecto.
+
+**Conclusión del estado de la entrega:** Los servicios del backend se encuentran en un estado cerrado, completamente desplegados y accesibles. La documentación basada en OpenAPI es dinámica y provee al equipo de desarrollo una guía exacta para el consumo de datos de la plataforma.
+
+**Catálogo de Endpoints bajo la Especificación OpenAPI**
+A continuación, se detalla analíticamente cada uno de los recursos del sistema expuestos en la API. Para cada operación se define su método de acceso HTTP, la ruta exacta de consumo, las variables esperadas en los segmentos de la URL o en el cuerpo de la petición (Payload), y el estado actual de la documentación.
+
+## Catálogo de Endpoints (Especificación OpenAPI)
+
+#### 1. User Management / IAM & Configuration (Auth, Profiles, Settings, EmergencyContacts)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/auth/sign-up` | POST | `POST /api/v1/auth/sign-up` | Body: auth data |  Operativo |
+| `/api/v1/auth/sign-in` | POST | `POST /api/v1/auth/sign-in` | Body: login credentials |  Operativo |
+| `/api/v1/profiles/{accountId}` | GET | `GET /api/v1/profiles/{accountId}` | Path: accountId |  Operativo |
+| `/api/v1/profiles/{accountId}` | PATCH | `PATCH /api/v1/profiles/{accountId}` | Path: accountId, Body: profile data |  Operativo |
+| `/api/v1/settings/{accountId}` | GET | `GET /api/v1/settings/{accountId}` | Path: accountId | Operativo |
+| `/api/v1/settings/{accountId}` | PATCH | `PATCH /api/v1/settings/{accountId}` | Path: accountId, Body: preferences data |  Operativo |
+| `/api/v1/emergency-contacts/{accountId}` | GET | `GET /api/v1/emergency-contacts/{accountId}` | Path: accountId | Operativo |
+| `/api/v1/emergency-contacts/{accountId}` | PATCH | `PATCH /api/v1/emergency-contacts/{accountId}` | Path: accountId, Body: contact data | Operativo |
+
+#### 2. Kitchen Monitoring & Telemetry (Zones, Sensors, SensorReadings, External)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/zones` | GET | `GET /api/v1/zones` | Sin parámetros | Operativo |
+| `/api/v1/zones` | POST | `POST /api/v1/zones` | Body: zone data | Operativo |
+| `/api/v1/sensors` | GET | `GET /api/v1/sensors` | Sin parámetros | Operativo |
+| `/api/v1/sensors` | POST | `POST /api/v1/sensors` | Body: sensor data |  Operativo |
+| `/api/v1/sensors/{id}` | PATCH | `PATCH /api/v1/sensors/{id}` | Path: id, Body: sensor status data |  Operativo |
+| `/api/v1/sensor-readings` | GET | `GET /api/v1/sensor-readings` | Sin parámetros |  Operativo |
+| `/api/v1/sensor-readings` | POST | `POST /api/v1/sensor-readings` | Body: reading telemetry data |  Operativo |
+| `/api/v1/external/weather/current` | GET | `GET /api/v1/external/weather/current` | Sin parámetros |  Operativo |
+
+#### 3. Incident Detection & Prevention (Incidents, Alerts)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/incidents` | GET | `GET /api/v1/incidents` | Sin parámetros | Operativo |
+| `/api/v1/incidents/{id}/review` | PATCH | `PATCH /api/v1/incidents/{id}/review` | Path: id |  Operativo |
+| `/api/v1/incidents/{id}/resolve` | PATCH | `PATCH /api/v1/incidents/{id}/resolve` | Path: id |  Operativo |
+| `/api/v1/incidents/{id}/false-alarm` | PATCH | `PATCH /api/v1/incidents/{id}/false-alarm` | Path: id | Operativo |
+| `/api/v1/alerts` | GET | `GET /api/v1/alerts` | Sin parámetros |  Operativo |
+
+#### 4. Notification Subsystem (Notifications)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/notifications` | GET | `GET /api/v1/notifications` | Sin parámetros | Operativo |
+| `/api/v1/notifications/{id}/read` | PATCH | `PATCH /api/v1/notifications/{id}/read` | Path: id | Operativo |
+| `/api/v1/notifications/{id}/confirm` | PATCH | `PATCH /api/v1/notifications/{id}/confirm` | Path: id | Operativo |
+
+#### 5. Payment & Monetization Management (Plans, Subscriptions)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/plans` | GET | `GET /api/v1/plans` | Sin parámetros | Operativo |
+| `/api/v1/subscriptions/current/{accountId}` | GET | `GET /api/v1/subscriptions/current/{accountId}` | Path: accountId |  Operativo |
+| `/api/v1/subscriptions/current/{accountId}/change-plan` | PATCH | `PATCH /api/v1/subscriptions/current/{accountId}/change-plan` | Path: accountId, Body: target plan data | Operativo |
+
+#### 6. Dashboard / Panel General & System Base (Dashboard, Root)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/dashboard/summary/{accountId}` | GET | `GET /api/v1/dashboard/summary/{accountId}` | Path: accountId |  Operativo |
+| `/` | GET | `GET /` | Sin parámetros | Operativo |
+
+
+#### Resumen de recursos y controladores en producción (ASP.NET Core)
+
+| Controlador / Recurso | Propósito y Uso Principal |
+| :--- | :--- |
+| `Auth` / `Profiles` | Orquestación de seguridad, autenticación basada en tokens y perfiles organizacionales. |
+| `Zones` / `Sensors` | Administración e inventario físico de las áreas de la cocina y el hardware IoT. |
+| `SensorReadings` / `External` | Captura continua de telemetría en tiempo real sincronizada con factores climáticos. |
+| `Incidents` / `Alerts` | Monitoreo crítico de anomalías, auditorías de fugas y transiciones de estados de seguridad. |
+| `Notifications` | Despacho y confirmación del historial de avisos críticos y preventivos enviados a los usuarios. |
+| `Plans` / `Subscriptions` | Control de modelos comerciales, niveles de acceso a la plataforma y facturación. |
+| `Dashboard` / `SmartGas.Api` | Centralización de métricas analíticas e instrumentación de pruebas de vida (*Health Check*). |
+
+## Observación técnica del Sprint 3
+Se completó con éxito la migración desde la arquitectura basada en JSON Server de la entrega anterior hacia Web Services RESTful nativos estructurados en C#. La implementación sigue los estándares formales de enrutamiento a través del prefijo jerárquico unificado `/api/v1/`, asegurando aislamiento de versiones, contratos de datos estructurados, tipado fuerte y persistencia de base de datos cloud robusta.
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+## Despliegue de los Web Services (Backend)
+
+Para el despliegue de la API productiva de SmartGas se utilizó una estrategia basada en la contenedorización, migrando la arquitectura de simulación previa hacia un entorno de producción real y definitivo. El backend, desarrollado con ASP.NET Core, fue desplegado en la plataforma cloud **Render** utilizando contenedores Docker. El frontend se mantuvo alojado en **Firebase Hosting**, actualizando su flujo de conexión para apuntar hacia este nuevo servidor en producción. Esta transición permitió sustituir la antigua fake API por servicios web RESTful reales y conectados a la persistencia de datos definitiva del proyecto.
+
+## Preparación del entorno y Dockerfile
+
+En primer lugar, se preparó el proyecto backend en .NET para que pudiera empaquetarse y ejecutarse correctamente en la nube sin depender de configuraciones específicas del host. Para ello, se diseñó un archivo `Dockerfile` de construcción multi-etapa (*multi-stage build*). Este archivo se encarga de restaurar las dependencias de NuGet, compilar el código fuente en modo optimizado de producción (`Release`) y empaquetar únicamente el resultado ejecutable en una imagen ligera basada en Linux (ASP.NET Runtime). 
+El servidor fue configurado para escuchar las peticiones de forma dinámica, adaptándose al puerto que la infraestructura de Render le asigna automáticamente en tiempo de ejecución.
+
+## Configuración del Entorno de Hosting en Render
+
+La arquitectura del hosting del servicio web y de la persistencia de datos fue estructurada bajo los siguientes parámetros técnicos de configuración dentro de la infraestructura cloud de Render:
+
+| Parámetro de Configuración | Valor Asignado (Backend API) | Valor Asignado (Base de Datos) |
+| :--- | :--- | :--- |
+| **Nombre del Servicio** | `smartgas-api` | `smartgas-postgres` |
+| **Proveedor / Servicio** | Render (Web Service) | Render PostgreSQL |
+| **Environment / Runtime** | Docker (Linux Container) | PostgreSQL 16+ |
+| **Branch de Despliegue** | `main` | N/A (Instancia de base de datos) |
+| **Región de Hospedaje** | Oregon / US West | Oregon / US West |
+| **Plan de Infraestructura** | Free Plan | Free Plan |
+| **Nombre de Base de Datos** | N/A | `smartgas_db` |
+| **Usuario Administrador** | N/A | `smartgas_user` |
+
+## Configuración de producción y variables de entorno
+
+Luego, se procedió a aislar todas las credenciales sensibles del código fuente para cumplir con los estándares de seguridad informática exigidos. En el panel de administración de Render, se configuraron las variables de entorno críticas dentro de la sección *Environment Variables*. 
+
+| Variable de Env (Render) | Propósito Técnico | Estado en Producción |
+| :--- | :--- | :---: |
+| `ASPNETCORE_ENVIRONMENT` | Define el modo de ejecución del framework en el entorno productivo (`Production`). | Configurada |
+| `ASPNETCORE_URLS` | Determina las direcciones y puertos dinámicos donde escucha el servidor web. | Configurada automáticamente |
+| `ConnectionStrings__DefaultConnection` | Cadena de conexión cifrada hacia la base de datos `smartgas_db` en Render PostgreSQL. | Configurada (Oculta) |
+| `FRONTEND_URL` | Define el origen permitido del cliente web para las políticas CORS de seguridad. | Configurada |
+
+De esta forma, el sistema opera con un aislamiento total de secretos, inyectando estos valores directamente en el contenedor en tiempo de ejecución para evitar fugas accidentales en el repositorio público.
+
+## Despliegue en Render
+
+Después de validar la configuración del contenedor localmente, el código definitivo fue integrado en el repositorio de la organización en GitHub. Render se vinculó de manera directa al repositorio institucional `upc-pre-2610-1ASI0730-12263-G2/SmartGas-api` mediante webhooks automatizados.
+Posteriormente, en Render se configuró un nuevo *Web Service* bajo el runtime de Docker. Al detecter el archivo `Dockerfile` en la raíz, Render inició automáticamente el pipeline de Integración y Despliegue Continuo (CI/CD): descargó el código, construyó la imagen del contenedor y ejecutó la API de manera automática y aislada, asignándole de inmediato certificados SSL/TLS para habilitar comunicación segura mediante el protocolo HTTPS.
+
+## Validación de la API real y endpoints
+
+Una vez finalizado el pipeline de despliegue en Render, se generó la URL pública definitiva para el entorno de producción: `https://smartgas-api-abop.onrender.com`. Desde este punto de enlace, se accedió públicamente a la interfaz de documentación interactiva de Swagger UI, lo que permitió verificar y auditar en tiempo real la disponibilidad operativa de los recursos reales del sistema, tales como:
+* `api/v1/auth` (Módulo de autenticación y registro de cuentas)
+* `api/v1/sensors` y `api/v1/sensor-readings` (Flujos de telemetría e ingesta de datos IoT)
+* `api/v1/zones` (Segmentación física de áreas de monitoreo)
+* `api/v1/incidents` y `api/v1/alerts` (Gestión de seguridad y alertas por fugas)
+* `api/v1/subscriptions` y `api/v1/plans` (Administración comercial de clientes)
+
+Esto confirmó que los servicios web RESTful estaban respondiendo correctamente con estados HTTP estables (200 OK) fuera del entorno local de desarrollo.
+
+Después de verificar la estabilidad del backend, se procedió a realizar la integración con la interfaz web. En el repositorio del frontend, se modificó el archivo de variables de entorno de producción `.env.production`, sustituyendo la antigua URL del JSON Server por el nuevo subdominio de producción provisto por Render:
+
+```VITE_API_BASE_URL=[https://smartgas-api-abop.onrender.com](https://smartgas-api-abop.onrender.com)```
+
+Posteriormente, se ejecutó un nuevo proceso de build con Vite para empaquetar el frontend con la nueva ruta de la API y se realizó el despliegue final hacia Firebase Hosting. Desde la URL pública del cliente web, se validá que las solicitudes HTTP (como las credenciales de inicio de sesión o las consultas del dashboard) ya no apuntaran a la base de datos simulada del sprint anterior, sino que interactuaran directamente y en tiempo real con el backend definitivo en .NET.
+
+## Resultado final
+
+En conclusión, la infraestructura de despliegue final del ecosistema SmartGas quedó consolidada de la siguiente manera:
+
+**Firebase Hosting:** Aloja el frontend estático y la interfaz de usuario web desarrollada en Vue.
+
+**Render (Docker Containers):** Aloja el backend productivo y los Web Services reales programados en ASP.NET Core bajo el servicio smartgas-api.
+
+**Render PostgreSQL:** Aloja el servicio de base de datos relacional relacional centralizado (smartgas-postgres) y la base de datos smartgas_db, actuando como el motor de persistencia definitivo del negocio.
+
+De esta forma, la solución de software se encuentra completamente desplegada en la nube, operando bajo un entorno distribuido, seguro y de alta disponibilidad para las revisiones del Sprint.
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+En esta sección se detalla el trabajo colaborativo del equipo y el flujo de ramas en GitHub para el desarrollo de los Web Services y su integración con los componentes ya desplegados. 
+
+Durante el Sprint 3, el equipo trabajó de forma distribuida para construir el backend en ASP.NET Core y asegurar el entorno de producción. Nos enfocamos principalmente en la definición de los contratos de datos, la persistencia en la nube y la automatización del despliegue, logrando conectar con éxito las interfaces frontend con la lógica de negocio y la telemetría real de SmartGas.
+
+## Herramientas de Colaboración Utilizadas
+
+El equipo optimizó y expandió el uso de las siguientes herramientas de ingeniería de software para facilitar la colaboración e integración continua durante este ciclo:
+
+* **GitHub:** Eje central para el control de versiones y la automatización del pipeline de despliegue a producción.
+  * **Repositorio principal:** `SmartGas-api` (Backend central en .NET).
+  * **Estrategia de Ramas:** Uso estructurado de ramas de características aisladas para evitar conflictos de código antes de converger en `develop` y `main`. El flujo de desarrollo estuvo integrado por:
+    * `main` (Producción por defecto)
+    * `develop` (Integración)
+    * `feature/backend-infrastructure-deployment`
+    * `feature/iam-profiles-settings`
+    * `feature/incidents-alerts-dashboard`
+    * `feature/monitoring-sensors-readings`
+    * `feature/subscriptions-plans-weather`
+* **Jira:** Gestión simplificada del Sprint Backlog mediante un tablero ágil. Se utilizó para el seguimiento y asignación de los *User Stories* asociados a los controladores de la API, control de tareas de desarrollo de endpoints y monitoreo de bloqueos técnicos del equipo.
+
+
+## Evidencias de Colaboración y Analíticos de GitHub
+
+*Figura 95 (Team Collaboration Insights during Jun 12, 2026)*
+
+![InsightAPI.png](./assets/insightAPI.png)
+
+*Figura 96 (Team Collaboration Insights during Jun 13, 2026)*
+
+![InsightAPI.png](./assets/insightAPI2.png)
+
+*Figura 97 (Team Collaboration Insights during Jun 14, 2026)*
+
+![InsightAPI.png](./assets/insightAPI3.png)
+
+
+## 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de entrevistas
+
+### Segmento Objetivo 1: Familias y Propietarios de Viviendas
+
+*Landing page*
+
+1. Al ver por primera vez la página de inicio, ¿qué es lo que más le llama la atención de la Landing Page? ¿La propuesta de valor le queda clara de inmediato?
+2. ¿Los beneficios mostrados (Prevención automatizada, Monitoreo en tiempo real, Notificaciones instantáneas) responden a algo que usted realmente necesitaría en su hogar? ¿Hay algo que eche de menos?
+3. Revisando la sección de planes (Básico PEN 30, Profesional PEN 70, Corporativo PEN 100), ¿cuál elegiría para su casa y por qué? ¿Considera que el precio es razonable para lo que ofrece?
+4. ¿Qué tan fácil le resultó navegar entre las secciones de la landing (Inicio, Beneficios, Planes, Contacto)? ¿Encontró la información que esperaba en cada sección?
+5. Después de explorar la página, ¿Le ha llamado la atención nuestro producto? ¿Le daría click al botón de “Sign up”? ¿Qué información adicional necesitaría ver antes de hacerlo?
+6. ¿Las características descritas (detección inteligente de gas, cierre automático, telemetría en la nube) le generan la sensación de que el sistema actuaría sin que usted tenga que hacer nada? ¿Le transmite seguridad esa promesa?
+
+*FrontEnd*
+
+7. Al ingresar al panel principal, ¿entiende de un vistazo el estado de seguridad de su cocina? ¿Qué información le parece más importante y cuál le sobra o confunde?
+8. En la sección de Monitoreo, ¿la tarjeta de la zona "Cocina" con los datos de Gas (ppm) y Temperatura le resulta comprensible
+9. Al explorar la sección de Dispositivos, ¿le queda claro cómo registrar un nuevo sensor en su hogar? ¿No tendría dificultad en manejar este segmento?
+10. Si el sistema detectara una fuga de gas, ¿sabe a dónde cree que debería ir para ver los detalles del incidente? ¿La sección de Incidentes es fácil de encontrar?
+11. En la sección de Configuración, ¿le resulta claro cómo ajustar los umbrales de alerta de gas y temperatura? ¿Modificaría esos valores o dejaría los predeterminados?
+12. ¿El menú de navegación lateral (Panel, Monitoreo, Dispositivos, Incidentes, Reportes, Suscripción, Perfil) le parece intuitivo? ¿Alguna sección le costó encontrar o tiene un nombre que no entiende?
+13. Usando la aplicación, ¿siente que podría monitorear su cocina de forma autónoma sin necesitar ayuda técnica? ¿Qué cambiaría, agregaría o eliminaría para que le resulte más útil?
+
+*Final*
+
+14. Comparando la promesa que vio en la landing page con lo que encontró en la aplicación, ¿siente que el producto cumple con lo que ofrece? ¿Hubo algo que esperaba ver y no encontró?
+15. En una escala del 1 al 10, ¿qué tan probable es que recomiende SmartGas a un familiar o vecino? ¿Qué debería mejorar el equipo para que esa puntuación suba?
+
+### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
+
+*Landing page*
+
+1. Al entrar a la landing page por primera vez, ¿siente que SmartGas está pensado también para restaurantes, o lo percibe como un producto solo para uso doméstico? ¿Qué elementos lo llevan a esa conclusión?
+2. ¿Los beneficios destacados (prevención automatizada, monitoreo en tiempo real, notificaciones instantáneas) son relevantes para el ritmo de trabajo de su cocina? ¿Hay algún beneficio crítico para su negocio que no ve mencionado?
+3. Al revisar los planes de suscripción, ¿cuál consideraría para su restaurante y por qué? ¿El plan Corporativo (PEN 100/mes) justifica su precio frente a lo que ofrece para operaciones de alta demanda?
+4. ¿La sección "About Us" y la presentación del equipo le generan confianza suficiente para considerar SmartGas como un proveedor serio para su negocio? ¿Qué le falta para aumentar esa confianza?
+5. ¿El formulario de contacto y el call-to-action "Sign up" le resultan suficientes para dar el siguiente paso, o esperaría ver antes un caso de éxito, certificaciones o demos en video del producto?
+6. ¿La característica de "cierre automático de válvulas" (Automatic Shut-off) le genera tranquilidad operativa o le genera dudas sobre el control manual en situaciones de emergencia real?
+
+*FrontEnd*
+
+7. Desde el panel principal, ¿puede usted identificar de un vistazo si alguna zona de su local presenta riesgo? ¿El indicador "Estado General: Seguro" le resulta suficiente o necesitaría más detalle inmediato?
+8. En la sección de Monitoreo, ¿la capacidad de filtrar zonas por estado (Seguro, Advertencia, Crítico, Sin conexión) le parece útil para gestionar múltiples áreas de su cocina comercial simultáneamente?
+9. Al revisar la sección de Dispositivos, ¿considera que la información mostrada (código, nombre, tipo, zona, estado, batería, última lectura) es suficiente para gestionar los sensores de un restaurante con varias cocinas?
+10. En la sección de Reportes, ¿el historial de incidentes con filtros por zona, severidad, tipo y fecha le daría la información necesaria para tomar decisiones o para presentar evidencia ante una auditoría de seguridad?
+11. Al revisar el módulo de Incidentes, usted tiene la opción de gestionar y documentar los incidentes de su local ¿Le resulta útil la función de archivar estos incidentes?
+12. En Configuración de Seguridad, ¿los umbrales de advertencia de gas (50 ppm) y temperatura (45 °C) se ajustan a la realidad de una cocina comercial activa, o necesitaría valores diferentes según el tipo de zona?
+13. ¿La plataforma le parece escalable para gestionar múltiples locales o zonas desde una sola cuenta? ¿Qué funcionalidades adicionales (gestión de roles, reportes exportables, integración con otros sistemas) considera indispensables para su operación?
+
+*Final*
+
+14. ¿SmartGas reemplazaría o complementaría los protocolos de seguridad que ya tiene en su negocio? ¿Ve algún riesgo o limitación en depender de una plataforma digital para la seguridad crítica de su cocina?
+15. En una escala del 1 al 10, ¿qué tan dispuesto estaría a implementar SmartGas en su negocio en los próximos 3 meses? ¿Cuál es el principal obstáculo que lo frena y qué debería cambiar el equipo para removerlo?
+
+## 5.3.2. Registro de entrevistas
+
+### Segmento Objetivo 1: Familias y Propietarios de Viviendas
+
+#### Entrevista 1
+![Entrevista1B.png](./assets/101_entrevista1.png)
+
+- **Nombres y apellidos:** Sheila Calderón
+- **Edad:** 42 
+- **Distrito:** Trujillo
+- **Inicio:** 0:00  
+- **Duración:** 25:17  
+- **URL:**  [entrevista](https://youtu.be/l9lnfLF2V6A)
+- **Resumen:** 
+La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la propuesta es novedosa, intuitiva y muy amigable para personas que no saben de tecnología. Validó funciones como el monitoreo y el apagado automático por una necesidad personal de olvidos en la cocina, y eligió el plan básico por vivir en un departamento pequeño. Además, elogió enormemente la opción de modo oscuro en la app web porque le ayuda a descansar la vista. Como sugerencias de mejora, recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó que se aclare contractualmente si la tarifa mensual de 30 soles es fija o variable. Finalmente, en la sección de configuración, señaló que prefiere dejar los umbrales de alerta de gas y temperatura predeterminados por el equipo, ya que no sabría cómo medirlos y optaría por recibir asesoría directa.
+
+#### Entrevista 2
+![Entrevista2.png](./assets/102_entrevista2.png)
+
+- **Nombres y apellidos:** Saúl Romani
+- **Edad:** 48 
+- **Distrito:** Jesús Maria
+- **Inicio:** 0:00  
+- **Duración:** 10:17  
+- **URL:**  [entrevista](https://www.youtube.com/watch?v=redd8kHGVC0)
+- **Resumen:** 
+El entrevistado Saúl Romani dio una calificación de 8/10 a SmartGas, destacando que la propuesta le parece útil, clara y enfocada en una necesidad real de seguridad dentro del hogar. Valoró especialmente el monitoreo en tiempo real, las notificaciones instantáneas y la detección inteligente de gas, ya que transmiten la idea de que el sistema puede prevenir una emergencia antes de que el usuario tenga que actuar manualmente. Además, eligió el plan Profesional de PEN 70 porque considera que ofrece un buen equilibrio entre precio y funcionalidades para una vivienda. Como sugerencias de mejora, recomendó explicar con mayor detalle el proceso de instalación, la compatibilidad con los sensores y qué sucede si se pierde la conexión a internet. También indicó que sería importante mostrar de forma más visual cómo funciona el cierre automático ante una fuga de gas. Finalmente, en la aplicación web señaló que el panel es entendible y permite monitorear la cocina de forma autónoma, aunque sugirió agregar etiquetas visuales como “Normal”, “Riesgo” o “Crítico” para interpretar más rápido los niveles de gas y temperatura.
+
+#### Entrevista 3
+![Entrevista3.png](./assets/103_entrevista3.png)
+
+- **Nombres y apellidos:** Sonia Rojas
+- **Edad:** 57
+- **Distrito:** Cercado de Lima
+- **Inicio:** 0:00  
+- **Duración:** 7:30
+- **URL:**  [entrevista](https://youtu.be/WLt1XLsdJFg)
+- **Resumen:** 
+La entrevistada Sonia Rojas dio una calificación de 10/10 a Smartgas, el motivo es que para ella la propuesta de SmartGas le parece útil y necesaria para la seguridad de su familia. Ella menciona la sensación de tranquilidad que le propiciaria tener un servicio como el de SmartGas ya el sistema al funcionar automaticamente se encargaria de lidiar por su cuenta con los incidentes que puedan ocurrir. Los precios que ofrece SmartGas le parecen justos. Señalo que el panel de información se le hace entendible y que no tuvo ni un problema entiendo la información presente en cada una de las vistas de la aplicación.
+
+### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
+
+#### Entrevista 1
+
+![Entrevista1.png](./assets/104_entrevista1A.png)
+
+- **Nombres y apellidos:** Kevin Izquierdo
+- **Edad:** 31
+- **Distrito:** Cercado de Lima
+- **Inicio:** 0:00  
+- **Duración:** 08:27
+- **URL:**  [entrevista](https://youtu.be/ILTzgInzBZY)
+- **Resumen:** 
+El entrevistado Kevin Izquierdo le dio una calificación de 10/10 a Smartgas, para el Smartgas es un sistema que seria muy útil en su restaurant. El menciona que los precios que ofrecemos le parecen justos y que el eligiria el plan profesional debido a la infraestructura de su local. El nos dice que la información presente en el panel de información y en las distintas vistas se le hace entendible y no tuvo problema navegando a lo largo de las distintas vistas. Para el Smartgas es un sistema útil por sus funciones automaticas las cuales serian buenas en caso se presente en un incidente, ya que así no dependerian de una persona y que el incidente posiblemente escale.
+
+#### Entrevista 2
+
+![Entrevista2.png](./assets/105_entrevista_2A.png)
+
+- **Nombres y apellidos:** Ruben Carhuaz
+- **Edad:** 49
+- **Distrito:** Lince
+- **Inicio:** 0:00  
+- **Duración:** 08:27
+- **URL:**  [entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d932_upc_edu_pe/IQCoRFbEBhmsR5VKaoBPN9G1AWv9FtOJkuxbJj53FCu-oog?e=q7hQee&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+El entrevistado Ruben Carhuaz se mostro muy dispuesto a usar SmartGas, para el SmartGas es un sistema necesario para los establecimientos gracias a la seguridad que ofrece tanto para los comensales, los empleados y por la seguridad del capital. La interfaz de SmartGas se le hizo entendible, la información bien distribuida y es fácil navegar a través de la aplicación web. El nos dice que lo que ofrece SmartGas a su negocio seria útil gracias a sus funciones de automatización de procesos de prevención de accidentes. Los diferentes precios que ofrecemos le parecen justos en relacion a lo que ofrece cada uno.
+
+#### Entrevista 3
+
+![Entrevista3.png](./assets/entrevista-segmento2-final.png)
+ 
+- **Nombres y apellidos:** RaÍ Beizaga
+- **Edad:** 20
+- **Distrito:** Jesús María
+- **Inicio:** 0:00  
+- **Duración:** 06:35
+- **URL:**  [entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310436_upc_edu_pe/IQCO5i5d56-KRJT0465Jl5y5AVqMCn2EmF8_U27Jh_MYlkw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQIZdA)
+
+Raí mostró una percepción positiva de SmartGas pero identificó que la plataforma aún proyecta una imagen más doméstica que industrial, sugiriendo que debería comunicar más claramente su utilidad en cocinas comerciales con equipos como freidoras y hornos. Valoró funciones clave como las notificaciones instantáneas, el historial de incidentes y los filtros por estado, aunque señaló limitaciones importantes como el umbral de temperatura de 45 °C (bajo para una cocina activa), la falta de ubicación física de sensores y la ausencia de exportación de reportes. También expresó dudas sobre el cierre automático de válvulas en medio del servicio y sobre la dependencia de conectividad a internet en situaciones críticas. A pesar de estos puntos, su disposición a implementar SmartGas fue de 8/10, con el principal obstáculo siendo que la decisión de compra recae en el administrador del restaurante y no en él, por lo que recomendaría ofrecer una demo o prueba gratuita para facilitar esa conversación.
+
+
+## 5.3.3. Evaluaciones según Heuristicas
+
+#### Segmento 1: Familias y Propietarios de Viviendas
+ 
+* **Perfil y Residencia:** 100% reside en zonas urbanas de Lima y Trujillo, con distintas configuraciones de vivienda (departamentos y casas).
+* **Valoración General de SmartGas:** 100% otorgó una calificación alta a la propuesta: el 66% le dio 10/10 y el 33% le dio 8/10, reflejando una aceptación muy positiva del producto.
+* **Funciones Valoradas:**
+  * 100% valora el monitoreo en tiempo real y las notificaciones instantáneas ante posibles fugas.
+  * 66% destacó el apagado automático como una función clave, especialmente ante olvidos o ausencias del hogar.
+  * 33% resaltó específicamente la detección inteligente de gas como mecanismo preventivo antes de que el usuario deba intervenir manualmente.
+* **Usabilidad de la Interfaz:** 100% encontró el panel de información entendible y no reportó dificultades navegando por las distintas vistas de la aplicación web. El 33% elogió de forma particular la opción de modo oscuro por su beneficio para la vista.
+* **Elección de Plan:** 66% eligió el plan básico o intermedio adecuado a su tipo de vivienda, mientras que el 33% optó por el plan Profesional (PEN 70) considerando que ofrece el mejor equilibrio entre precio y funcionalidades.
+* **Adopción de SmartGas:** 100% manifestó disposición a utilizar el sistema, motivados principalmente por la tranquilidad, la seguridad familiar y la capacidad del sistema de actuar de forma autónoma ante incidentes.
+* **Sugerencias de Mejora:**
+  * 33% recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó claridad contractual sobre si la tarifa mensual es fija o variable.
+  * 33% sugirió explicar con mayor detalle el proceso de instalación, la compatibilidad con sensores y el comportamiento del sistema ante pérdida de conexión a internet.
+  * 33% solicitó agregar etiquetas visuales (por ejemplo: "Normal", "Riesgo", "Crítico") para interpretar los niveles de gas y temperatura de forma más rápida e intuitiva.
+  * 33% prefiere que los umbrales de alerta sean configurados de forma predeterminada por el equipo técnico, al no contar con conocimientos para medirlos por cuenta propia.
+
+#### Segmento 2: Administradores y Chefs de Restaurantes
+ 
+* **Perfil y Contexto:** 100% opera establecimientos de food service en Lima con equipos de cocina que dependen del gas de forma continua.
+* **Valoración General de SmartGas:** 100% otorgó una calificación de 10/10, considerando la propuesta no solo útil sino necesaria para el entorno de un restaurante.
+* **Motivación Principal:** 100% identifica la seguridad como el factor decisivo de adopción, señalando que una fuga o incendio representaría pérdidas económicas significativas, riesgo para comensales y empleados, y daño irreversible a la reputación del negocio.
+* **Funciones Valoradas:**
+  * 100% valora las funciones de automatización de procesos de prevención de accidentes, ya que reducen la dependencia del factor humano.
+  * 100% aprecia el monitoreo centralizado, al permitirles supervisar la cocina de forma autónoma desde el panel de la aplicación.
+* **Usabilidad de la Interfaz:** 100% encontró la interfaz entendible, con información bien distribuida y navegación fluida a través de las distintas vistas de la aplicación web.
+* **Elección de Plan:** 100% eligió el plan Profesional, justificando la decisión en la infraestructura y escala operativa de sus locales, y considerando que los precios son justos en relación con las funcionalidades ofrecidas.
+* **Adopción de SmartGas:** 100% se mostró dispuesto y entusiasmado con implementar el sistema, valorándolo como una herramienta indispensable que centraliza el monitoreo y protege tanto al personal como al capital invertido.
+* **Sugerencias de Mejora:** Ningún entrevistado de este segmento reportó observaciones críticas sobre la interfaz o el modelo de negocio, lo que indica una alta alineación entre la propuesta y las necesidades del segmento.
+
+## 4.8. About-The-Product.
+
+En el video about the product damos una pequeña publicidad a nuestro producto.
+
+!![AboutTheProduct](./assets/AboutTheProduct.png)
+
+- **URL:**  [Youtube](https://youtu.be/SiHK6-clPZA)
+- **URL:**  [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d995_upc_edu_pe/IQAonC83jMjRRYdjvGCkTv5XARd4JMKJDWgh1lxDotvQMQw?e=McwtZH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Conclusiones
 
