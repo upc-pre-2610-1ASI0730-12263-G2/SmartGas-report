@@ -1571,8 +1571,20 @@ La entrevistada Sonia Rojas dio una calificación de 10/10 a Smartgas, el motivo
 - **Duración:** 08:27
 - **URL:**  [entrevista](https://youtu.be/ILTzgInzBZY)
 - **Resumen:** 
-El entrevistado Kevin Izquier le dio una calificación de 10/10 a Smartgas, para el Smartgas es un sistema que seria muy útil en su restaurant. El menciona que los precios que ofrecemos le parecen justos y que el eligiria el plan profesional debido a la infraestructura de su local. El nos dice que la información presente en el panel de información y en las distintas vistas se le hace entendible y no tuvo problema navegando a lo largo de las distintas vistas. Para el Smartgas es un sistema útil por sus funciones automaticas las cuales serian buenas en caso se presente en un incidente, ya que así no dependerian de una persona y que el incidente posiblemente escale.
+El entrevistado Kevin Izquierdo le dio una calificación de 10/10 a Smartgas, para el Smartgas es un sistema que seria muy útil en su restaurant. El menciona que los precios que ofrecemos le parecen justos y que el eligiria el plan profesional debido a la infraestructura de su local. El nos dice que la información presente en el panel de información y en las distintas vistas se le hace entendible y no tuvo problema navegando a lo largo de las distintas vistas. Para el Smartgas es un sistema útil por sus funciones automaticas las cuales serian buenas en caso se presente en un incidente, ya que así no dependerian de una persona y que el incidente posiblemente escale.
+
 #### Entrevista 2
+
+![Entrevista2.png](./assets/105_entrevista2A.png)
+
+- **Nombres y apellidos:** Ruben Carhuaz
+- **Edad:** 49
+- **Distrito:** Lince
+- **Inicio:** 0:00  
+- **Duración:** 08:27
+- **URL:**  [entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d932_upc_edu_pe/IQCoRFbEBhmsR5VKaoBPN9G1AWv9FtOJkuxbJj53FCu-oog?e=q7hQee&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+El entrevistado Ruben Carhuaz se mostro muy dispuesto a usar SmartGas, para el SmartGas es un sistema necesario para los establecimientos gracias a la seguridad que ofrece tanto para los comensales, los empleados y por la seguridad del capital. La interfaz de SmartGas se le hizo entendible, la información bien distribuida y es fácil navegar a través de la aplicación web. El nos dice que lo que ofrece SmartGas a su negocio seria útil gracias a sus funciones de automatización de procesos de prevención de accidentes. Los diferentes precios que ofrecemos le parecen justos en relacion a lo que ofrece cada uno.
 
 #### Entrevista 3
 
