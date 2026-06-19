@@ -105,7 +105,7 @@
 
 **URL del Repositorio**: [https://github.com/1ASI0730-2610-12263-G2/SmartGas-Project-Report](https://github.com/1ASI0730-2610-12263-G2/SmartGas-Project-Report)
 
-<div align = "left">
+![](./assets/Report-Insights.png)
 
 # ABET – EAC - Student Outcome 5
 
