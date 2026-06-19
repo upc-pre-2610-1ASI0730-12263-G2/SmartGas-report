@@ -1449,15 +1449,15 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 
 ## Evidencias de Colaboración y Analíticos de GitHub
 
-*Figura 91 (Team Collaboration Insights during Jun 12, 2026)*
+*Figura 95 (Team Collaboration Insights during Jun 12, 2026)*
 
 ![InsightAPI.png](./assets/insightAPI.png)
 
-*Figura 92 (Team Collaboration Insights during Jun 13, 2026)*
+*Figura 96 (Team Collaboration Insights during Jun 13, 2026)*
 
 ![InsightAPI.png](./assets/insightAPI2.png)
 
-*Figura 93 (Team Collaboration Insights during Jun 14, 2026)*
+*Figura 97 (Team Collaboration Insights during Jun 14, 2026)*
 
 ![InsightAPI.png](./assets/insightAPI3.png)
 
@@ -1523,8 +1523,7 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 ### Segmento Objetivo 1: Familias y Propietarios de Viviendas
 
 #### Entrevista 1
-
-![Entrevista1B.png](./assets/entrevista1.png)
+![Entrevista1B.png](./assets/101_entrevista1.png)
 
 - **Nombres y apellidos:** Sheila Calderón
 - **Edad:** 42 
@@ -1536,7 +1535,7 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la propuesta es novedosa, intuitiva y muy amigable para personas que no saben de tecnología. Validó funciones como el monitoreo y el apagado automático por una necesidad personal de olvidos en la cocina, y eligió el plan básico por vivir en un departamento pequeño. Además, elogió enormemente la opción de modo oscuro en la app web porque le ayuda a descansar la vista. Como sugerencias de mejora, recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó que se aclare contractualmente si la tarifa mensual de 30 soles es fija o variable. Finalmente, en la sección de configuración, señaló que prefiere dejar los umbrales de alerta de gas y temperatura predeterminados por el equipo, ya que no sabría cómo medirlos y optaría por recibir asesoría directa.
 
 #### Entrevista 2
-![Entrevista2.png](./assets/entrevista2.png)
+![Entrevista2.png](./assets/102_entrevista2.png)
 
 - **Nombres y apellidos:** Saúl Romani
 - **Edad:** 48 
@@ -1548,11 +1547,29 @@ La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la pro
 El entrevistado Saúl Romani dio una calificación de 8/10 a SmartGas, destacando que la propuesta le parece útil, clara y enfocada en una necesidad real de seguridad dentro del hogar. Valoró especialmente el monitoreo en tiempo real, las notificaciones instantáneas y la detección inteligente de gas, ya que transmiten la idea de que el sistema puede prevenir una emergencia antes de que el usuario tenga que actuar manualmente. Además, eligió el plan Profesional de PEN 70 porque considera que ofrece un buen equilibrio entre precio y funcionalidades para una vivienda. Como sugerencias de mejora, recomendó explicar con mayor detalle el proceso de instalación, la compatibilidad con los sensores y qué sucede si se pierde la conexión a internet. También indicó que sería importante mostrar de forma más visual cómo funciona el cierre automático ante una fuga de gas. Finalmente, en la aplicación web señaló que el panel es entendible y permite monitorear la cocina de forma autónoma, aunque sugirió agregar etiquetas visuales como “Normal”, “Riesgo” o “Crítico” para interpretar más rápido los niveles de gas y temperatura.
 
 #### Entrevista 3
+![Entrevista3.png](./assets/103_entrevista3.png)
+
+- **Nombres y apellidos:** Sonia Rojas
+- **Edad:** 57
+- **Distrito:** Cercado de Lima
+- **Inicio:** 0:00  
+- **Duración:** 7:30
+- **URL:**  [entrevista](https://youtu.be/WLt1XLsdJFg)
+La entrevistada Sonia Rojas dio una calificación de 10/10 a Smartgas, el motivo es que para ella la propuesta de SmartGas le parece útil y necesaria para la seguridad de su familia. Ella menciona la sensación de tranquilidad que le propiciaria tener un servicio como el de SmartGas ya el sistema al funcionar automaticamente se encargaria de lidiar por su cuenta con los incidentes que puedan ocurrir. Los precios que ofrece SmartGas le parecen justos. Señalo que el panel de información se le hace entendible y que no tuvo ni un problema entiendo la información presente en cada una de las vistas de la aplicación.
 
 ### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
 
 #### Entrevista 1
 
+![Entrevista1.png](./assets/104_entrevista1A.png)
+
+- **Nombres y apellidos:** Kevin Izquierdo
+- **Edad:** 31
+- **Distrito:** Cercado de Lima
+- **Inicio:** 0:00  
+- **Duración:** 08:27
+- **URL:**  [entrevista](https://youtu.be/ILTzgInzBZY)
+El entrevistado Kevin Izquier le dio una calificación de 10/10 a Smartgas, para el Smartgas es un sistema que seria muy útil en su restaurant. El menciona que los precios que ofrecemos le parecen justos y que el eligiria el plan profesional debido a la infraestructura de su local. El nos dice que la información presente en el panel de información y en las distintas vistas se le hace entendible y no tuvo problema navegando a lo largo de las distintas vistas. Para el Smartgas es un sistema útil por sus funciones automaticas las cuales serian buenas en caso se presente en un incidente, ya que así no dependerian de una persona y que el incidente posiblemente escale.
 #### Entrevista 2
 
 #### Entrevista 3
