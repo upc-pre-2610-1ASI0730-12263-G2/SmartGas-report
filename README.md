@@ -1207,6 +1207,115 @@ y conexión del frontend al nuevo backend desplegado en producción.
 | CG-01 | Constraint General | T-16 | CORS Configuration for Firebase | Configuración de CORS para permitir conexión desde el frontend en Firebase Hosting. | 2 | Briguite | Done |
 | CG-01 | Constraint General | T-17 | External Weather Service Fixes | Correcciones en parsing de humedad y fallback para el servicio externo de clima. | 3 | Briguite | Done |
 
+### 5.2.3.4.Development Evidence for Sprint Review.
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+## Relación de Endpoints y Documentación OpenAPI
+En esta sección se incluye la relación de Endpoints reales implementados y documentados de manera dinámica con OpenAPI/Swagger relacionados con el alcance del Sprint 3. La sección inicia con una introducción que resume los logros consolidados en cuanto a la puesta en marcha de los Web Services funcionales del backend.
+
+Durante el Sprint 3, el equipo de ingeniería se enfocó exclusivamente en la implementación física y documentación técnica de los Web Services (backend) utilizando el entorno de ASP.NET Core. Este sprint corresponde al hito TB2 (Sprint Review), cuyo objetivo principal es la transición de las simulaciones previas hacia servicios web RESTful reales y conectados a la persistencia definitiva de datos en producción.
+
+## Estado de la Documentación en Sprint 3
+A diferencia del ciclo anterior, los Web Services se encuentran 100% implementados, completamente desplegados y en estado accesible. La documentación basada en la especificación OpenAPI es dinámica y provee al equipo de desarrollo una guía exacta para el consumo de datos de la plataforma SmartGas en producción. 
+
+* **URL de Documentación Swagger (Entorno Cloud):** https://smartgas-api-abop.onrender.com/swagger/index.html
+* **Punto de Enlace Base (Base URL):** https://smartgas-api-abop.onrender.com
+
+**Hitos alcanzados en el aseguramiento y documentación de la API (Sprint 3):**
+
+* **Mapeo del modelo de negocio:** Cobertura de documentación sobre los controladores esenciales de la arquitectura (módulos de gestión de usuarios, telemetría de sensores, emisión de alertas y almacenamiento de contactos de emergencia).
+* **Consola de pruebas interactiva:** Despliegue de una interfaz gráfica de usuario (Swagger UI) operativa en la nube, lo que facilita el consumo de endpoints y pruebas de integración inmediatas para el equipo de frontend.
+* **Contratos de datos transparentes:** Definición explícita de esquemas de respuesta y solicitudes con objetos JSON de ejemplo estructurados con datos realistas del negocio.
+* **Estandarización de respuestas HTTP:** Catalogación de los comportamientos del servidor mediante respuestas estandarizadas, incluyendo flujos exitosos y control de excepciones (como solicitudes incorrectas o recursos no encontrados).
+* **Visibilidad pública:** Disponibilidad de la documentación técnica en servidores de producción a través de la plataforma Render, facilitando la transparencia del avance frente a los stakeholders del proyecto.
+
+**Conclusión del estado de la entrega:** Los servicios del backend se encuentran en un estado cerrado, completamente desplegados y accesibles. La documentación basada en OpenAPI es dinámica y provee al equipo de desarrollo una guía exacta para el consumo de datos de la plataforma.
+
+**Catálogo de Endpoints bajo la Especificación OpenAPI**
+A continuación, se detalla analíticamente cada uno de los recursos del sistema expuestos en la API. Para cada operación se define su método de acceso HTTP, la ruta exacta de consumo, las variables esperadas en los segmentos de la URL o en el cuerpo de la petición (Payload), y el estado actual de la documentación.
+
+## Catálogo de Endpoints (Especificación OpenAPI)
+
+#### 1. User Management / IAM & Configuration (Auth, Profiles, Settings, EmergencyContacts)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/auth/sign-up` | POST | `POST /api/v1/auth/sign-up` | Body: auth data |  Operativo |
+| `/api/v1/auth/sign-in` | POST | `POST /api/v1/auth/sign-in` | Body: login credentials |  Operativo |
+| `/api/v1/profiles/{accountId}` | GET | `GET /api/v1/profiles/{accountId}` | Path: accountId |  Operativo |
+| `/api/v1/profiles/{accountId}` | PATCH | `PATCH /api/v1/profiles/{accountId}` | Path: accountId, Body: profile data |  Operativo |
+| `/api/v1/settings/{accountId}` | GET | `GET /api/v1/settings/{accountId}` | Path: accountId | Operativo |
+| `/api/v1/settings/{accountId}` | PATCH | `PATCH /api/v1/settings/{accountId}` | Path: accountId, Body: preferences data |  Operativo |
+| `/api/v1/emergency-contacts/{accountId}` | GET | `GET /api/v1/emergency-contacts/{accountId}` | Path: accountId | Operativo |
+| `/api/v1/emergency-contacts/{accountId}` | PATCH | `PATCH /api/v1/emergency-contacts/{accountId}` | Path: accountId, Body: contact data | Operativo |
+
+#### 2. Kitchen Monitoring & Telemetry (Zones, Sensors, SensorReadings, External)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/zones` | GET | `GET /api/v1/zones` | Sin parámetros | Operativo |
+| `/api/v1/zones` | POST | `POST /api/v1/zones` | Body: zone data | Operativo |
+| `/api/v1/sensors` | GET | `GET /api/v1/sensors` | Sin parámetros | Operativo |
+| `/api/v1/sensors` | POST | `POST /api/v1/sensors` | Body: sensor data |  Operativo |
+| `/api/v1/sensors/{id}` | PATCH | `PATCH /api/v1/sensors/{id}` | Path: id, Body: sensor status data |  Operativo |
+| `/api/v1/sensor-readings` | GET | `GET /api/v1/sensor-readings` | Sin parámetros |  Operativo |
+| `/api/v1/sensor-readings` | POST | `POST /api/v1/sensor-readings` | Body: reading telemetry data |  Operativo |
+| `/api/v1/external/weather/current` | GET | `GET /api/v1/external/weather/current` | Sin parámetros |  Operativo |
+
+#### 3. Incident Detection & Prevention (Incidents, Alerts)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/incidents` | GET | `GET /api/v1/incidents` | Sin parámetros | Operativo |
+| `/api/v1/incidents/{id}/review` | PATCH | `PATCH /api/v1/incidents/{id}/review` | Path: id |  Operativo |
+| `/api/v1/incidents/{id}/resolve` | PATCH | `PATCH /api/v1/incidents/{id}/resolve` | Path: id |  Operativo |
+| `/api/v1/incidents/{id}/false-alarm` | PATCH | `PATCH /api/v1/incidents/{id}/false-alarm` | Path: id | Operativo |
+| `/api/v1/alerts` | GET | `GET /api/v1/alerts` | Sin parámetros |  Operativo |
+
+#### 4. Notification Subsystem (Notifications)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/notifications` | GET | `GET /api/v1/notifications` | Sin parámetros | Operativo |
+| `/api/v1/notifications/{id}/read` | PATCH | `PATCH /api/v1/notifications/{id}/read` | Path: id | Operativo |
+| `/api/v1/notifications/{id}/confirm` | PATCH | `PATCH /api/v1/notifications/{id}/confirm` | Path: id | Operativo |
+
+#### 5. Payment & Monetization Management (Plans, Subscriptions)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/plans` | GET | `GET /api/v1/plans` | Sin parámetros | Operativo |
+| `/api/v1/subscriptions/current/{accountId}` | GET | `GET /api/v1/subscriptions/current/{accountId}` | Path: accountId |  Operativo |
+| `/api/v1/subscriptions/current/{accountId}/change-plan` | PATCH | `PATCH /api/v1/subscriptions/current/{accountId}/change-plan` | Path: accountId, Body: target plan data | Operativo |
+
+#### 6. Dashboard / Panel General & System Base (Dashboard, Root)
+
+| Endpoint | HTTP Verb | Sintaxis de llamada | Parámetros | Estado |
+| :--- | :---: | :--- | :--- | :---: |
+| `/api/v1/dashboard/summary/{accountId}` | GET | `GET /api/v1/dashboard/summary/{accountId}` | Path: accountId |  Operativo |
+| `/` | GET | `GET /` | Sin parámetros | Operativo |
+
+
+#### Resumen de recursos y controladores en producción (ASP.NET Core)
+
+| Controlador / Recurso | Propósito y Uso Principal |
+| :--- | :--- |
+| `Auth` / `Profiles` | Orquestación de seguridad, autenticación basada en tokens y perfiles organizacionales. |
+| `Zones` / `Sensors` | Administración e inventario físico de las áreas de la cocina y el hardware IoT. |
+| `SensorReadings` / `External` | Captura continua de telemetría en tiempo real sincronizada con factores climáticos. |
+| `Incidents` / `Alerts` | Monitoreo crítico de anomalías, auditorías de fugas y transiciones de estados de seguridad. |
+| `Notifications` | Despacho y confirmación del historial de avisos críticos y preventivos enviados a los usuarios. |
+| `Plans` / `Subscriptions` | Control de modelos comerciales, niveles de acceso a la plataforma y facturación. |
+| `Dashboard` / `SmartGas.Api` | Centralización de métricas analíticas e instrumentación de pruebas de vida (*Health Check*). |
+
+## Observación técnica del Sprint 3
+Se completó con éxito la migración desde la arquitectura basada en JSON Server de la entrega anterior hacia Web Services RESTful nativos estructurados en C#. La implementación sigue los estándares formales de enrutamiento a través del prefijo jerárquico unificado `/api/v1/`, asegurando aislamiento de versiones, contratos de datos estructurados, tipado fuerte y persistencia de base de datos cloud robusta.
+
+
 ## 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de entrevistas
