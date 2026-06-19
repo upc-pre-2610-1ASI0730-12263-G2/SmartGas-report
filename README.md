@@ -1230,6 +1230,23 @@ y conexión del frontend al nuevo backend desplegado en producción.
 
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 
+En esta sección se presenta un resumen de lo logrado en el Sprint 3 actual, mostrando las principales vistas implementadas y la funcionalidad desarrollada. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas.
+
+*Figura 91 (SmartGas Swagger)*
+
+![](./assets/97_SmartGas_Swagger_1.png)
+
+*Figura 92 (SmartGas Swagger)*
+
+![](./assets/98_SmartGas_Swagger_2.png)
+
+*Figura 93 (SmartGas Swagger)*
+
+![](./assets/97_SmartGas_Swagger_1.png)
+
+*Figura 94 (SmartGas Swagger)*
+
+![](./assets/100_SmartGas_Swagger_4.png)
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
