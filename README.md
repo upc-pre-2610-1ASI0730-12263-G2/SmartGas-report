@@ -34,10 +34,71 @@
 
 # **Registro de Versiones del Informe**
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|-----------|-----------|-----------|-----------|
-|-----------|-----------|-----------|-----------|
-|-----------|-----------|-----------|-----------|
+| Versión | Fecha    | Autor        | Descripción de modificación                                    |
+| ------- | -------- | ------------ | -------------------------------------------------------------- |
+| 0.1.0   | 11/04/26 | @zzZero14    | docs: add project report details and structure                 |
+| 0.1.1   | 20/04/26 | @zzZero14    | docs: add General Style Guidelines                             |
+| 0.1.2   | 20/04/26 | @zzZero14    | docs: add Web Style Guidelines                                 |
+| 0.1.3   | 20/04/26 | @zzZero14    | docs: add Information Architecture sections                    |
+| 0.1.4   | 20/04/26 | @zzZero14    | docs: add Landing Page Wireframe                               |
+| 0.1.5   | 22/04/26 | @briicarhuaz | docs: add Lean UX Process                                      |
+| 0.1.6   | 22/04/26 | @briicarhuaz | docs: add Descripción de la Startup                            |
+| 0.1.7   | 22/04/26 | @briicarhuaz | docs: add Análisis competitivo                                 |
+| 0.1.8   | 22/04/26 | @zzZero14    | docs: add mock-up details for landing page sections            |
+| 0.1.9   | 23/04/26 | @briicarhuaz | docs: add Antecedentes y problemática                          |
+| 0.1.10  | 23/04/26 | @briicarhuaz | docs: add Segmentos objetivos                                  |
+| 0.1.11  | 23/04/26 | @briicarhuaz | docs: add Entrevistas                                          |
+| 0.1.12  | 23/04/26 | @CamilaaAlizee | docs: add interview design                                   |
+| 0.1.13  | 23/04/26 | @CamilaaAlizee | docs: add Estrategias y tácticas frente a competidores       |
+| 0.1.14  | 23/04/26 | @CamilaaAlizee | docs: add User Personas                                      |
+| 0.1.15  | 23/04/26 | @CamilaaAlizee | docs: add User Task Matrix                                   |
+| 0.1.16  | 23/04/26 | @CamilaaAlizee | docs: add User Journey Mapping                               |
+| 0.1.17  | 23/04/26 | @CamilaaAlizee | docs: add Empathy Maps                                       |
+| 0.1.18  | 23/04/26 | @CamilaaAlizee | docs: add User Stories                                       |
+| 0.1.19  | 23/04/26 | @CamilaaAlizee | docs: add Ubiquitous Language                                |
+| 0.1.20  | 23/04/26 | @CamilaaAlizee | docs: add Impact Mapping                                     |
+| 0.1.21  | 23/04/26 | @CamilaaAlizee | docs: add Product Backlog                                    |
+| 0.1.22  | 23/04/26 | @ValeriaAler | docs: add web application wireframes section                   |
+| 0.1.23  | 23/04/26 | @ValeriaAler | docs: add web application mockups section                      |
+| 0.1.24  | 23/04/26 | @ValeriaAler | docs: add web application wireflow diagrams section            |
+| 0.1.25  | 23/04/26 | @ValeriaAler | docs: add web application user flow diagrams section           |
+| 0.1.26  | 23/04/26 | @ValeriaAler | docs: add web application prototype section                    |
+| 0.1.27  | 24/04/26 | @CesarJrCR   | docs: add BigPicture_EventStorming                             |
+| 0.1.28  | 24/04/26 | @CesarJrCR   | docs: add Design-Level EventStorming                           |
+| 0.1.29  | 24/04/26 | @CesarJrCR   | docs: add Class Diagrams                                       |
+| 0.1.30  | 24/04/26 | @CesarJrCR   | docs: add Database Diagrams                                    |
+| 0.1.31  | 24/04/26 | @CesarJrCR   | docs: add Software Architecture Context Diagram                |
+| 0.1.32  | 24/04/26 | @CesarJrCR   | docs: add Software Architecture Container Diagrams             |
+| 0.1.33  | 24/04/26 | @CesarJrCR   | docs: add Software Architecture Components Diagrams            |
+| 0.1.34  | 24/04/26 | @CamilaaAlizee | docs: add Interview Analysis                                 |
+| 0.1.35  | 24/04/26 | @CamilaaAlizee | docs: add Source Code Management                             |
+| 0.1.36  | 24/04/26 | @CesarJrCR   | docs: add Source Code Style Guide & Conventions                |
+| 0.1.37  | 24/04/26 | @CesarJrCR   | docs: add Software Deployment Configuration                    |
+| 0.1.38  | 24/04/26 | @briicarhuaz | docs: add Perfiles de integrantes del equipo                   |
+| 0.1.39  | 24/04/26 | @zzZero14    | docs: add english translations for key terms                   |
+| 0.1.40  | 24/04/26 | @briicarhuaz | docs: add Sprint 1                                             |
+| 0.1.41  | 24/04/26 | @CesarJrCR   | docs: add ABET – EAC - Student Outcome 5                       |
+| 0.1.42  | 24/04/26 | @CesarJrCR   | docs: add Registro de Versiones del Informe                    |
+| 0.2.0   | 13/05/26 | @zzZero14    | docs: add Sprint 2 section                                     |
+| 0.2.1   | 13/05/26 | @zzZero14    | docs: add Sprint 2 details                                     |
+| 0.2.2   | 13/05/26 | @zzZero14    | docs: update sprint 2                                          |
+| 0.2.3   | 13/05/26 | @CesarJrCR   | docs: add Sprint Backlog 2                                     |
+| 0.2.4   | 13/05/26 | @CesarJrCR   | docs: add Interview Segment 1                                  |
+| 0.2.5   | 13/05/26 | @CesarJrCR   | docs: add Execution Evidence for Sprint Review                 |
+| 0.2.6   | 13/05/26 | @CesarJrCR   | docs: add Services Documentation Evidence for Sprint Review    |
+| 0.2.7   | 13/05/26 | @CesarJrCR   | docs: add Software Deployment Evidence for Sprint Review       |
+| 0.2.8   | 13/05/26 | @CesarJrCR   | docs: add Team Collaboration Insights during Sprint            |
+| 0.2.9   | 13/05/26 | @CesarJrCR   | docs: add Development Evidence for Sprint                      |
+| 0.2.10  | 13/05/26 | @CesarJrCR   | docs: add conclusiones                                         |
+| 0.2.11  | 13/05/26 | @CamilaaAlizee | docs: added an anexo                                         |
+| 0.3.0   | 18/06/26 | @zzZero14    | docs: add sprint 3 planning and backlog details                |
+| 0.3.1   | 18/06/26 | @zzZero14    | docs: add sprint backlog 3                                     |
+| 0.3.2   | 18/06/26 | @CesarJrCR   | docs: add Diseño de entrevistas                                |
+| 0.3.3   | 18/06/26 | @CamilaaAlizee | docs: Added one validation interview                         |
+| 0.3.4   | 19/06/26 | @CesarJrCR   | docs: add Development Evidence for Sprint Review               |
+| 0.3.5   | 19/06/26 | @CamilaaAlizee | docs: Added Services Documentation Evidence for Sprint Review|
+| 0.3.6   | 19/06/26 | @CamilaaAlizee | docs: Added Team Collaboration Insights during Sprint section |
+| 0.3.7   | 19/06/26 | @CesarJrCR   | docs: add Execution Evidence for Sprint Review                 |
 
 
 # **Project Report Collaboration Insights**
