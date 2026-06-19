@@ -1555,6 +1555,7 @@ El entrevistado Saúl Romani dio una calificación de 8/10 a SmartGas, destacand
 - **Inicio:** 0:00  
 - **Duración:** 7:30
 - **URL:**  [entrevista](https://youtu.be/WLt1XLsdJFg)
+- **Resumen:** 
 La entrevistada Sonia Rojas dio una calificación de 10/10 a Smartgas, el motivo es que para ella la propuesta de SmartGas le parece útil y necesaria para la seguridad de su familia. Ella menciona la sensación de tranquilidad que le propiciaria tener un servicio como el de SmartGas ya el sistema al funcionar automaticamente se encargaria de lidiar por su cuenta con los incidentes que puedan ocurrir. Los precios que ofrece SmartGas le parecen justos. Señalo que el panel de información se le hace entendible y que no tuvo ni un problema entiendo la información presente en cada una de las vistas de la aplicación.
 
 ### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
@@ -1569,6 +1570,7 @@ La entrevistada Sonia Rojas dio una calificación de 10/10 a Smartgas, el motivo
 - **Inicio:** 0:00  
 - **Duración:** 08:27
 - **URL:**  [entrevista](https://youtu.be/ILTzgInzBZY)
+- **Resumen:** 
 El entrevistado Kevin Izquier le dio una calificación de 10/10 a Smartgas, para el Smartgas es un sistema que seria muy útil en su restaurant. El menciona que los precios que ofrecemos le parecen justos y que el eligiria el plan profesional debido a la infraestructura de su local. El nos dice que la información presente en el panel de información y en las distintas vistas se le hace entendible y no tuvo problema navegando a lo largo de las distintas vistas. Para el Smartgas es un sistema útil por sus funciones automaticas las cuales serian buenas en caso se presente en un incidente, ya que así no dependerian de una persona y que el incidente posiblemente escale.
 #### Entrevista 2
 
