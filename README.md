@@ -1632,6 +1632,15 @@ Raí mostró una percepción positiva de SmartGas pero identificó que la plataf
 * **Adopción de SmartGas:** 100% se mostró dispuesto y entusiasmado con implementar el sistema, valorándolo como una herramienta indispensable que centraliza el monitoreo y protege tanto al personal como al capital invertido.
 * **Sugerencias de Mejora:** Ningún entrevistado de este segmento reportó observaciones críticas sobre la interfaz o el modelo de negocio, lo que indica una alta alineación entre la propuesta y las necesidades del segmento.
 
+## 4.8. About-The-Product.
+
+En el video about the product damos una pequeña publicidad a nuestro producto.
+
+!![AboutTheProduct](./assets/AboutTheProduct.png)
+
+- **URL:**  [Youtube](https://youtu.be/SiHK6-clPZA)
+- **URL:**  [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d995_upc_edu_pe/IQAonC83jMjRRYdjvGCkTv5XARd4JMKJDWgh1lxDotvQMQw?e=McwtZH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ## Conclusiones
 
   - La aplicación de SmartGas seria efectiva para la prevención de accidentes en el hogar
