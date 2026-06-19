@@ -1590,6 +1590,36 @@ El entrevistado Ruben Carhuaz se mostro muy dispuesto a usar SmartGas, para el S
 
 ## 5.3.3. Evaluaciones según Heuristicas
 
+#### Segmento 1: Familias y Propietarios de Viviendas
+ 
+* **Perfil y Residencia:** 100% reside en zonas urbanas de Lima y Trujillo, con distintas configuraciones de vivienda (departamentos y casas).
+* **Valoración General de SmartGas:** 100% otorgó una calificación alta a la propuesta: el 66% le dio 10/10 y el 33% le dio 8/10, reflejando una aceptación muy positiva del producto.
+* **Funciones Valoradas:**
+  * 100% valora el monitoreo en tiempo real y las notificaciones instantáneas ante posibles fugas.
+  * 66% destacó el apagado automático como una función clave, especialmente ante olvidos o ausencias del hogar.
+  * 33% resaltó específicamente la detección inteligente de gas como mecanismo preventivo antes de que el usuario deba intervenir manualmente.
+* **Usabilidad de la Interfaz:** 100% encontró el panel de información entendible y no reportó dificultades navegando por las distintas vistas de la aplicación web. El 33% elogió de forma particular la opción de modo oscuro por su beneficio para la vista.
+* **Elección de Plan:** 66% eligió el plan básico o intermedio adecuado a su tipo de vivienda, mientras que el 33% optó por el plan Profesional (PEN 70) considerando que ofrece el mejor equilibrio entre precio y funcionalidades.
+* **Adopción de SmartGas:** 100% manifestó disposición a utilizar el sistema, motivados principalmente por la tranquilidad, la seguridad familiar y la capacidad del sistema de actuar de forma autónoma ante incidentes.
+* **Sugerencias de Mejora:**
+  * 33% recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó claridad contractual sobre si la tarifa mensual es fija o variable.
+  * 33% sugirió explicar con mayor detalle el proceso de instalación, la compatibilidad con sensores y el comportamiento del sistema ante pérdida de conexión a internet.
+  * 33% solicitó agregar etiquetas visuales (por ejemplo: "Normal", "Riesgo", "Crítico") para interpretar los niveles de gas y temperatura de forma más rápida e intuitiva.
+  * 33% prefiere que los umbrales de alerta sean configurados de forma predeterminada por el equipo técnico, al no contar con conocimientos para medirlos por cuenta propia.
+
+#### Segmento 2: Administradores y Chefs de Restaurantes
+ 
+* **Perfil y Contexto:** 100% opera establecimientos de food service en Lima con equipos de cocina que dependen del gas de forma continua.
+* **Valoración General de SmartGas:** 100% otorgó una calificación de 10/10, considerando la propuesta no solo útil sino necesaria para el entorno de un restaurante.
+* **Motivación Principal:** 100% identifica la seguridad como el factor decisivo de adopción, señalando que una fuga o incendio representaría pérdidas económicas significativas, riesgo para comensales y empleados, y daño irreversible a la reputación del negocio.
+* **Funciones Valoradas:**
+  * 100% valora las funciones de automatización de procesos de prevención de accidentes, ya que reducen la dependencia del factor humano.
+  * 100% aprecia el monitoreo centralizado, al permitirles supervisar la cocina de forma autónoma desde el panel de la aplicación.
+* **Usabilidad de la Interfaz:** 100% encontró la interfaz entendible, con información bien distribuida y navegación fluida a través de las distintas vistas de la aplicación web.
+* **Elección de Plan:** 100% eligió el plan Profesional, justificando la decisión en la infraestructura y escala operativa de sus locales, y considerando que los precios son justos en relación con las funcionalidades ofrecidas.
+* **Adopción de SmartGas:** 100% se mostró dispuesto y entusiasmado con implementar el sistema, valorándolo como una herramienta indispensable que centraliza el monitoreo y protege tanto al personal como al capital invertido.
+* **Sugerencias de Mejora:** Ningún entrevistado de este segmento reportó observaciones críticas sobre la interfaz o el modelo de negocio, lo que indica una alta alineación entre la propuesta y las necesidades del segmento.
+
 ## Conclusiones
 
   - La aplicación de SmartGas seria efectiva para la prevención de accidentes en el hogar
