@@ -1588,6 +1588,18 @@ El entrevistado Ruben Carhuaz se mostro muy dispuesto a usar SmartGas, para el S
 
 #### Entrevista 3
 
+![Entrevista3.png](./assets/entrevista-segmento2-final.png)
+ 
+- **Nombres y apellidos:** RaÍ Beizaga
+- **Edad:** 20
+- **Distrito:** Jesús María
+- **Inicio:** 0:00  
+- **Duración:** 08:27
+- **URL:**  [entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310436_upc_edu_pe/IQCO5i5d56-KRJT0465Jl5y5AVqMCn2EmF8_U27Jh_MYlkw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQIZdA)
+
+Raí mostró una percepción positiva de SmartGas pero identificó que la plataforma aún proyecta una imagen más doméstica que industrial, sugiriendo que debería comunicar más claramente su utilidad en cocinas comerciales con equipos como freidoras y hornos. Valoró funciones clave como las notificaciones instantáneas, el historial de incidentes y los filtros por estado, aunque señaló limitaciones importantes como el umbral de temperatura de 45 °C (bajo para una cocina activa), la falta de ubicación física de sensores y la ausencia de exportación de reportes. También expresó dudas sobre el cierre automático de válvulas en medio del servicio y sobre la dependencia de conectividad a internet en situaciones críticas. A pesar de estos puntos, su disposición a implementar SmartGas fue de 8/10, con el principal obstáculo siendo que la decisión de compra recae en el administrador del restaurante y no en él, por lo que recomendaría ofrecer una demo o prueba gratuita para facilitar esa conversación.
+
+
 ## 5.3.3. Evaluaciones según Heuristicas
 
 #### Segmento 1: Familias y Propietarios de Viviendas
