@@ -1366,11 +1366,11 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 
 ![InsightAPI.png](./assets/insightAPI.png)
 
-*Figura 91 (Team Collaboration Insights during Jun 13, 2026)*
+*Figura 92 (Team Collaboration Insights during Jun 13, 2026)*
 
 ![InsightAPI.png](./assets/insightAPI2.png)
 
-*Figura 91 (Team Collaboration Insights during Jun 14, 2026)*
+*Figura 93 (Team Collaboration Insights during Jun 14, 2026)*
 
 ![InsightAPI.png](./assets/insightAPI3.png)
 
