@@ -1353,6 +1353,76 @@ Se completó con éxito la migración desde la arquitectura basada en JSON Serve
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+## Despliegue de los Web Services (Backend)
+
+Para el despliegue de la API productiva de SmartGas se utilizó una estrategia basada en la contenedorización, migrando la arquitectura de simulación previa hacia un entorno de producción real y definitivo. El backend, desarrollado con ASP.NET Core, fue desplegado en la plataforma cloud **Render** utilizando contenedores Docker. El frontend se mantuvo alojado en **Firebase Hosting**, actualizando su flujo de conexión para apuntar hacia este nuevo servidor en producción. Esta transición permitió sustituir la antigua fake API por servicios web RESTful reales y conectados a la persistencia de datos definitiva del proyecto.
+
+## Preparación del entorno y Dockerfile
+
+En primer lugar, se preparó el proyecto backend en .NET para que pudiera empaquetarse y ejecutarse correctamente en la nube sin depender de configuraciones específicas del host. Para ello, se diseñó un archivo `Dockerfile` de construcción multi-etapa (*multi-stage build*). Este archivo se encarga de restaurar las dependencias de NuGet, compilar el código fuente en modo optimizado de producción (`Release`) y empaquetar únicamente el resultado ejecutable en una imagen ligera basada en Linux (ASP.NET Runtime). 
+El servidor fue configurado para escuchar las peticiones de forma dinámica, adaptándose al puerto que la infraestructura de Render le asigna automáticamente en tiempo de ejecución.
+
+## Configuración del Entorno de Hosting en Render
+
+La arquitectura del hosting del servicio web y de la persistencia de datos fue estructurada bajo los siguientes parámetros técnicos de configuración dentro de la infraestructura cloud de Render:
+
+| Parámetro de Configuración | Valor Asignado (Backend API) | Valor Asignado (Base de Datos) |
+| :--- | :--- | :--- |
+| **Nombre del Servicio** | `smartgas-api` | `smartgas-postgres` |
+| **Proveedor / Servicio** | Render (Web Service) | Render PostgreSQL |
+| **Environment / Runtime** | Docker (Linux Container) | PostgreSQL 16+ |
+| **Branch de Despliegue** | `main` | N/A (Instancia de base de datos) |
+| **Región de Hospedaje** | Oregon / US West | Oregon / US West |
+| **Plan de Infraestructura** | Free Plan | Free Plan |
+| **Nombre de Base de Datos** | N/A | `smartgas_db` |
+| **Usuario Administrador** | N/A | `smartgas_user` |
+
+## Configuración de producción y variables de entorno
+
+Luego, se procedió a aislar todas las credenciales sensibles del código fuente para cumplir con los estándares de seguridad informática exigidos. En el panel de administración de Render, se configuraron las variables de entorno críticas dentro de la sección *Environment Variables*. 
+
+| Variable de Env (Render) | Propósito Técnico | Estado en Producción |
+| :--- | :--- | :---: |
+| `ASPNETCORE_ENVIRONMENT` | Define el modo de ejecución del framework en el entorno productivo (`Production`). | Configurada |
+| `ASPNETCORE_URLS` | Determina las direcciones y puertos dinámicos donde escucha el servidor web. | Configurada automáticamente |
+| `ConnectionStrings__DefaultConnection` | Cadena de conexión cifrada hacia la base de datos `smartgas_db` en Render PostgreSQL. | Configurada (Oculta) |
+| `FRONTEND_URL` | Define el origen permitido del cliente web para las políticas CORS de seguridad. | Configurada |
+
+De esta forma, el sistema opera con un aislamiento total de secretos, inyectando estos valores directamente en el contenedor en tiempo de ejecución para evitar fugas accidentales en el repositorio público.
+
+## Despliegue en Render
+
+Después de validar la configuración del contenedor localmente, el código definitivo fue integrado en el repositorio de la organización en GitHub. Render se vinculó de manera directa al repositorio institucional `upc-pre-2610-1ASI0730-12263-G2/SmartGas-api` mediante webhooks automatizados.
+Posteriormente, en Render se configuró un nuevo *Web Service* bajo el runtime de Docker. Al detecter el archivo `Dockerfile` en la raíz, Render inició automáticamente el pipeline de Integración y Despliegue Continuo (CI/CD): descargó el código, construyó la imagen del contenedor y ejecutó la API de manera automática y aislada, asignándole de inmediato certificados SSL/TLS para habilitar comunicación segura mediante el protocolo HTTPS.
+
+## Validación de la API real y endpoints
+
+Una vez finalizado el pipeline de despliegue en Render, se generó la URL pública definitiva para el entorno de producción: `https://smartgas-api-abop.onrender.com`. Desde este punto de enlace, se accedió públicamente a la interfaz de documentación interactiva de Swagger UI, lo que permitió verificar y auditar en tiempo real la disponibilidad operativa de los recursos reales del sistema, tales como:
+* `api/v1/auth` (Módulo de autenticación y registro de cuentas)
+* `api/v1/sensors` y `api/v1/sensor-readings` (Flujos de telemetría e ingesta de datos IoT)
+* `api/v1/zones` (Segmentación física de áreas de monitoreo)
+* `api/v1/incidents` y `api/v1/alerts` (Gestión de seguridad y alertas por fugas)
+* `api/v1/subscriptions` y `api/v1/plans` (Administración comercial de clientes)
+
+Esto confirmó que los servicios web RESTful estaban respondiendo correctamente con estados HTTP estables (200 OK) fuera del entorno local de desarrollo.
+
+Después de verificar la estabilidad del backend, se procedió a realizar la integración con la interfaz web. En el repositorio del frontend, se modificó el archivo de variables de entorno de producción `.env.production`, sustituyendo la antigua URL del JSON Server por el nuevo subdominio de producción provisto por Render:
+
+```VITE_API_BASE_URL=[https://smartgas-api-abop.onrender.com](https://smartgas-api-abop.onrender.com)```
+
+Posteriormente, se ejecutó un nuevo proceso de build con Vite para empaquetar el frontend con la nueva ruta de la API y se realizó el despliegue final hacia Firebase Hosting. Desde la URL pública del cliente web, se validá que las solicitudes HTTP (como las credenciales de inicio de sesión o las consultas del dashboard) ya no apuntaran a la base de datos simulada del sprint anterior, sino que interactuaran directamente y en tiempo real con el backend definitivo en .NET.
+
+## Resultado final
+
+En conclusión, la infraestructura de despliegue final del ecosistema SmartGas quedó consolidada de la siguiente manera:
+
+**Firebase Hosting:** Aloja el frontend estático y la interfaz de usuario web desarrollada en Vue.
+
+**Render (Docker Containers):** Aloja el backend productivo y los Web Services reales programados en ASP.NET Core bajo el servicio smartgas-api.
+
+**Render PostgreSQL:** Aloja el servicio de base de datos relacional relacional centralizado (smartgas-postgres) y la base de datos smartgas_db, actuando como el motor de persistencia definitivo del negocio.
+
+De esta forma, la solución de software se encuentra completamente desplegada en la nube, operando bajo un entorno distribuido, seguro y de alta disponibilidad para las revisiones del Sprint.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 
