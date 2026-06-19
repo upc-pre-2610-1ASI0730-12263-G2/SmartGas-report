@@ -1468,6 +1468,18 @@ La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la pro
 Como sugerencias de mejora, recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó que se aclare contractualmente si la tarifa mensual de 30 soles es fija o variable. Finalmente, en la sección de configuración, señaló que prefiere dejar los umbrales de alerta de gas y temperatura predeterminados por el equipo, ya que no sabría cómo medirlos y optaría por recibir asesoría directa.
 
 #### Entrevista 2
+![Entrevista2.png](./assets/entrevista2.png)
+
+- **Nombres y apellidos:** Saúl Romani
+- **Edad:** 48 
+- **Distrito:** Jesús Maria
+- **Inicio:** 0:00  
+- **Duración:** 10:17  
+- **URL:**  [entrevista](https://www.youtube.com/watch?v=redd8kHGVC0)
+- **Resumen:** 
+El entrevistado Saúl Romani dio una calificación de 8/10 a SmartGas, destacando que la propuesta le parece útil, clara y enfocada en una necesidad real de seguridad dentro del hogar. Valoró especialmente el monitoreo en tiempo real, las notificaciones instantáneas y la detección inteligente de gas, ya que transmiten la idea de que el sistema puede prevenir una emergencia antes de que el usuario tenga que actuar manualmente. Además, eligió el plan Profesional de PEN 70 porque considera que ofrece un buen equilibrio entre precio y funcionalidades para una vivienda.
+
+Como sugerencias de mejora, recomendó explicar con mayor detalle el proceso de instalación, la compatibilidad con los sensores y qué sucede si se pierde la conexión a internet. También indicó que sería importante mostrar de forma más visual cómo funciona el cierre automático ante una fuga de gas. Finalmente, en la aplicación web señaló que el panel es entendible y permite monitorear la cocina de forma autónoma, aunque sugirió agregar etiquetas visuales como “Normal”, “Riesgo” o “Crítico” para interpretar más rápido los niveles de gas y temperatura.
 
 #### Entrevista 3
 
