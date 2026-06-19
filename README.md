@@ -827,7 +827,7 @@ Esto permitió:
 
 ## Repositorio de Frontend
 
-- **Repositorio Frontend:** [SmartGas](https://smartgas-app-web-v1.web.app/login)
+- **Repositorio Frontend:** [SmartGas](https://smartgas-app-web-v1.web.app)
 - **Estado:** Implementado y funcional con datos mock.
 - **Framework:** Vue.js 3, Pinia, Vue Router.
 - **Arquitectura:** Clean Architecture con capas de Infrastructure que preparan la integración con servicios web.
