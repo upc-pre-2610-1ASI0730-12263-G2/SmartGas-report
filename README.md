@@ -1315,6 +1315,46 @@ A continuación, se detalla analíticamente cada uno de los recursos del sistema
 ## Observación técnica del Sprint 3
 Se completó con éxito la migración desde la arquitectura basada en JSON Server de la entrega anterior hacia Web Services RESTful nativos estructurados en C#. La implementación sigue los estándares formales de enrutamiento a través del prefijo jerárquico unificado `/api/v1/`, asegurando aislamiento de versiones, contratos de datos estructurados, tipado fuerte y persistencia de base de datos cloud robusta.
 
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+En esta sección se detalla el trabajo colaborativo del equipo y el flujo de ramas en GitHub para el desarrollo de los Web Services y su integración con los componentes ya desplegados. 
+
+Durante el Sprint 3, el equipo trabajó de forma distribuida para construir el backend en ASP.NET Core y asegurar el entorno de producción. Nos enfocamos principalmente en la definición de los contratos de datos, la persistencia en la nube y la automatización del despliegue, logrando conectar con éxito las interfaces frontend con la lógica de negocio y la telemetría real de SmartGas.
+
+## Herramientas de Colaboración Utilizadas
+
+El equipo optimizó y expandió el uso de las siguientes herramientas de ingeniería de software para facilitar la colaboración e integración continua durante este ciclo:
+
+* **GitHub:** Eje central para el control de versiones y la automatización del pipeline de despliegue a producción.
+  * **Repositorio principal:** `SmartGas-api` (Backend central en .NET).
+  * **Estrategia de Ramas:** Uso estructurado de ramas de características aisladas para evitar conflictos de código antes de converger en `develop` y `main`. El flujo de desarrollo estuvo integrado por:
+    * `main` (Producción por defecto)
+    * `develop` (Integración)
+    * `feature/backend-infrastructure-deployment`
+    * `feature/iam-profiles-settings`
+    * `feature/incidents-alerts-dashboard`
+    * `feature/monitoring-sensors-readings`
+    * `feature/subscriptions-plans-weather`
+* **Jira:** Gestión simplificada del Sprint Backlog mediante un tablero ágil. Se utilizó para el seguimiento y asignación de los *User Stories* asociados a los controladores de la API, control de tareas de desarrollo de endpoints y monitoreo de bloqueos técnicos del equipo.
+
+
+## Evidencias de Colaboración y Analíticos de GitHub
+
+*Figura 91 (Team Collaboration Insights during Jun 12, 2026)*
+
+![InsightAPI.png](./assets/insightAPI.png)
+
+*Figura 91 (Team Collaboration Insights during Jun 13, 2026)*
+
+![InsightAPI.png](./assets/insightAPI2.png)
+
+*Figura 91 (Team Collaboration Insights during Jun 14, 2026)*
+
+![InsightAPI.png](./assets/insightAPI3.png)
+
 
 ## 5.3. Validation Interviews.
 
