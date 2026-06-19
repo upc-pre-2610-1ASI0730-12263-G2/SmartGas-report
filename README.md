@@ -1209,6 +1209,25 @@ y conexión del frontend al nuevo backend desplegado en producción.
 
 ### 5.2.3.4.Development Evidence for Sprint Review.
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
+|------------|--------|-----------|----------------|---------------------|-------------------|
+|SmartGas-api |feature/backend-insfraestructure-deployment |20327de6c38f8523d675a2d9f9160f5a48d677ea |feat: configure database context and seed data |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |5bef7b5d297ee4d07a626272281e84fad93d1f7d |chore: initialize backend repository |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |67e407bc2b8dd69d2247b15548512636a0e88a76 |chore: configure backend project infrastructure |Blank |12/07/2026 |
+|SmartGas-api |feature/backend-insfraestructure-deployment |17a7a480b0a082f15faac5ff0ff0d935e43f80fd |chore: configure docker deployment for render |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings |b713e10d4ab4c2e7d2dcedf043658f31ebeb1a49 |feat: implement authentication endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings  |25a2ff0fdc0c770cafd4086884df6f70ab498478 |feat: implement profiles and settings management |Blank |12/07/2026 |
+|SmartGas-api |feature/iam-profiles-settings  |0ae3f33a936c2475d30b07d815c51a3c5bf033af |feat: implement emergency contact management |Blank |12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings |291cd83ffabfd4ec037b485c2cb50c6eae6efa47 |feat: implement zone management endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings   |b14c8b3185349e88ad9a569efd634138e1a02cd8 |feat: implement sensor management endpoints|Blank|12/07/2026 |
+|SmartGas-api |feature/monitoring-sensors-readings  |0284a31b242d7f082775b9fc54e9fa901345c3ef |feat: implement iot sensor reading flow |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather |13ce106f34ff01d552fe53c04241ca0379937ce0 |feat: implement plans endpoints |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather  |78c4ab546b7e2c9db4716085b5f78c0870659c78 |feat: implement subscription plan changes |Blank |12/07/2026 |
+|SmartGas-api |feature/subscriptions-plans-weather  |dc6923664ac35f6d63b6c5f9d5ba9ce81e59e573 |feat: integrate external weather service |Blank |12/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard |27d66dafd0f38605144643331e7ea922fb26c7fc |feat: implement incident management endpoints |Blank |13/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard  |c7410469db57b08d581df60e336fb1d07c77b7e4 |feat: implement alerts and notifications |Blank |13/07/2026 |
+|SmartGas-api |feature/incidents-alerts-dashboard  |3bc5e1fbd1dc2164ca6b5b60084ddc6e20a4b920 |feat: implement dashboard summary endpoints |Blank |13/07/2026 |
+
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 
 
