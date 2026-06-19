@@ -1575,7 +1575,7 @@ El entrevistado Kevin Izquierdo le dio una calificación de 10/10 a Smartgas, pa
 
 #### Entrevista 2
 
-![Entrevista2.png](./assets/105_entrevista2A.png)
+![Entrevista2.png](./assets/105_entrevista_2A.png)
 
 - **Nombres y apellidos:** Ruben Carhuaz
 - **Edad:** 49
