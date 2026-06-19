@@ -1463,9 +1463,7 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 - **Duración:** 25:17  
 - **URL:**  [entrevista](https://youtu.be/l9lnfLF2V6A)
 - **Resumen:** 
-La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la propuesta es novedosa, intuitiva y muy amigable para personas que no saben de tecnología. Validó funciones como el monitoreo y el apagado automático por una necesidad personal de olvidos en la cocina, y eligió el plan básico por vivir en un departamento pequeño. Además, elogió enormemente la opción de modo oscuro en la app web porque le ayuda a descansar la vista.
-
-Como sugerencias de mejora, recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó que se aclare contractualmente si la tarifa mensual de 30 soles es fija o variable. Finalmente, en la sección de configuración, señaló que prefiere dejar los umbrales de alerta de gas y temperatura predeterminados por el equipo, ya que no sabría cómo medirlos y optaría por recibir asesoría directa.
+La entrevistada dio una calificación de 10/10 a SmartGas, destacando que la propuesta es novedosa, intuitiva y muy amigable para personas que no saben de tecnología. Validó funciones como el monitoreo y el apagado automático por una necesidad personal de olvidos en la cocina, y eligió el plan básico por vivir en un departamento pequeño. Además, elogió enormemente la opción de modo oscuro en la app web porque le ayuda a descansar la vista. Como sugerencias de mejora, recomendó lanzar un precio promocional por ser una plataforma nueva y solicitó que se aclare contractualmente si la tarifa mensual de 30 soles es fija o variable. Finalmente, en la sección de configuración, señaló que prefiere dejar los umbrales de alerta de gas y temperatura predeterminados por el equipo, ya que no sabría cómo medirlos y optaría por recibir asesoría directa.
 
 #### Entrevista 2
 ![Entrevista2.png](./assets/entrevista2.png)
