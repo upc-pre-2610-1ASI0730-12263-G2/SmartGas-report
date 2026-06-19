@@ -1207,6 +1207,81 @@ y conexión del frontend al nuevo backend desplegado en producción.
 | CG-01 | Constraint General | T-16 | CORS Configuration for Firebase | Configuración de CORS para permitir conexión desde el frontend en Firebase Hosting. | 2 | Briguite | Done |
 | CG-01 | Constraint General | T-17 | External Weather Service Fixes | Correcciones en parsing de humedad y fallback para el servicio externo de clima. | 3 | Briguite | Done |
 
+## 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de entrevistas
+
+### Segmento Objetivo 1: Familias y Propietarios de Viviendas
+
+*Landing page*
+
+1. Al ver por primera vez la página de inicio, ¿qué es lo que más le llama la atención de la Landing Page? ¿La propuesta de valor le queda clara de inmediato?
+2. ¿Los beneficios mostrados (Prevención automatizada, Monitoreo en tiempo real, Notificaciones instantáneas) responden a algo que usted realmente necesitaría en su hogar? ¿Hay algo que eche de menos?
+3. Revisando la sección de planes (Básico PEN 30, Profesional PEN 70, Corporativo PEN 100), ¿cuál elegiría para su casa y por qué? ¿Considera que el precio es razonable para lo que ofrece?
+4. ¿Qué tan fácil le resultó navegar entre las secciones de la landing (Inicio, Beneficios, Planes, Contacto)? ¿Encontró la información que esperaba en cada sección?
+5. Después de explorar la página, ¿Le ha llamado la atención nuestro producto? ¿Le daría click al botón de “Sign up”? ¿Qué información adicional necesitaría ver antes de hacerlo?
+6. ¿Las características descritas (detección inteligente de gas, cierre automático, telemetría en la nube) le generan la sensación de que el sistema actuaría sin que usted tenga que hacer nada? ¿Le transmite seguridad esa promesa?
+
+*FrontEnd*
+
+7. Al ingresar al panel principal, ¿entiende de un vistazo el estado de seguridad de su cocina? ¿Qué información le parece más importante y cuál le sobra o confunde?
+8. En la sección de Monitoreo, ¿la tarjeta de la zona "Cocina" con los datos de Gas (ppm) y Temperatura le resulta comprensible
+9. Al explorar la sección de Dispositivos, ¿le queda claro cómo registrar un nuevo sensor en su hogar? ¿No tendría dificultad en manejar este segmento?
+10. Si el sistema detectara una fuga de gas, ¿sabe a dónde cree que debería ir para ver los detalles del incidente? ¿La sección de Incidentes es fácil de encontrar?
+11. En la sección de Configuración, ¿le resulta claro cómo ajustar los umbrales de alerta de gas y temperatura? ¿Modificaría esos valores o dejaría los predeterminados?
+12. ¿El menú de navegación lateral (Panel, Monitoreo, Dispositivos, Incidentes, Reportes, Suscripción, Perfil) le parece intuitivo? ¿Alguna sección le costó encontrar o tiene un nombre que no entiende?
+13. Usando la aplicación, ¿siente que podría monitorear su cocina de forma autónoma sin necesitar ayuda técnica? ¿Qué cambiaría, agregaría o eliminaría para que le resulte más útil?
+
+*Final*
+
+14. Comparando la promesa que vio en la landing page con lo que encontró en la aplicación, ¿siente que el producto cumple con lo que ofrece? ¿Hubo algo que esperaba ver y no encontró?
+15. En una escala del 1 al 10, ¿qué tan probable es que recomiende SmartGas a un familiar o vecino? ¿Qué debería mejorar el equipo para que esa puntuación suba?
+
+### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
+
+*Landing page*
+
+1. Al entrar a la landing page por primera vez, ¿siente que SmartGas está pensado también para restaurantes, o lo percibe como un producto solo para uso doméstico? ¿Qué elementos lo llevan a esa conclusión?
+2. ¿Los beneficios destacados (prevención automatizada, monitoreo en tiempo real, notificaciones instantáneas) son relevantes para el ritmo de trabajo de su cocina? ¿Hay algún beneficio crítico para su negocio que no ve mencionado?
+3. Al revisar los planes de suscripción, ¿cuál consideraría para su restaurante y por qué? ¿El plan Corporativo (PEN 100/mes) justifica su precio frente a lo que ofrece para operaciones de alta demanda?
+4. ¿La sección "About Us" y la presentación del equipo le generan confianza suficiente para considerar SmartGas como un proveedor serio para su negocio? ¿Qué le falta para aumentar esa confianza?
+5. ¿El formulario de contacto y el call-to-action "Sign up" le resultan suficientes para dar el siguiente paso, o esperaría ver antes un caso de éxito, certificaciones o demos en video del producto?
+6. ¿La característica de "cierre automático de válvulas" (Automatic Shut-off) le genera tranquilidad operativa o le genera dudas sobre el control manual en situaciones de emergencia real?
+
+*FrontEnd*
+
+7. Desde el panel principal, ¿puede usted identificar de un vistazo si alguna zona de su local presenta riesgo? ¿El indicador "Estado General: Seguro" le resulta suficiente o necesitaría más detalle inmediato?
+8. En la sección de Monitoreo, ¿la capacidad de filtrar zonas por estado (Seguro, Advertencia, Crítico, Sin conexión) le parece útil para gestionar múltiples áreas de su cocina comercial simultáneamente?
+9. Al revisar la sección de Dispositivos, ¿considera que la información mostrada (código, nombre, tipo, zona, estado, batería, última lectura) es suficiente para gestionar los sensores de un restaurante con varias cocinas?
+10. En la sección de Reportes, ¿el historial de incidentes con filtros por zona, severidad, tipo y fecha le daría la información necesaria para tomar decisiones o para presentar evidencia ante una auditoría de seguridad?
+11. Al revisar el módulo de Incidentes, usted tiene la opción de gestionar y documentar los incidentes de su local ¿Le resulta útil la función de archivar estos incidentes?
+12. En Configuración de Seguridad, ¿los umbrales de advertencia de gas (50 ppm) y temperatura (45 °C) se ajustan a la realidad de una cocina comercial activa, o necesitaría valores diferentes según el tipo de zona?
+13. ¿La plataforma le parece escalable para gestionar múltiples locales o zonas desde una sola cuenta? ¿Qué funcionalidades adicionales (gestión de roles, reportes exportables, integración con otros sistemas) considera indispensables para su operación?
+
+*Final*
+
+14. ¿SmartGas reemplazaría o complementaría los protocolos de seguridad que ya tiene en su negocio? ¿Ve algún riesgo o limitación en depender de una plataforma digital para la seguridad crítica de su cocina?
+15. En una escala del 1 al 10, ¿qué tan dispuesto estaría a implementar SmartGas en su negocio en los próximos 3 meses? ¿Cuál es el principal obstáculo que lo frena y qué debería cambiar el equipo para removerlo?
+
+## 5.3.2. Registro de entrevistas
+
+### Segmento Objetivo 1: Familias y Propietarios de Viviendas
+
+#### Entrevista 1
+
+#### Entrevista 2
+
+#### Entrevista 3
+
+### Segmento Objetivo 2: Administradores y Chefs de Restaurantes
+
+#### Entrevista 1
+
+#### Entrevista 2
+
+#### Entrevista 3
+
+## 5.3.3. Evaluaciones según Heuristicas
 
 ## Conclusiones
 
