@@ -1,32 +1,45 @@
 <div align ="center">
 
-![Logo Banner](assets/Banner-UPC.png)
+![Logo Banner](assets/UPC_logo.png)
 
-### Universidad Peruana de Ciencias Aplicadas
-### Ingeniería de Software
-### 2026-1
+Universidad Peruana de Ciencias Aplicadas
+<br></br>
+Carrera de Ingeniería de Software
 
-### NRC: 12263
-### Docente: Rafael Oswaldo Castro Veramendi
-### Informe de Trabajo Final
 
-###  G2
-###  SmartGas
+### 1ASI0730
+### Aplicaciones Web
+NRC
+
+### 12263
+### Informe del Trabajo Final
+
+Docente
+### Castro Veramendi, Rafael Oswaldo
+
+Equipo
+### FireSecure
+Proyecto
+### SmartGas
 
 
 <div align = "center">
-   
-|**Code**|**Member**|
-|---------------------|--------------------|
-|U202310436 |Gabriel Ferran Espinar Martínez|
-|U20241D932 |Briguite Eryka Carhuaz Centeno| 
-|U20241D995 |Cesar Jair Contreras Rojas| 
-|U202419547 |Camila Alizée Otiniano Rosales| 
-|U202411373 |Valeria Alexandra Rojas Gomez| 
+
+### Integrantes
+
+**Código** &nbsp; **Apellidos y Nombres**<br>
+U202310436 &nbsp; Gabriel Ferran Espinar Martínez<br>
+U20241D932 &nbsp; Briguite Eryka Carhuaz Centeno<br>
+U20241D995 &nbsp;&nbsp; Cesar Jair Contreras Rojas<br> 
+U202419547 &nbsp; Camila Alizée Otiniano Rosales<br> 
+U202411373 &nbsp; Valeria Alexandra Rojas Gomez<br> 
+
 
 </div>
 
-### Abril 2026
+### Periodo 202610
+
+### Julio 2026
 
 <div style="page-break-after: always;"></div>
 
