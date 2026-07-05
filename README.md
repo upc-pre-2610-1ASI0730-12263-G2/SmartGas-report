@@ -1461,6 +1461,127 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 
 ![InsightAPI.png](./assets/insightAPI3.png)
 
+### 5.2.4.4. Development Evidence for Sprint Review.
+
+En esta sección se detallan los avances logrados en la implementación del producto durante el Sprint 4, centrados en el desarrollo de los módulos core de la plataforma SmartGas orientada al monitoreo IoT de gas. El enfoque principal ha sido avanzar en la implementación de la autenticación y gestión de usuarios, el manejo de zonas y sensores, la integración del servicio externo de clima, la gestión de planes y suscripciones, así como el módulo de incidentes, alertas y el dashboard de resumen, cumpliendo con los objetivos establecidos para este sprint. Se ha trabajado en aspectos clave como la configuración de la base de datos y el despliegue en contenedores, el registro y autenticación de usuarios, el flujo de lectura de sensores IoT, la integración con servicios externos de clima, y la corrección de errores identificados durante las pruebas, lo que permitirá una experiencia más robusta y confiable para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+#### Commits del Backend Repository (SmartGas-api)
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SmartGas-api | main | `20327de` | feat: configure database context and seed data | briicarhuaz | 10/06/2026 |
+| SmartGas-api | main | `17a7a48` | chore: configure docker deployment for render | briicarhuaz | 10/06/2026 |
+| SmartGas-api | main | `b713e10` | feat: implement authentication endpoints | CesarJrCR | 11/06/2026 |
+| SmartGas-api | main | `25a2ff0` | feat: implement profiles and settings management | CesarJrCR | 11/06/2026 |
+| SmartGas-api | main | `0ae3f33` | feat: implement emergency contact management | CesarJrCR | 11/06/2026 |
+| SmartGas-api | main | `291cd83` | feat: implement zone management endpoints | zzZero14 | 12/06/2026 |
+| SmartGas-api | main | `b14c8b3` | feat: implement sensor management endpoints | zzZero14 | 12/06/2026 |
+| SmartGas-api | main | `0284a31` | feat: implement iot sensor reading flow | zzZero14 | 12/06/2026 |
+| SmartGas-api | main | `dc69236` | feat: integrate external weather service | CamilaaAlizee | 13/06/2026 |
+| SmartGas-api | main | `13ce106` | feat: implement plans endpoints | CamilaaAlizee | 13/06/2026 |
+| SmartGas-api | main | `78c4ab5` | feat: implement subscription plan changes | CamilaaAlizee | 13/06/2026 |
+| SmartGas-api | main | `27d66da` | feat: implement incident management endpoints | ValeriaAler | 13/06/2026 |
+| SmartGas-api | main | `c741046` | feat: implement alerts and notifications | ValeriaAler | 13/06/2026 |
+| SmartGas-api | main | `3bc5e1f` | feat: implement dashboard summary endpoints | ValeriaAler | 13/06/2026 |
+| SmartGas-api | main | `3d22659` | fix: configure cors for firebase hosting | briicarhuaz | 14/06/2026 |
+| SmartGas-api | main | `a2a1389` | fix: improve external weather service request | briicarhuaz | 14/06/2026 |
+| SmartGas-api | main | `313044d` | fix: parse external weather humidity value | briicarhuaz | 14/06/2026 |
+| SmartGas-api | main | `96e28aa` | fix: add fallback parsing for external weather | briicarhuaz | 14/06/2026 |
+
+#### Commits del Frontend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SmartGas-Frontend | main | `2a24027` | chore: initialize av2 frontend repository | briicarhuaz | 18/06/2026 |
+| SmartGas-Frontend | main | `beb21a1` | feat: configure av2 application entry and router | briicarhuaz | 18/06/2026 |
+| SmartGas-Frontend | main | `a9d3f76` | feat: configure shared layout and api client | briicarhuaz | 18/06/2026 |
+| SmartGas-Frontend | main | `c4881a6` | chore: add mock documentation data | briicarhuaz | 18/06/2026 |
+| SmartGas-Frontend | main | `0a3a9d6` | chore: add frontend public assets | briicarhuaz | 18/06/2026 |
+| SmartGas-Frontend | main | `0667374` | feat: implement av2 subscription management | CamilaaAlizee | 18/06/2026 |
+|SmartGas-Frontend | main | `1af5b26` | feat: configure av2 internationalization | CamilaaAlizee | 18/06/2026 |
+| SmartGas-Frontend | main | `aa3a5a4` | style: add av2 global styles and accessibility fixes | CamilaaAlizee | 18/06/2026 |
+| SmartGas-Frontend | main | `53045e9` | feat: implement av2 dashboard overview | ValeriaAler | 19/06/2026 |
+| SmartGas-Frontend | main | `d8c1881` | feat: implement av2 incidents alerts and notifications | ValeriaAler | 19/06/2026 |
+|SmartGas-Frontend | main | `8329b6a` | feat: implement av2 reports module | ValeriaAler | 19/06/2026 |
+| SmartGas-Frontend | main | `48d90f1` | feat: implement av2 device management | zzZero14 | 19/06/2026 |
+| SmartGas-Frontend | main | `92e55be` | feat: implement av2 monitoring zones | zzZero14 | 19/06/2026 |
+| SmartGas-Frontend | main | `93c0a3f` | feat: add av2 sensor reading model | zzZero14 | 19/06/2026 |
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint 4, donde se ha implementado la versión final del sistema SmartGas, integrando por completo el backend y el frontend de la plataforma. Se consolidaron todos los endpoints y funcionalidades desarrolladas en sprints anteriores, y se incorporaron los módulos faltantes de gestión de zonas, sensores, dispositivos, reportes, incidentes, alertas y dashboard, tanto en la API como en la interfaz web.
+
+Durante el Sprint 4, el equipo logró finalizar exitosamente todos los componentes del sistema SmartGas. Se implementó la autenticación y gestión de usuarios, el manejo de zonas y sensores IoT, la integración con el servicio externo de clima, la gestión de planes y suscripciones, y el módulo de incidentes y alertas, tanto en el backend como en el frontend. Asimismo, se configuraron aspectos clave de la aplicación web como el enrutamiento, el cliente de API, la internacionalización, los estilos globales y las mejoras de accesibilidad. Todas las funcionalidades están operativas y el sistema está listo para su validación final.
+
+A continuación se presentan capturas de pantalla de las principales funcionalidades implementadas, junto con evidencias del sistema SmartGas funcionando de manera óptima.
+
+
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Esta sección recopila los endpoints desarrollados y validados durante los Sprints anteriores, enfocados en la gestión de autenticación (IAM), sensores, zonas, incidentes, alertas, notificaciones, suscripciones y configuración en la plataforma SmartGas. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PATCH) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI (Swagger/Swashbuckle), permitiendo una visualización clara y organizada de los servicios disponibles.
+
+#### Endpoints Documentados y Optimizados
+
+**Auth Controller (Identity and Access Management)**
+- `POST /api/v1/auth/sign-up` – Registro de nuevos usuarios
+- `POST /api/v1/auth/sign-in` – Autenticación y acceso al sistema
+
+**Profiles Controller**
+- `GET /api/v1/profiles/{accountId}` – Obtener perfil de usuario por cuenta
+- `PATCH /api/v1/profiles/{accountId}` – Actualizar información del perfil
+
+**Zones Controller**
+- `GET /api/v1/zones?accountId={id}` – Listar zonas de monitoreo por cuenta
+- `POST /api/v1/zones` – Crear nueva zona de monitoreo
+
+**Sensors Controller**
+- `GET /api/v1/sensors?accountId={id}` – Listar sensores por cuenta
+- `POST /api/v1/sensors` – Registrar nuevo sensor
+- `PATCH /api/v1/sensors/{id}` – Actualizar información del sensor
+
+**Sensor Readings Controller**
+- `GET /api/v1/sensor-readings?accountId={id}` – Obtener lecturas de sensores por cuenta
+- `POST /api/v1/sensor-readings` – Registrar nueva lectura de sensor
+
+**Incidents Controller**
+- `GET /api/v1/incidents?accountId={id}` – Listar incidentes por cuenta
+- `PATCH /api/v1/incidents/{id}/review` – Marcar incidente como revisado
+- `PATCH /api/v1/incidents/{id}/resolve` – Resolver incidente
+- `PATCH /api/v1/incidents/{id}/false-alarm` – Marcar incidente como falsa alarma
+
+**Alerts Controller**
+- `GET /api/v1/alerts?accountId={id}` – Listar alertas activas por cuenta
+
+**Notifications Controller**
+- `GET /api/v1/notifications?accountId={id}` – Listar notificaciones por cuenta
+- `PATCH /api/v1/notifications/{id}/read` – Marcar notificación como leída
+- `PATCH /api/v1/notifications/{id}/confirm` – Confirmar notificación
+
+**Emergency Contacts Controller**
+- `GET /api/v1/emergency-contacts/{accountId}` – Obtener contacto de emergencia por cuenta
+- `PATCH /api/v1/emergency-contacts/{accountId}` – Actualizar contacto de emergencia
+
+**Plans Controller**
+- `GET /api/v1/plans` – Listar planes de suscripción disponibles
+
+**Subscriptions Controller**
+- `GET /api/v1/subscriptions/current/{accountId}` – Obtener suscripción activa del usuario
+- `PATCH /api/v1/subscriptions/current/{accountId}/change-plan` – Cambiar plan de suscripción
+
+**Settings Controller**
+- `GET /api/v1/settings/{accountId}` – Obtener configuración del usuario
+- `PATCH /api/v1/settings/{accountId}` – Actualizar preferencias de configuración
+
+**Dashboard Controller**
+- `GET /api/v1/dashboard/summary/{accountId}` – Obtener resumen del dashboard por cuenta
+
+**External Weather Controller**
+- `GET /api/v1/external/weather/current?latitude={lat}&longitude={long}` – Consultar condiciones climáticas actuales por coordenadas
+
+**Health Check**
+- `GET /` – Verificar estado del servicio (retorna `"SmartGas API is running."`)
+
 
 ## 5.3. Validation Interviews.
 
@@ -1640,6 +1761,7 @@ En el video about the product damos una pequeña publicidad a nuestro producto.
 
 - **URL:**  [Youtube](https://youtu.be/SiHK6-clPZA)
 - **URL:**  [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d995_upc_edu_pe/IQAonC83jMjRRYdjvGCkTv5XARd4JMKJDWgh1lxDotvQMQw?e=McwtZH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 ## Conclusiones
 
