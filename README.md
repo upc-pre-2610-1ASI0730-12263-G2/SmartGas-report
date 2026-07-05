@@ -1591,6 +1591,126 @@ Esta sección recopila los endpoints desarrollados y validados durante los Sprin
 ### 5.2.4.5. Execution Evidence for Sprint Review.
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+En esta sección se presenta la evidencia relacionada con el despliegue y mantenimiento del ecosistema SmartGas durante el Sprint 4. En este sprint, el equipo no realizó una migración completa de infraestructura, sino que mantuvo los recursos cloud implementados en el sprint anterior y aplicó mejoras sobre los flujos principales del producto.
+
+El trabajo se enfocó principalmente en la estabilización del módulo de **Identity and Access Management (IAM)**, la mejora de la aplicación web y la actualización de la landing page. De esta manera, el despliegue existente se mantuvo operativo y fue utilizado como entorno productivo para validar las mejoras del sprint.
+
+## Estado del entorno productivo
+
+Durante el Sprint 4, el backend de SmartGas continuó desplegado en **Render**, manteniendo la API disponible para el consumo de la aplicación web. Asimismo, la aplicación web y la landing page continuaron publicadas en **Firebase Hosting**, permitiendo que los usuarios accedan al sistema desde un entorno cloud.
+
+Esta continuidad permitió que el equipo trabajara sobre una arquitectura ya desplegada, priorizando correcciones, validaciones y mejoras funcionales sin modificar la base principal del despliegue.
+
+| Componente | Plataforma utilizada | Estado durante Sprint 4 |
+| :--- | :--- | :--- |
+| Backend API | Render | Operativo |
+| Base de datos | Render PostgreSQL | Operativa |
+| Aplicación web | Firebase Hosting | Operativa |
+| Landing page | Firebase Hosting | Operativa |
+| Documentación de servicios | Swagger UI | Disponible |
+
+## Mantenimiento del backend desplegado
+
+En primer lugar, se revisó el backend desplegado para validar que los servicios principales continuaran respondiendo correctamente desde producción. Esta revisión fue necesaria porque el Sprint 4 incluyó mejoras relacionadas con IAM, por lo que era importante asegurar que los flujos de autenticación, perfil, configuración y acceso a recursos protegidos funcionaran correctamente.
+
+El backend mantuvo su despliegue sobre Render mediante contenedores Docker, conservando la separación entre código fuente, configuración productiva y credenciales sensibles. Con ello, el equipo pudo seguir utilizando variables de entorno para administrar la conexión con la base de datos, el entorno de ejecución y los orígenes permitidos para la aplicación web.
+
+| Configuración | Propósito | Estado |
+| :--- | :--- | :---: |
+| `ASPNETCORE_ENVIRONMENT` | Define el entorno de ejecución de la API. | Configurada |
+| `ASPNETCORE_URLS` | Permite la ejecución del backend en el puerto asignado por Render. | Configurada |
+| `ConnectionStrings__DefaultConnection` | Define la conexión hacia la base de datos productiva. | Configurada |
+| `FRONTEND_URL` | Define el origen permitido para el consumo desde la aplicación web. | Configurada |
+
+## Validación del módulo IAM
+
+Luego, se validaron los recursos relacionados con el módulo IAM. Esta validación permitió comprobar que los usuarios pudieran registrarse, iniciar sesión y acceder a información asociada a su cuenta dentro de la plataforma.
+
+Los endpoints considerados dentro de esta revisión fueron los siguientes:
+
+| Endpoint | Método | Propósito |
+| :--- | :---: | :--- |
+| `/api/v1/auth/sign-up` | POST | Registro de nuevos usuarios. |
+| `/api/v1/auth/sign-in` | POST | Inicio de sesión de usuarios registrados. |
+| `/api/v1/profiles/{accountId}` | GET | Consulta del perfil asociado a una cuenta. |
+| `/api/v1/profiles/{accountId}` | PATCH | Actualización de información del perfil. |
+| `/api/v1/settings/{accountId}` | GET | Consulta de preferencias de configuración. |
+| `/api/v1/settings/{accountId}` | PATCH | Actualización de preferencias de configuración. |
+| `/api/v1/emergency-contacts/{accountId}` | GET | Consulta del contacto de emergencia asociado a una cuenta. |
+| `/api/v1/emergency-contacts/{accountId}` | PATCH | Actualización del contacto de emergencia. |
+
+Esta revisión permitió confirmar que el módulo IAM se encontraba integrado con el backend productivo y podía ser consumido desde la aplicación web desplegada.
+
+## Validación de recursos conectados a usuarios autenticados
+
+Además de los recursos propios de IAM, se revisaron endpoints relacionados con el funcionamiento principal de SmartGas. Esta validación fue necesaria porque los módulos de monitoreo, incidentes, alertas, notificaciones y dashboard dependen de la información asociada a cada cuenta de usuario.
+
+| Endpoint | Método | Propósito |
+| :--- | :---: | :--- |
+| `/api/v1/dashboard/summary/{accountId}` | GET | Consulta del resumen principal del dashboard. |
+| `/api/v1/zones?accountId={id}` | GET | Consulta de zonas de monitoreo asociadas a una cuenta. |
+| `/api/v1/sensors?accountId={id}` | GET | Consulta de sensores registrados por cuenta. |
+| `/api/v1/sensor-readings?accountId={id}` | GET | Consulta de lecturas de sensores por cuenta. |
+| `/api/v1/incidents?accountId={id}` | GET | Consulta de incidentes asociados a la cuenta. |
+| `/api/v1/alerts?accountId={id}` | GET | Consulta de alertas generadas por el sistema. |
+| `/api/v1/notifications?accountId={id}` | GET | Consulta de notificaciones asociadas al usuario. |
+
+Con esta validación, el equipo comprobó que los módulos principales seguían disponibles desde producción y que podían integrarse con los flujos de usuario trabajados durante el Sprint 4.
+
+## Actualización de la aplicación web
+
+Después de validar el backend, el equipo aplicó mejoras sobre la aplicación web. Estas mejoras estuvieron orientadas a reforzar la experiencia de usuario y corregir detalles detectados durante el uso de la plataforma.
+
+Las actividades realizadas fueron las siguientes:
+
+* Mejora de los flujos de inicio de sesión y registro.
+* Revisión de la navegación para usuarios autenticados.
+* Ajuste de vistas relacionadas con perfil y configuración.
+* Mejora de la visualización del dashboard.
+* Ajuste de secciones vinculadas a monitoreo IoT.
+* Revisión de vistas de incidentes, alertas y notificaciones.
+* Corrección de detalles visuales y responsive en la interfaz.
+
+La aplicación web mantuvo la conexión hacia la API desplegada en Render mediante la variable de entorno correspondiente:
+
+```env
+VITE_API_BASE_URL=https://smartgas-api-abop.onrender.com
+```
+
+Con esta configuración, la aplicación web continuó consumiendo los servicios productivos del backend y permitió validar los cambios implementados durante el sprint.
+
+## Actualización de la landing page
+
+Asimismo, el equipo realizó mejoras sobre la landing page de SmartGas. El objetivo fue presentar de forma más clara el valor del producto, mejorar la estructura visual y facilitar el acceso hacia la aplicación web.
+
+Las mejoras realizadas fueron las siguientes:
+
+* Actualización de textos principales de presentación.
+* Mejora de la sección inicial de la landing page.
+* Ajuste de secciones de beneficios del sistema.
+* Revisión de la información relacionada con prevención y monitoreo.
+* Mejora de botones de llamada a la acción.
+* Corrección de estilos visuales.
+* Ajustes responsive para mejorar la visualización en distintos tamaños de pantalla.
+* Revisión de enlaces hacia la aplicación web.
+
+Estas actualizaciones permitieron que la landing page mantuviera mayor coherencia con el estado actual del producto y con las funcionalidades trabajadas durante el Sprint 4.
+
+## Resultado del despliegue durante el Sprint 4
+
+Como resultado del Sprint 4, el equipo mantuvo operativa la infraestructura productiva de SmartGas y reforzó la integración entre backend, aplicación web y landing page. A diferencia del sprint anterior, donde el foco principal estuvo en el despliegue inicial del backend y la conexión con servicios reales, este sprint se concentró en estabilizar el entorno existente y mejorar los flujos funcionales principales.
+
+En conclusión, el ecosistema SmartGas quedó operando con los siguientes componentes:
+
+| Componente | Resultado |
+| :--- | :--- |
+| Backend API | Continuó desplegado y disponible desde Render. |
+| Base de datos | Continuó operativa mediante Render PostgreSQL. |
+| Aplicación web | Fue mejorada y mantuvo conexión con la API productiva. |
+| Landing page | Fue actualizada para mejorar presentación, navegación y comunicación del producto. |
+| IAM | Fue revisado y mejorado para reforzar los flujos de autenticación, perfil y configuración. |
+
+De esta manera, el Sprint 4 permitió consolidar una versión más estable, segura y clara de SmartGas, manteniendo la infraestructura productiva activa y alineada con las mejoras funcionales del producto.
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews.
 
