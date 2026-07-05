@@ -1712,6 +1712,80 @@ En conclusión, el ecosistema SmartGas quedó operando con los siguientes compon
 
 De esta manera, el Sprint 4 permitió consolidar una versión más estable, segura y clara de SmartGas, manteniendo la infraestructura productiva activa y alineada con las mejoras funcionales del producto.
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
+En esta sección se detalla el trabajo colaborativo realizado durante el Sprint 4. Durante este sprint, el equipo trabajó principalmente en la mejora del módulo de **Identity and Access Management (IAM)**, la optimización de la aplicación web y la actualización de la landing page.
+
+El trabajo fue desarrollado de forma conjunta, ya que IAM impacta directamente en varios módulos del sistema. Por ello, el equipo coordinó validaciones entre backend, frontend y landing page para asegurar que los cambios realizados mantuvieran la integración general de SmartGas.
+
+## Herramientas de colaboración utilizadas
+
+Durante el Sprint 4, el equipo mantuvo el uso de herramientas de colaboración ya empleadas en el proyecto. Estas herramientas permitieron organizar tareas, revisar avances y mantener control sobre los cambios realizados.
+
+| Herramienta | Uso durante el Sprint 4 |
+| :--- | :--- |
+| GitHub | Control de versiones, trabajo por ramas y revisión de cambios. |
+| Jira | Organización del Sprint Backlog y seguimiento de tareas. |
+| Discord | Coordinación del equipo, reuniones y comunicación técnica. |
+| Render | Validación del backend desplegado. |
+| Firebase Hosting | Validación de la aplicación web y landing page desplegadas. |
+
+## Organización del trabajo
+
+El equipo mantuvo un flujo de trabajo basado en ramas para separar los cambios por módulo y reducir conflictos durante la integración. Las ramas principales se utilizaron para mantener versiones estables, mientras que las ramas funcionales permitieron trabajar mejoras específicas del Sprint 4.
+
+| Rama | Propósito |
+| :--- | :--- |
+| `main` | Rama principal del proyecto. |
+| `develop` | Rama de integración para validar cambios antes de producción. |
+| `feature/iam-profiles-settings` | Ajustes relacionados con autenticación, perfiles y configuración. |
+| `feature/incidents-alerts-dashboard` | Ajustes relacionados con dashboard, incidentes, alertas y notificaciones. |
+| `feature/monitoring-sensors-readings` | Ajustes relacionados con monitoreo, sensores y lecturas IoT. |
+| `feature/subscriptions-plans-weather` | Ajustes relacionados con planes, suscripciones y servicios externos. |
+
+## Actividades colaborativas del Sprint 4
+
+Durante el Sprint 4, el equipo priorizó la revisión y mejora de funcionalidades ya integradas en el sistema. En primer lugar, se revisaron los flujos de autenticación para asegurar que el registro e inicio de sesión funcionaran correctamente desde la aplicación web.
+
+Luego, se validaron las vistas vinculadas al usuario autenticado, como perfil, configuración, dashboard, monitoreo, incidentes, alertas y notificaciones. Finalmente, se realizaron ajustes en la landing page para mejorar la presentación del producto y facilitar el acceso hacia la plataforma.
+
+Las principales actividades colaborativas fueron:
+
+* Revisión del flujo de registro e inicio de sesión.
+* Validación de integración entre frontend y backend.
+* Ajustes sobre perfil y configuración de usuario.
+* Revisión del dashboard y módulos conectados al usuario.
+* Mejora de vistas relacionadas con sensores, incidentes, alertas y notificaciones.
+* Actualización de textos, estilos y navegación de la landing page.
+* Validación del funcionamiento general desde los entornos desplegados.
+
+## Trabajo colaborativo por integrante
+
+| Integrante | Actividad realizada durante Sprint 4 |
+| :--- | :--- |
+| **Cesar Jair Contreras Rojas** | Lideró los ajustes relacionados con IAM, incluyendo autenticación, perfiles, configuración de usuario y validación de flujos de acceso. |
+| **Briguite Eryka Carhuaz Centeno** | Apoyó en la validación de la conexión entre frontend y backend, revisión de configuración productiva y mejoras visuales de la landing page. |
+| **Gabriel Ferran Espinar Martínez** | Colaboró en la revisión de vistas relacionadas con monitoreo IoT, sensores, zonas y navegación de usuarios autenticados. |
+| **Camila Alizée Otiniano Rosales** | Apoyó en la mejora de la landing page, revisión de textos, secciones comerciales, beneficios y consistencia visual del producto. |
+| **Valeria Alexandra Rojas Gomez** | Participó en la mejora de la aplicación web, revisión del dashboard, validación de incidentes, alertas, notificaciones y flujos conectados al usuario autenticado. |
+
+## Flujo de colaboración técnica
+
+El flujo de colaboración del equipo se mantuvo organizado en tres etapas. Primero, cada integrante trabajó sobre las tareas asignadas según su módulo. Luego, los cambios fueron revisados de forma conjunta para validar que no afectaran otros componentes del sistema. Finalmente, los avances aprobados fueron integrados para mantener una versión estable del producto.
+
+Este flujo permitió que el equipo mantuviera control sobre los cambios del Sprint 4, especialmente porque IAM impacta en diferentes partes del sistema, como autenticación, perfil, configuración, dashboard y acceso a recursos asociados al usuario.
+
+## Resultado de la colaboración
+
+Como resultado del trabajo colaborativo, el equipo logró mejorar la estabilidad general de SmartGas. El módulo IAM quedó mejor integrado con la aplicación web, la landing page fue actualizada para presentar mejor el producto y las vistas principales del sistema fueron revisadas para mantener coherencia visual y funcional.
+
+En conclusión, el Sprint 4 permitió reforzar el producto desde tres frentes principales:
+
+| Frente de trabajo | Resultado |
+| :--- | :--- |
+| IAM | Mejora de autenticación, perfiles, configuración y acceso de usuarios. |
+| Aplicación web | Mejora de navegación, dashboard, monitoreo, incidentes, alertas y notificaciones. |
+| Landing page | Actualización de textos, estructura visual, estilos y enlaces hacia la plataforma. |
+
+De esta manera, el equipo cerró el Sprint 4 con una versión más ordenada, integrada y preparada para la revisión del producto.
 ## 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de entrevistas
