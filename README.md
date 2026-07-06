@@ -1461,6 +1461,58 @@ El equipo optimizó y expandió el uso de las siguientes herramientas de ingenie
 
 ![InsightAPI.png](./assets/insightAPI3.png)
 
+## 5.2.4. Sprint 4
+
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint | #Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-07-02 |
+| **Time** | 04:00 PM |
+| **Location** | Virtual (Discord) |
+| **Prepared By** | Cesar Jair Contreras Rojas |
+| **Attendees** | Cesar Jair Contreras Rojas / Gabriel Ferran Espinar Martínez / Briguite Eryka Carhuaz Centeno / Camila Alizée Otiniano Rosales / Valeria Alexandra Rojas Gomez |
+| **Sprint n – 4 Review Summary** | The team successfully completed the migration from the fake API to real Web Services in ASP.NET Core and the production relational database on Render PostgreSQL, successfully linking the bilingual frontend hosted on Firebase Hosting. Minor performance and route reload details were identified to be polished during this closing cycle. |
+| **Sprint n – 4 Retrospective Summary** | The conservative estimation of times was consolidated, and communication through Discord remained optimal. For this closing sprint, the team agreed to focus on code audits, database query optimization, final contrast/accessibility corrections, and end-to-end (E2E) testing. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | Ensure the stability, security, and optimization of the SmartGas digital ecosystem through integration testing, frontend interface refinement, production data persistence assurance in Render PostgreSQL, and the delivery of a high-availability software solution ready for production. |
+| **Sprint 4 Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 Story Points |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 4, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+| Team Member | GitHub Username | Aspect Team Coordination and Organization Leader (L) / Collaborator (C) | Effective Communication Leader (L) / Collaborator (C) | Problem-Solving and Decision-Making Leader (L) / Collaborator (C) | Mutual Support and Knowledge Sharing Leader (L) / Collaborator (C) | Monitoring and Continuous Improvement Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Cesar Jair Contreras Rojas | CesarJrCR | **L** | C | C | C | C |
+| Espinar Martínez Gabriel Ferran | zzZero14 | C | **L** | C | C | C |
+| Briguite Eryka Carhuaz Centeno | briicarhuaz | C | C | **L** | C | C |
+| Valeria Alexandra Rojas Gomez | ValeriaAler | C | C | C | **L** | C |
+| Camila Alizée Otiniano Rosales | CamilaaAlizee | C | C | C | C | **L** |
+
+---
+
+#### 5.2.4.3. Sprint Backlog 4
+
+**Sprint Goal:** Estabilizar y refinar el ecosistema SmartGas optimizando el rendimiento frontend, asegurando los endpoints backend, realizando auditorías de base de datos y consolidando el despliegue final en la nube para la revisión técnica de cierre.
+
+| User Story / Feature | Work-Item / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :---: | :--- | :--- | :---: | :--- | :---: |
+| **QA-01 QA & Testing** | T-01 | Backend Unit Testing & Endpoint QA | Implementación y ejecución de pruebas unitarias sobre controladores de telemetría e incidentes en C#. | 5 | Gabriel | Done |
+| **QA-01 QA & Testing** | T-02 | End-to-End (E2E) Integration Testing | Pruebas integrales de flujo de datos completo desde el envío de lecturas IoT hasta el renderizado en la UI. | 4 | Valeria | Done |
+| **US-31 Gestionar Perfil** | T-03 | Frontend UX/UI Refinement | Ajustes de transiciones de rutas, validación de formularios y estados de carga en la aplicación Vue.js. | 4 | Cesar | Done |
+| **US-33 Internacionalización**| T-04 | i18n & Context Persistence Optimization | Refinamiento de la traducción de textos estáticos y persistencia avanzada de la sesión de idioma bilingüe. | 3 | **Camila** | **Done** |
+| **CG-02 Quality Attributes** | T-05 | Lighthouse Accessibility & Audit Fixes | Corrección analítica de contraste de colores, indexación y optimización de tiempos de respuesta del cliente web. | 4 | **Camila** | **Done** |
+| **EP-API API RESTful** | T-06 | API Request Validation & Security | Implementación de filtros de validación de modelos y tipado estricto en payloads de planes y suscripciones. | 4 | **Camila** | **Done** |
+| **CG-01 Deployment Platform**| T-07 | Render PostgreSQL Optimization | Monitoreo de índices de base de datos, optimización de queries y limpieza de logs en producción. | 3 | Briguite | Done |
+| **CG-01 Deployment Platform**| T-08 | Cloud Deployment Verification | Auditoría de webhooks e integración continua (CI/CD) de los servicios de Render y Firebase Hosting. | 2 | Briguite | Done |
+
+
 ### 5.2.4.4. Development Evidence for Sprint Review.
 
 En esta sección se detallan los avances logrados en la implementación del producto durante el Sprint 4, centrados en el desarrollo de los módulos core de la plataforma SmartGas orientada al monitoreo IoT de gas. El enfoque principal ha sido avanzar en la implementación de la autenticación y gestión de usuarios, el manejo de zonas y sensores, la integración del servicio externo de clima, la gestión de planes y suscripciones, así como el módulo de incidentes, alertas y el dashboard de resumen, cumpliendo con los objetivos establecidos para este sprint. Se ha trabajado en aspectos clave como la configuración de la base de datos y el despliegue en contenedores, el registro y autenticación de usuarios, el flujo de lectura de sensores IoT, la integración con servicios externos de clima, y la corrección de errores identificados durante las pruebas, lo que permitirá una experiencia más robusta y confiable para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
